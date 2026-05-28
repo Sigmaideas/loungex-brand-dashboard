@@ -1,29 +1,29 @@
 {
-  "lastUpdated": "2026-05-28T09:52:01.174Z",
+  "lastUpdated": "2026-05-28T10:18:22.132Z",
   "totalStores": 8,
-  "totalReviews": 332,
-  "avgReviewsPerStore": 41.5,
+  "totalReviews": 302,
+  "avgReviewsPerStore": 37.8,
   "monthlyActivity": 87,
   "stores": [
     {
       "id": "store_seongsu",
       "name": "라운지엑스24h 성수본점",
-      "reviewCount": 58,
-      "positiveRatio": 0.8103448275862069,
-      "negativeRatio": 0.017241379310344827,
-      "neutralRatio": 0.1724137931034483,
+      "reviewCount": 45,
+      "positiveRatio": 0.8,
+      "negativeRatio": 0.022222222222222223,
+      "neutralRatio": 0.17777777777777778,
       "monthlyActivity": 15,
-      "latestReviewDate": "2026-05-26"
+      "latestReviewDate": "2026-05-27"
     },
     {
       "id": "store_seoulforest_ak",
       "name": "라운지엑스24h 서울숲AK점",
-      "reviewCount": 51,
-      "positiveRatio": 0.8823529411764706,
+      "reviewCount": 50,
+      "positiveRatio": 0.88,
       "negativeRatio": 0,
-      "neutralRatio": 0.11764705882352941,
+      "neutralRatio": 0.12,
       "monthlyActivity": 1,
-      "latestReviewDate": "2026-05-25"
+      "latestReviewDate": "2026-05-26"
     },
     {
       "id": "store_gangnam",
@@ -33,7 +33,7 @@
       "negativeRatio": 0,
       "neutralRatio": 0.07692307692307693,
       "monthlyActivity": 26,
-      "latestReviewDate": "2026-05-27"
+      "latestReviewDate": "2026-05-28"
     },
     {
       "id": "store_euljiro",
@@ -43,17 +43,17 @@
       "negativeRatio": 0.04,
       "neutralRatio": 0.16,
       "monthlyActivity": 4,
-      "latestReviewDate": "2026-05-07"
+      "latestReviewDate": "2026-05-08"
     },
     {
       "id": "store_yongsan_prime",
       "name": "라운지엑스24h 용산더프라임점",
-      "reviewCount": 56,
-      "positiveRatio": 0.9285714285714286,
+      "reviewCount": 50,
+      "positiveRatio": 0.94,
       "negativeRatio": 0,
-      "neutralRatio": 0.07142857142857142,
+      "neutralRatio": 0.06,
       "monthlyActivity": 8,
-      "latestReviewDate": "2026-05-24"
+      "latestReviewDate": "2026-05-25"
     },
     {
       "id": "store_garak_it",
@@ -63,7 +63,7 @@
       "negativeRatio": 0,
       "neutralRatio": 0.13636363636363635,
       "monthlyActivity": 6,
-      "latestReviewDate": "2026-05-27"
+      "latestReviewDate": "2026-05-28"
     },
     {
       "id": "store_sangam_dmc",
@@ -73,17 +73,17 @@
       "negativeRatio": 0,
       "neutralRatio": 0.1388888888888889,
       "monthlyActivity": 15,
-      "latestReviewDate": "2026-05-27"
+      "latestReviewDate": "2026-05-28"
     },
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 58,
-      "positiveRatio": 0.9137931034482759,
+      "reviewCount": 48,
+      "positiveRatio": 0.9375,
       "negativeRatio": 0,
-      "neutralRatio": 0.08620689655172414,
+      "neutralRatio": 0.0625,
       "monthlyActivity": 12,
-      "latestReviewDate": "2026-05-24"
+      "latestReviewDate": "2026-05-25"
     }
   ],
   "recentReviewsByStore": {
@@ -186,15 +186,15 @@
     "store_euljiro": [
       {
         "date": "5.8.금",
-        "text": "모닝커피와함께 번은 필수죠!!!\n금욜아침은 번과함꺼합니다",
-        "rating": null,
-        "sentiment": "neutral"
-      },
-      {
-        "date": "5.8.금",
         "text": "로봇이 커피 만들어주는 카페!\n\n딱 들어섰을 때 막 빵이 나왔는지 빵냄새가 너무 좋아서 배부른데도 버터번을 주문했어요\n따뜻할 때 먹으니까 진짜 맛있더라구요ㅎㅎ\n\n이 사진들 찍자마자 폰이 꺼져서 사진을 많이 찍어두진 못했지만 정말 좋은 공간이었어요💙",
         "rating": null,
         "sentiment": "positive"
+      },
+      {
+        "date": "5.8.금",
+        "text": "모닝커피와함께 번은 필수죠!!!\n금욜아침은 번과함꺼합니다",
+        "rating": null,
+        "sentiment": "neutral"
       },
       {
         "date": "5.6.수",
@@ -466,8 +466,8 @@
           "sentiment": "positive"
         },
         {
-          "date": "2.12.목",
-          "text": "분위기도 좋고 커피도 너무 맛있어요! 저는 화이트 아메리카노 마셨는데 제일 인상이 남았던 거 같네요! 집 근처라서 이제 자주 방문할 거 같아요 자석도 꽤 있고 전체적으로 쾌적해서 좋았답니다",
+          "date": "4.2.목",
+          "text": "아침에 오면 친절한 남자직원분이\n인사해주시고 설명도 잘 해주셔서 좋아요\n번도 따뜻할 때 먹어서 너무 좋구요\n\n로봇도 신기하고\n자꾸 오고싶은곳??",
           "rating": null,
           "sentiment": "positive"
         }
@@ -572,7 +572,7 @@
         "neutral": 0
       },
       {
-        "positive": 7,
+        "positive": 6,
         "negative": 0,
         "neutral": 0
       },
@@ -597,26 +597,26 @@
         "neutral": 0
       },
       {
-        "positive": 9,
+        "positive": 2,
         "negative": 0,
-        "neutral": 2
+        "neutral": 0
       },
       {
-        "positive": 28,
+        "positive": 16,
         "negative": 0,
-        "neutral": 4
+        "neutral": 2
       }
     ],
     "2026": [
       {
-        "positive": 19,
+        "positive": 18,
         "negative": 0,
         "neutral": 1
       },
       {
-        "positive": 18,
+        "positive": 14,
         "negative": 0,
-        "neutral": 2
+        "neutral": 1
       },
       {
         "positive": 48,
