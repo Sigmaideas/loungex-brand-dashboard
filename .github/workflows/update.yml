@@ -1,10 +1,7 @@
 name: 리뷰 자동 수집
 
 on:
-  schedule:
-    # 매일 03:00 KST (= 18:00 UTC)
-    - cron: '0 18 * * *'
-  workflow_dispatch:  # 수동 실행 (Actions 탭에서 "Run workflow" 또는 gh workflow run)
+  workflow_dispatch:  # 대시보드의 새로고침 버튼이 Cloudflare Worker 를 통해 트리거
 
 permissions:
   contents: write

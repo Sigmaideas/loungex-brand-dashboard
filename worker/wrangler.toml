@@ -1,0 +1,10 @@
+name = "loungex-update-trigger"
+main = "worker.js"
+compatibility_date = "2025-01-01"
+
+[vars]
+ALLOWED_ORIGIN = "https://sigmaideas.github.io"
+REPO = "Sigmaideas/loungex-brand-dashboard"
+WORKFLOW = "update.yml"
+
+# GITHUB_TOKEN 은 secret 으로 등록 (wrangler secret put GITHUB_TOKEN)

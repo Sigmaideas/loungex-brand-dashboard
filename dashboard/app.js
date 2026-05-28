@@ -443,6 +443,8 @@ document.querySelectorAll('.nav-item[data-source]').forEach((el) => {
   });
 });
 
+if (window.lucide) window.lucide.createIcons();
+
 load().catch((err) => {
   document.body.insertAdjacentHTML(
     'beforeend',
