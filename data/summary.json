@@ -1,0 +1,677 @@
+{
+  "lastUpdated": "2026-05-28T09:52:01.174Z",
+  "totalStores": 8,
+  "totalReviews": 332,
+  "avgReviewsPerStore": 41.5,
+  "monthlyActivity": 87,
+  "stores": [
+    {
+      "id": "store_seongsu",
+      "name": "라운지엑스24h 성수본점",
+      "reviewCount": 58,
+      "positiveRatio": 0.8103448275862069,
+      "negativeRatio": 0.017241379310344827,
+      "neutralRatio": 0.1724137931034483,
+      "monthlyActivity": 15,
+      "latestReviewDate": "2026-05-26"
+    },
+    {
+      "id": "store_seoulforest_ak",
+      "name": "라운지엑스24h 서울숲AK점",
+      "reviewCount": 51,
+      "positiveRatio": 0.8823529411764706,
+      "negativeRatio": 0,
+      "neutralRatio": 0.11764705882352941,
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-05-25"
+    },
+    {
+      "id": "store_gangnam",
+      "name": "라운지엑스24h 강남역점",
+      "reviewCount": 26,
+      "positiveRatio": 0.9230769230769231,
+      "negativeRatio": 0,
+      "neutralRatio": 0.07692307692307693,
+      "monthlyActivity": 26,
+      "latestReviewDate": "2026-05-27"
+    },
+    {
+      "id": "store_euljiro",
+      "name": "라운지엑스24h 을지돌담길점",
+      "reviewCount": 25,
+      "positiveRatio": 0.8,
+      "negativeRatio": 0.04,
+      "neutralRatio": 0.16,
+      "monthlyActivity": 4,
+      "latestReviewDate": "2026-05-07"
+    },
+    {
+      "id": "store_yongsan_prime",
+      "name": "라운지엑스24h 용산더프라임점",
+      "reviewCount": 56,
+      "positiveRatio": 0.9285714285714286,
+      "negativeRatio": 0,
+      "neutralRatio": 0.07142857142857142,
+      "monthlyActivity": 8,
+      "latestReviewDate": "2026-05-24"
+    },
+    {
+      "id": "store_garak_it",
+      "name": "라운지엑스24h 가락IT벤처타워점",
+      "reviewCount": 22,
+      "positiveRatio": 0.8636363636363636,
+      "negativeRatio": 0,
+      "neutralRatio": 0.13636363636363635,
+      "monthlyActivity": 6,
+      "latestReviewDate": "2026-05-27"
+    },
+    {
+      "id": "store_sangam_dmc",
+      "name": "라운지엑스24h 상암DMC역점",
+      "reviewCount": 36,
+      "positiveRatio": 0.8611111111111112,
+      "negativeRatio": 0,
+      "neutralRatio": 0.1388888888888889,
+      "monthlyActivity": 15,
+      "latestReviewDate": "2026-05-27"
+    },
+    {
+      "id": "store_one_grove",
+      "name": "라운지엑스24h 원그로브점",
+      "reviewCount": 58,
+      "positiveRatio": 0.9137931034482759,
+      "negativeRatio": 0,
+      "neutralRatio": 0.08620689655172414,
+      "monthlyActivity": 12,
+      "latestReviewDate": "2026-05-24"
+    }
+  ],
+  "recentReviewsByStore": {
+    "store_seongsu": [
+      {
+        "date": "5.27.수",
+        "text": "여기 커피 원두 맛있어요!✨🙂 무인 매장이고 사람도 많은데 항상 청결해서 자주 이용하게 되네요 ㅎㅎ\n로봇 일 진짜 열심히 합니다 👍🏻",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.26.화",
+        "text": "로봇이라 커피맛 기대안했는데, 커피맛도 좋네요~\n무인인데 관리 잘 된거 같아요!",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.25.월",
+        "text": "잠시 시간이 떠서 들어 왔는데 무인 카페네요\n로봇이 커피 내려 줘서 기대 안햤는데 깜놀랬어요, 커피 맛있고 특히 성수 샌드 기대 이상 !!\n카페도 너무 심플 깨끗 상큼 고급짐 그 잡채!!\n가격도 착해요~~~ 아지트 삼고 싶네요~~",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.24.일",
+        "text": "와악 이렇게 로봇이 직접 만들어주는 무인카페는\n처음인데 커피 맛도 너무너무 맛있고 커피 만들어지는 것 보는 재미가 있네요🤩🤩 잠깐 급하게 업무 볼 일이 있어서 들렀는데 공간이 엄청 쾌적해서 만족도100으로 머물다 갑니다 👍🏻👍🏻👍🏻",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.24.일",
+        "text": "샌드가 정말 맛있어요 무인에 24시라 언제든지 편하게 이용해서 좋습니다.",
+        "rating": null,
+        "sentiment": "positive"
+      }
+    ],
+    "store_seoulforest_ak": [
+      {
+        "date": "5.26.화",
+        "text": "회사 일층 카페에요 항상청결하고 커피맛도 좋아져서 종종 들어요\n가격이 조금더 착하면 더 자주 갈거같아욧",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "3.26.목",
+        "text": "혼자 작업하기 너무 좋은 카페입니다. 24시간에 음료도 맛있어요!!",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "3.17.화",
+        "text": "메뉴도장깨기중이예요 말차라떼,밀크티,성수샌드 다 맛있어요",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "3.16.월",
+        "text": "마시다가 찍긴 했는데 초코라떼 넘 달달하구 맛있어요!! 여긴 음료 다 맛있는것같아요~~!",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "3.15.일",
+        "text": "자주 옵니다.  일주일에 두서번정도.\n오늘은 아들과 왔어요\n집중하기 좋고\n쾌적하고\n음료도 맛있어요\n무인카페중 제일 좋아요",
+        "rating": null,
+        "sentiment": "positive"
+      }
+    ],
+    "store_gangnam": [
+      {
+        "date": "5.28.목",
+        "text": "커피도 맛나고 솔티카라멜휘낭시에 특히 맛나요. 겉은바삭 속은 촉촉해요.",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.26.화",
+        "text": "강남역에 카페가생겨서 방문, 커피메이커로봇과 간식  쾌적한환경 다좋아서 재방문예정입니다~!",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.25.월",
+        "text": "땡모반 잘 마셨습니다.",
+        "rating": null,
+        "sentiment": "neutral"
+      },
+      {
+        "date": "5.25.월",
+        "text": "24시간 하는 깔끔한 카페👍 \n혼자 와서 노트북하기 좋아요 콘센트도 넉넉해요",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.25.월",
+        "text": "강남역에 약속이 있어 방문했어요\n일찔 도착해서 여기서 기다렸는데\n커피도 맛있고 매장도 깔끔합니다",
+        "rating": null,
+        "sentiment": "positive"
+      }
+    ],
+    "store_euljiro": [
+      {
+        "date": "5.8.금",
+        "text": "모닝커피와함께 번은 필수죠!!!\n금욜아침은 번과함꺼합니다",
+        "rating": null,
+        "sentiment": "neutral"
+      },
+      {
+        "date": "5.8.금",
+        "text": "로봇이 커피 만들어주는 카페!\n\n딱 들어섰을 때 막 빵이 나왔는지 빵냄새가 너무 좋아서 배부른데도 버터번을 주문했어요\n따뜻할 때 먹으니까 진짜 맛있더라구요ㅎㅎ\n\n이 사진들 찍자마자 폰이 꺼져서 사진을 많이 찍어두진 못했지만 정말 좋은 공간이었어요💙",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.6.수",
+        "text": "메뉴가 잘못 나왔는데 고객센터는 전화를 받지 않고\n챗봇은 응답이 없습니다.\n무인매장의 장점도 있지만 사람의 손길이 필요한 순간도 있는데 이 부분이 단점인것 같습니다.\n라떼를 주문했는데 우유가 없는지 아메리카노가 나왔습니다. 그럴수 있다고도 생각이 들지만, 응대가 되지 않는 부분이 아쉽습니다.",
+        "rating": null,
+        "sentiment": "negative"
+      },
+      {
+        "date": "4.29.수",
+        "text": "커피맛 고를수 있어서 좋아요 😊😊",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "4.21.화",
+        "text": "기대했던 라운지엑스 돌담길점 방문",
+        "rating": null,
+        "sentiment": "neutral"
+      }
+    ],
+    "store_yongsan_prime": [
+      {
+        "date": "5.25.월",
+        "text": "커피가 맛있어요! 공간 넓고 좋아요",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.24.일",
+        "text": "찾기가조금 힘들었는데 그래도 조용하고 집중하기좋았어요!",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.20.수",
+        "text": "로봇이 타줌",
+        "rating": null,
+        "sentiment": "neutral"
+      },
+      {
+        "date": "5.17.일",
+        "text": "너무 좋네요^^  커피도 맛있고 분위기도 굿 \n바리스타봇도 젠틀합니다 ㅎ",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.14.목",
+        "text": "매장도 깔끔하고 음료도 너무 좋고 만족합니다.\n\n근데 카공족들이 점령을 하고 있는건 그렇다쳐도 대화를 나누면 눈치 주면서 째려 보는 상황이 맞는겁니까?\n\n24h 카페라 대화를 하려 방문했는데 늦은 시간까지 카공족들이 점령하면서 마치 독서실처럼 쓰고 있더군요.\n공부를 하실거면 집 가서 하세요.. \n카페는 대화를 하는 곳이지 님들 개인 공부방이 아닙니다.\n\n너무 맘에 드는 공간이라 아쉬운 마음에 적어봅니다.",
+        "rating": null,
+        "sentiment": "positive"
+      }
+    ],
+    "store_garak_it": [
+      {
+        "date": "5.28.목",
+        "text": "깔끔하고 로봇으로 해서 빨리되서 좋습니다",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.27.수",
+        "text": "집 근처라 남편이랑 와봤는데 커피도 맛있고 공간이 너무 깔끔하고 예뻐요 !!!! 책 읽으러오거나 작업하러 와도 좋을 것 같아요 \n커피맛도 탄 맛나는 싼 커피맛이 아니라 꽤 좋은 원두 맛이나요 에티오피아 아메리카노 굿 \n단 한가지 디카페인 없는게 아쉬움 ㅠㅠㅠ",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.20.수",
+        "text": "로봇카페 24시간 하는데 가격두 괜찮고 조아요 ~~\n다음에도 올 듯 합니댜",
+        "rating": null,
+        "sentiment": "neutral"
+      },
+      {
+        "date": "5.20.수",
+        "text": "화사에서 가까워서 이용하기 편해요",
+        "rating": null,
+        "sentiment": "neutral"
+      },
+      {
+        "date": "5.19.화",
+        "text": "매장이 쾌적하고 베이커리가 맛있어요\n커피 로봇 머신 너무 신기해요",
+        "rating": null,
+        "sentiment": "positive"
+      }
+    ],
+    "store_sangam_dmc": [
+      {
+        "date": "5.28.목",
+        "text": "맛있어여 좋아요",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.27.수",
+        "text": "커피도 맛있고 디저트도 맛있어요ㅠㅠ샌드랑 번 다 추천드려요 !!",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.26.화",
+        "text": "지나가다 무인카페 생겨서 왔는데 로봇이 커피 주는것도 신기하고 맛있네용\n자주 올게요!!",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.25.월",
+        "text": "빠르고 간편하게 커피마시기 가능해요",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.24.일",
+        "text": "로봇이 빠르게 만들어주고 신기해요 ㅎㅎ 매장도 청결하고 24시간이라서 더 좋은 것 같아요",
+        "rating": null,
+        "sentiment": "positive"
+      }
+    ],
+    "store_one_grove": [
+      {
+        "date": "5.25.월",
+        "text": "아침 일찍열어서 방문해봄. 한적함",
+        "rating": null,
+        "sentiment": "neutral"
+      },
+      {
+        "date": "5.24.일",
+        "text": "커피가 진짜 맛있어요 전문점 스탈이네요",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.22.금",
+        "text": "맛있어요 24시라좋아요또오겠습니다!!",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.21.목",
+        "text": "좋아용\n로봇바리스타씨 귀여움...",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.20.수",
+        "text": "트레이더스 장보러 왔다가\n모닝커피 한잔~ \n로봇이 만들어주는 커피 ☕️\n잘 마시고 가요~",
+        "rating": null,
+        "sentiment": "neutral"
+      }
+    ]
+  },
+  "representativeByStore": {
+    "store_seongsu": {
+      "positive": [
+        {
+          "date": "1.18.일",
+          "text": "성수에서 24시간 작업하기에 좋은 곳이에요! 인테리어 깔끔하고, 향도 너무 좋아요 로봇이 만들어주는 말차라떼 쌉쌀한 맛이 살아있어요! 가격도 저렴해서 좋습니당 독서실처럼 1인석도 있고 마주보는 오픈형, 카페같은 4인 의자도 있어서 캐주얼하게 대화도 할수있어서 친구랑 작업같이하기도 좋았어요! 아쉬운점은 주요 번화가에서 좀 걸어가야 하는 점 말곤 없었습니다!",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "25.12.17.수",
+          "text": "무인인데도 매장이 정말 청결하고 좋아요!! 그리고 기대 안 했는데 고소한 원두 아메리카노 진짜 맛있어요!!!\n음악도 좋고 따뜻하고 좋아요 굿굿",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "5.2.토",
+          "text": "성수 분위기 좋은 24시 무인카페!\n로봇이 커피 만들어주는데 재밌고 새로워요\n커피도 맛있고 성수샌드도 맛나요\n무인카페인데 인테리어도 예뻐서 좋더라고요👍🏻",
+          "rating": null,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": [
+        {
+          "date": "5.13.수",
+          "text": "요즘 정말 별로임\n\n컵 뚜껑 바꼈는데 가볍고 컵에 안 맞아서 기울이다가 마시면 얼음 무게 때문에 쏟아짐\n\n바닥 한 번만 닦아보세요. 한 번만 쓱싹해도 휴지가 검게 변해요. 청소 하는 거 맞아요? 본사가 위에 있는데 아무리 무인카페여도 관리는 해야 되는 거잖아요\n예전에 본사 사람들이 왔다갔다 시끄럽게 책상을 꺼냈다 넣었다 돌렸다 하면서 인원 많았던 거 아는데요\n\n커피 맛도 정말 별로. 물에 쓴맛 탄 느낌임. 깊이감도 바디감도 아무것도 없음. \n\n그렇다고 다른 음료를 마시기에는 너무 비쌈. 복숭아아이스티에 얼음이 7할인데 거의 4천원? 차라리 자릿세를 받으세요. \n\n와이파이랑 충전콘센트도 안 됨. 차라리 밖에 나가서 서울 인터넷 쓰는 게 빠름. 이제보니 자릿세도 받으면 안 될 듯\n\n커플들은 쪽쪽 대고 미치겠음",
+          "rating": null,
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "store_seoulforest_ak": {
+      "positive": [
+        {
+          "date": "25.11.28.금",
+          "text": "카페 분위기가 너무 따뜻하고 아늑해서 책 읽기에도 딱 좋았어요.\n조용하게 머물기 좋아서 기분까지 편안해지는 곳입니다.\n분위기 좋은 카페 찾는 분들께 꼭 추천해요!",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "25.9.10.수",
+          "text": "서울숲 근처에서 조용히 작업할 공간 찾다가 라운지엣스24h AK점에 다녀왔어요. 이름 그대로 24시간 운영해서 시간 구애 없이 이용할 수 있다는 게 제일 큰 장점이더라구요 👌\n\n내부는 깔끔하고 청결해요 \n좌석도 여유 있어서 대화하기도 좋구요\n\n무엇보다도 로봇이 빠르게 스폐셜 커피를 만들어 줘요\n커피에 대해 진심인 곳 같더라구여\n원두도 다양하게 판매하고 샌드도 맛있다는데 못먹어서 아쉽\n\n서울숲 산책하다가 들르기도 좋고, 데이트나 대화하기 좋을 것 같아요👉 “24시간 카페 찾는 분들”께 강추합니다!",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "25.10.28.화",
+          "text": "무인카페라 조용하고 편안한 분위기에서 작업하기 정말 좋았습니다. 커피 맛도 기대 이상으로 훌륭했고, 셀프 시스템이라 부담 없이 오래 머물 수 있어서 좋았어요. 좌석도 넉넉하고 와이파이도 잘 터져서 노트북 작업하는 분들에게 추천합니다. 가격도 합리적이고 24시간 운영이라 시간 제약 없이 이용할 수 있는 점도 큰 장점입니다. 다음에 또 방문할 예정입니다.",
+          "rating": null,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_gangnam": {
+      "positive": [
+        {
+          "date": "5.10.일",
+          "text": "24시 무인 로봇 카페 생겨서 너무 좋네요~ 무인 카페가 어떻게 메뉴가 이렇게 많은지~ 심지어 베이커리 디저트 종류도 다양하고 품질이 너무 좋네요! 로봇이 미숫가루 만들어주는 광경도 보고 ㅎㅎㅎ 너무 신기하고 맛있어요 만족스러워요~",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "5.8.금",
+          "text": "회사 근처에 새로 생겨서 방문했어요~\n강남역이랑도 엄청 가깝네요!\n점심시간에 방문해서 수다떨기 너무 좋고 커피도 너무 맛있어요\n3천원대 커피 중에 제일 퀄리티 좋은 거 같아요!",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "5.22.금",
+          "text": "출근 전에 잠시 작업할 게 있어 들렀는데 조용하고 깔끔해서 좋았습니다. 커피도 예상보다 훨씬 맛있었고요. 혼자 노트북하러 오기 좋은 곳이에요!",
+          "rating": null,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_euljiro": {
+      "positive": [
+        {
+          "date": "4.14.화",
+          "text": "로봇카페 신기하고 음료도 맛있어요!\n카페도 편하고 분위기 좋아서 담에 또 올게요!!",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "5.8.금",
+          "text": "로봇이 커피 만들어주는 카페!\n\n딱 들어섰을 때 막 빵이 나왔는지 빵냄새가 너무 좋아서 배부른데도 버터번을 주문했어요\n따뜻할 때 먹으니까 진짜 맛있더라구요ㅎㅎ\n\n이 사진들 찍자마자 폰이 꺼져서 사진을 많이 찍어두진 못했지만 정말 좋은 공간이었어요💙",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "4.6.월",
+          "text": "을지로 근처 24시간 카페 중에 제일 고급지고 좋네요\n그리고 로봇 바리스타 신기해서 찍게 돼요!ㅋㅋㅋ\n늦게까지 작업할 곳 찾다가 커피 맛보고도 놀랐네요 ㅎㅎ\n버터번도 너무 맛있음(데워지고 있어서 따뜻해요)\n자주올게요~~!",
+          "rating": null,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": [
+        {
+          "date": "5.6.수",
+          "text": "메뉴가 잘못 나왔는데 고객센터는 전화를 받지 않고\n챗봇은 응답이 없습니다.\n무인매장의 장점도 있지만 사람의 손길이 필요한 순간도 있는데 이 부분이 단점인것 같습니다.\n라떼를 주문했는데 우유가 없는지 아메리카노가 나왔습니다. 그럴수 있다고도 생각이 들지만, 응대가 되지 않는 부분이 아쉽습니다.",
+          "rating": null,
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "store_yongsan_prime": {
+      "positive": [
+        {
+          "date": "3.8.일",
+          "text": "근처사는데 동네걷다가 우연히알게됐는데  요즘 카페가 일찍 닫아 아쉬웧는데 24시간 카페라서 식사하고 편하게 올수있어서 너무좋았어요 고소한맛 좋아해서 주문했는데 커피도 맛있고 다른커피도 주문해보고싶네요 매장도 깔끔해서 좋았어요!☺️ 커피번 먹어보고싶은데 품절이라 아쉬웠습니다ㅠㅠ",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "3.17.화",
+          "text": "버터번 먹고 맛있어서 휘낭시에도 먹었는데\n저렴하고 커피랑 즐기기 딱이예요\n\n특히 이곳은 노트북하기가 좋아요\n분위기도 조용하고\n매장도 깔끔해서 \n재방문하게되는 카페",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2.12.목",
+          "text": "분위기도 좋고 커피도 너무 맛있어요! 저는 화이트 아메리카노 마셨는데 제일 인상이 남았던 거 같네요! 집 근처라서 이제 자주 방문할 거 같아요 자석도 꽤 있고 전체적으로 쾌적해서 좋았답니다",
+          "rating": null,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_garak_it": {
+      "positive": [
+        {
+          "date": "5.27.수",
+          "text": "집 근처라 남편이랑 와봤는데 커피도 맛있고 공간이 너무 깔끔하고 예뻐요 !!!! 책 읽으러오거나 작업하러 와도 좋을 것 같아요 \n커피맛도 탄 맛나는 싼 커피맛이 아니라 꽤 좋은 원두 맛이나요 에티오피아 아메리카노 굿 \n단 한가지 디카페인 없는게 아쉬움 ㅠㅠㅠ",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "4.25.토",
+          "text": "메뉴가 정말 다양해서 놀랐어요, 헤이즐넛 향도 너무 좋고 진짜 유인 고급카페에 온거 같은 맛이 나서 신기하네요 ㅋㅋㅋ 로봇이 더 정밀할테니 당연한것 같기도 합니다 만족도 대비 가격도 합리적이어서 자주 올 것 같아요!",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "4.17.금",
+          "text": "직장 근처에 로봇카페가 생겼다고 해서 다같이 방문했어요. 로봇도 너무 신기하고 퀄리티가 좋아요. 평소 가던 카페보다 낫다고 옮길거라는 분들도 계시네요 ㅋㅋㅋ 무인카페가 많이 발전한거 같아요 인테리어도 아늑하고 베이커리에 책도 있어서 점심시간에 오기 딱인것 같아요!",
+          "rating": null,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_sangam_dmc": {
+      "positive": [
+        {
+          "date": "5.20.수",
+          "text": "24시간 무인 카펜데 커피 퀄리티가 너무 좋아서 놀랐어요, 로봇 기술이 발전하니까 커피 시장에도 이런 혁신이 오네요. 24시간 무인인데, 퀄리티 훌륭하고, 품질 대비 가격은 저렴하네요. 정말 만족했습니다. 자주 올게요!",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "4.25.토",
+          "text": "야간에 작업하러 방문했어요. 온열 매트가 설치되어 있어서 그런지, 빵이 여전히 맛있고 퀄리티가 좋네요. 갓 구운 상태면 정말 맛있을 거 같아요. 공간도 쾌적하고 아늑해서 요즘 야간에 이만한 카페가 없어요. 집 주변에 생겨서 너무 좋네요!",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "4.20.월",
+          "text": "갓 구운 버터번이 진짜 맛있네요ㅠㅠ\n로봇카페랑 베이커리 같이 운영되는게\n너무 좋은거 같아요!\n메뉴 퀄리티가 너무 좋은데 가격이 저렴해서\n마음에 쏙 들어요\n회사랑 가까워서 자주 찾을 것 같습니다ㅎㅎ",
+          "rating": null,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    },
+    "store_one_grove": {
+      "positive": [
+        {
+          "date": "4.11.토",
+          "text": "커피 향이 좋고 매장에 흐르는 음악이 넘  좋네요 \n로봇이 만들어주는 커피가 이색적이고 보는 재미가 있어요 인테리어도 모던하고 예뻐서 사진이 잘 나오네요 ^^ 위치가 북적북적한곳이 아니라 쉬면서 커피를 즐기기 좋아요",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "1.17.토",
+          "text": "24시간이라 언제든방문할 수 있는데\n커피맛이 스페셜티라 너무 맛있어요\n디저트는 성수샌드 , 카라멜 당충전하기 너무 좋았어요^^\n조용해서 공부하기도 딱좋아요",
+          "rating": null,
+          "sentiment": "positive"
+        },
+        {
+          "date": "1.20.화",
+          "text": "마곡 원그로브 라운지X 로봇 커피~~ 신기하고 맛도 좋은 커피!^^\nAI 시대 앞서가는 커피라운지 넘 좋아요! 또 가야쥐~~",
+          "rating": null,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    }
+  },
+  "monthlySentimentByYear": {
+    "2025": [
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 7,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 8,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 4,
+        "negative": 0,
+        "neutral": 2
+      },
+      {
+        "positive": 4,
+        "negative": 0,
+        "neutral": 2
+      },
+      {
+        "positive": 6,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 9,
+        "negative": 0,
+        "neutral": 2
+      },
+      {
+        "positive": 28,
+        "negative": 0,
+        "neutral": 4
+      }
+    ],
+    "2026": [
+      {
+        "positive": 19,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 18,
+        "negative": 0,
+        "neutral": 2
+      },
+      {
+        "positive": 48,
+        "negative": 0,
+        "neutral": 5
+      },
+      {
+        "positive": 70,
+        "negative": 0,
+        "neutral": 6
+      },
+      {
+        "positive": 70,
+        "negative": 2,
+        "neutral": 14
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      }
+    ]
+  },
+  "availableYears": [
+    2026,
+    2025
+  ]
+}

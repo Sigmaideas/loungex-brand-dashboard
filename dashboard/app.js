@@ -341,6 +341,7 @@ function showToast(msg, ms = 2400) {
   el._t = setTimeout(() => el.classList.remove('visible'), ms);
 }
 
+const HAS_BACKEND = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 const PHASE_LABEL = { scrape: '리뷰 수집 중', analyze: '감성 분석 중' };
 
 async function pollUpdate(startMs) {
@@ -366,8 +367,26 @@ $('#refreshBtn').addEventListener('click', async () => {
   const originalText = label.textContent;
   btn.disabled = true;
   btn.classList.add('spinning');
-  label.textContent = '시작 중...';
   const start = Date.now();
+
+  // GitHub Pages 등 백엔드가 없는 환경: 단순히 summary.json 만 다시 불러옴
+  if (!HAS_BACKEND) {
+    label.textContent = '불러오는 중...';
+    try {
+      await load();
+      showToast('데이터 새로고침 완료 (실제 수집은 로컬 npm run update 필요)', 3500);
+    } catch (e) {
+      showToast(`로드 실패: ${e.message}`, 4000);
+    } finally {
+      label.textContent = originalText;
+      btn.classList.remove('spinning');
+      btn.disabled = false;
+    }
+    return;
+  }
+
+  // 로컬 Node 서버 환경: 실제 스크래퍼 실행
+  label.textContent = '시작 중...';
   try {
     const res = await fetch(`/api/update?source=${currentSource}`, { method: 'POST' });
     if (res.status === 409) {

@@ -6,8 +6,10 @@ node_modules/
 .env.local
 .env.*.local
 
-# 수집된 데이터 (네이버/구글 리뷰 본문 포함 — 개인정보성)
-data/
+# 수집된 데이터: 원본 reviews.json 은 비공개, 요약 summary.json 만 공개 (대시보드 표시용)
+data/*
+!data/summary.json
+!data/summary-google.json
 
 # 시스템/에디터
 .DS_Store
