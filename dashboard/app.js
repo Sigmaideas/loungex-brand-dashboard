@@ -344,6 +344,20 @@ function showToast(msg, ms = 2400) {
 const HAS_BACKEND = ['localhost', '127.0.0.1'].includes(window.location.hostname);
 const PHASE_LABEL = { scrape: '리뷰 수집 중', analyze: '감성 분석 중' };
 
+// 백엔드 없는 환경 (GitHub Pages 등) 에서는 버튼 라벨/툴팁을 조정
+if (!HAS_BACKEND) {
+  document.addEventListener('DOMContentLoaded', () => {
+    const label = document.getElementById('refreshLabel');
+    const btn = document.getElementById('refreshBtn');
+    if (label) label.textContent = '데이터 새로고침';
+    if (btn) {
+      btn.title =
+        '대시보드 데이터를 다시 불러옵니다.\n' +
+        '실제 리뷰 수집은 매일 03:00 KST 에 GitHub Actions 가 자동 실행합니다.';
+    }
+  });
+}
+
 async function pollUpdate(startMs) {
   while (true) {
     await new Promise((r) => setTimeout(r, 1500));
