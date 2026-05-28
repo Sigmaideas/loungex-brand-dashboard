@@ -1,0 +1,58 @@
+[
+  {
+    "id": "store_seongsu",
+    "name": "라운지엑스24h 성수본점",
+    "googlePlaceId": "ChIJ12lpwoSlfDURuHammeggJZI",
+    "googleDisplayName": "라운지엑스24h 성수본점｜Seongsu Cafe｜ソンスドンカフェ | 圣水洞咖啡馆",
+    "googleAddress": "서울특별시 성동구 성수일로10길 12 성수CF타워 1층"
+  },
+  {
+    "id": "store_seoulforest_ak",
+    "name": "라운지엑스24h 서울숲AK점",
+    "googlePlaceId": "ChIJZ0ZhK5ilfDURiNM6b_YWtas",
+    "googleDisplayName": "라운지엑스24h 서울숲AK점",
+    "googleAddress": "서울특별시 성동구 성수일로 99 서울숲AK밸리 1층 108호"
+  },
+  {
+    "id": "store_gangnam",
+    "name": "라운지엑스24h 강남역점",
+    "googlePlaceId": "ChIJf4KzsTWhfDURaKI_-UP0ERE",
+    "googleDisplayName": "라운지엑스24h 강남역점｜Gangnam Station Cafe｜江南駅カフェ｜江南站咖啡厅",
+    "googleAddress": "서울특별시 강남구 강남대로 378"
+  },
+  {
+    "id": "store_euljiro",
+    "name": "라운지엑스24h 을지돌담길점",
+    "googlePlaceId": "ChIJf_Vr5HmjfDURg6CfkId-BEw",
+    "googleDisplayName": "라운지엑스24h 을지돌담길점｜Euljiro Cafe｜ウルジロ カフェ｜乙支路咖啡厅",
+    "googleAddress": "서울특별시 중구 을지로2가 삼일대로 358 신한L Tower 1층"
+  },
+  {
+    "id": "store_yongsan_prime",
+    "name": "라운지엑스24h 용산더프라임점",
+    "googlePlaceId": "ChIJfaCw-p-jfDURcw1aSPoq4dw",
+    "googleDisplayName": "라운지엑스24h 용산더프라임점｜Yongsan Cafe｜龍山カフェ｜龙山咖啡厅",
+    "googleAddress": "서울특별시 용산구 원효로90길 11 더프라임 업무동 1층 A102호"
+  },
+  {
+    "id": "store_garak_it",
+    "name": "라운지엑스24h 가락IT벤처타워점",
+    "googlePlaceId": "ChIJiWBMZkmlfDURf2zXFx7msWc",
+    "googleDisplayName": "라운지엑스24h 가락IT벤처타워점｜Songpa Cafe｜ソンパカフェ｜松坡咖啡厅",
+    "googleAddress": "서울특별시 송파구 가락동 중대로 135 101-7호"
+  },
+  {
+    "id": "store_sangam_dmc",
+    "name": "라운지엑스24h 상암DMC역점",
+    "googlePlaceId": "ChIJuXwpONSZfDUR_MqZr7aoaoA",
+    "googleDisplayName": "라운지엑스24h 상암DMC역점｜Sangam Cafe｜サンアムカフェ｜上岩咖啡厅",
+    "googleAddress": "서울특별시 마포구 성암로 205 1층"
+  },
+  {
+    "id": "store_one_grove",
+    "name": "라운지엑스24h 원그로브점",
+    "googlePlaceId": "ChIJtWx6RYidfDURqg9LEmp18UM",
+    "googleDisplayName": "라운지엑스24h 원그로브점",
+    "googleAddress": "서울특별시 강서구 공항대로 165 D동 2층 209호"
+  }
+]

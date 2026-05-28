@@ -1,0 +1,42 @@
+[
+  {
+    "id": "store_seongsu",
+    "name": "라운지엑스24h 성수본점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/1544147292"
+  },
+  {
+    "id": "store_seoulforest_ak",
+    "name": "라운지엑스24h 서울숲AK점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/2087888314"
+  },
+  {
+    "id": "store_gangnam",
+    "name": "라운지엑스24h 강남역점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/2027107645"
+  },
+  {
+    "id": "store_euljiro",
+    "name": "라운지엑스24h 을지돌담길점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/2081680668"
+  },
+  {
+    "id": "store_yongsan_prime",
+    "name": "라운지엑스24h 용산더프라임점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/2025148282"
+  },
+  {
+    "id": "store_garak_it",
+    "name": "라운지엑스24h 가락IT벤처타워점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/2003908951"
+  },
+  {
+    "id": "store_sangam_dmc",
+    "name": "라운지엑스24h 상암DMC역점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/2058977932"
+  },
+  {
+    "id": "store_one_grove",
+    "name": "라운지엑스24h 원그로브점",
+    "naverPlaceUrl": "https://map.naver.com/p/entry/place/2045759875"
+  }
+]

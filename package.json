@@ -1,0 +1,21 @@
+{
+  "name": "loungex-brand-dashboard",
+  "version": "1.0.0",
+  "description": "라운지엑스 매장 네이버 리뷰 모니터링 대시보드 (내부용)",
+  "private": true,
+  "scripts": {
+    "scrape": "node scraper/scrape.js",
+    "analyze": "node scraper/analyze.js",
+    "update": "npm run scrape && npm run analyze",
+    "find:google": "node scraper/find-google-places.js",
+    "scrape:google": "node scraper/scrape-google.js",
+    "analyze:google": "SOURCE=google node scraper/analyze.js",
+    "update:google": "npm run scrape:google && npm run analyze:google",
+    "dashboard": "node server.js"
+  },
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.30.1",
+    "dotenv": "^16.4.5",
+    "playwright": "^1.48.0"
+  }
+}
