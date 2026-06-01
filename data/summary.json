@@ -1,19 +1,19 @@
 {
-  "lastUpdated": "2026-05-28T10:18:22.132Z",
+  "lastUpdated": "2026-06-01T00:15:04.223Z",
   "totalStores": 8,
-  "totalReviews": 302,
-  "avgReviewsPerStore": 37.8,
-  "monthlyActivity": 87,
+  "totalReviews": 311,
+  "avgReviewsPerStore": 38.9,
+  "monthlyActivity": 90,
   "stores": [
     {
       "id": "store_seongsu",
       "name": "라운지엑스24h 성수본점",
-      "reviewCount": 45,
-      "positiveRatio": 0.8,
-      "negativeRatio": 0.022222222222222223,
-      "neutralRatio": 0.17777777777777778,
-      "monthlyActivity": 15,
-      "latestReviewDate": "2026-05-27"
+      "reviewCount": 46,
+      "positiveRatio": 0.8043478260869565,
+      "negativeRatio": 0.021739130434782608,
+      "neutralRatio": 0.17391304347826086,
+      "monthlyActivity": 13,
+      "latestReviewDate": "2026-05-30"
     },
     {
       "id": "store_seoulforest_ak",
@@ -28,12 +28,12 @@
     {
       "id": "store_gangnam",
       "name": "라운지엑스24h 강남역점",
-      "reviewCount": 26,
-      "positiveRatio": 0.9230769230769231,
+      "reviewCount": 29,
+      "positiveRatio": 0.9310344827586207,
       "negativeRatio": 0,
-      "neutralRatio": 0.07692307692307693,
-      "monthlyActivity": 26,
-      "latestReviewDate": "2026-05-28"
+      "neutralRatio": 0.06896551724137931,
+      "monthlyActivity": 29,
+      "latestReviewDate": "2026-05-31"
     },
     {
       "id": "store_euljiro",
@@ -42,7 +42,7 @@
       "positiveRatio": 0.8,
       "negativeRatio": 0.04,
       "neutralRatio": 0.16,
-      "monthlyActivity": 4,
+      "monthlyActivity": 3,
       "latestReviewDate": "2026-05-08"
     },
     {
@@ -52,7 +52,7 @@
       "positiveRatio": 0.94,
       "negativeRatio": 0,
       "neutralRatio": 0.06,
-      "monthlyActivity": 8,
+      "monthlyActivity": 6,
       "latestReviewDate": "2026-05-25"
     },
     {
@@ -68,26 +68,32 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 36,
-      "positiveRatio": 0.8611111111111112,
+      "reviewCount": 40,
+      "positiveRatio": 0.85,
       "negativeRatio": 0,
-      "neutralRatio": 0.1388888888888889,
-      "monthlyActivity": 15,
-      "latestReviewDate": "2026-05-28"
+      "neutralRatio": 0.15,
+      "monthlyActivity": 19,
+      "latestReviewDate": "2026-05-30"
     },
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 48,
-      "positiveRatio": 0.9375,
+      "reviewCount": 49,
+      "positiveRatio": 0.9387755102040817,
       "negativeRatio": 0,
-      "neutralRatio": 0.0625,
-      "monthlyActivity": 12,
-      "latestReviewDate": "2026-05-25"
+      "neutralRatio": 0.061224489795918366,
+      "monthlyActivity": 13,
+      "latestReviewDate": "2026-05-30"
     }
   ],
   "recentReviewsByStore": {
     "store_seongsu": [
+      {
+        "date": "5.30.토",
+        "text": "맛있어요.. 😊",
+        "rating": null,
+        "sentiment": "positive"
+      },
       {
         "date": "5.27.수",
         "text": "여기 커피 원두 맛있어요!✨🙂 무인 매장이고 사람도 많은데 항상 청결해서 자주 이용하게 되네요 ㅎㅎ\n로봇 일 진짜 열심히 합니다 👍🏻",
@@ -109,12 +115,6 @@
       {
         "date": "5.24.일",
         "text": "와악 이렇게 로봇이 직접 만들어주는 무인카페는\n처음인데 커피 맛도 너무너무 맛있고 커피 만들어지는 것 보는 재미가 있네요🤩🤩 잠깐 급하게 업무 볼 일이 있어서 들렀는데 공간이 엄청 쾌적해서 만족도100으로 머물다 갑니다 👍🏻👍🏻👍🏻",
-        "rating": null,
-        "sentiment": "positive"
-      },
-      {
-        "date": "5.24.일",
-        "text": "샌드가 정말 맛있어요 무인에 24시라 언제든지 편하게 이용해서 좋습니다.",
         "rating": null,
         "sentiment": "positive"
       }
@@ -153,6 +153,12 @@
     ],
     "store_gangnam": [
       {
+        "date": "5.31.일",
+        "text": "강남역에서 새벽에 들리기 좋은 라운지엑스! 샌드위치랑 샐러드도 있어서 아침 챙겨 먹기도 좋네요 ^-^ 점점 더 발전하는 라운지엑스 응원합니다 >_<",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
         "date": "5.28.목",
         "text": "커피도 맛나고 솔티카라멜휘낭시에 특히 맛나요. 겉은바삭 속은 촉촉해요.",
         "rating": null,
@@ -173,12 +179,6 @@
       {
         "date": "5.25.월",
         "text": "24시간 하는 깔끔한 카페👍 \n혼자 와서 노트북하기 좋아요 콘센트도 넉넉해요",
-        "rating": null,
-        "sentiment": "positive"
-      },
-      {
-        "date": "5.25.월",
-        "text": "강남역에 약속이 있어 방문했어요\n일찔 도착해서 여기서 기다렸는데\n커피도 맛있고 매장도 깔끔합니다",
         "rating": null,
         "sentiment": "positive"
       }
@@ -281,37 +281,43 @@
     ],
     "store_sangam_dmc": [
       {
+        "date": "5.30.토",
+        "text": "커피맛잇어요 매장 시원해서 강추요",
+        "rating": null,
+        "sentiment": "neutral"
+      },
+      {
+        "date": "5.29.금",
+        "text": "디저트도 맛있어요 !! ㅎㅎㅎ추천드려요",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
+        "date": "5.29.금",
+        "text": "매일 출근길에 들르고 있어요. 2천원에 이렇게 풍미있는 커피 마실 수 있는 건 진짜 상암동 특권이 아닌가 싶습니다. 직장 근처에 훌륭한 카페가 생겨서 좋습니다.",
+        "rating": null,
+        "sentiment": "positive"
+      },
+      {
         "date": "5.28.목",
         "text": "맛있어여 좋아요",
         "rating": null,
         "sentiment": "positive"
       },
       {
-        "date": "5.27.수",
-        "text": "커피도 맛있고 디저트도 맛있어요ㅠㅠ샌드랑 번 다 추천드려요 !!",
-        "rating": null,
-        "sentiment": "positive"
-      },
-      {
-        "date": "5.26.화",
-        "text": "지나가다 무인카페 생겨서 왔는데 로봇이 커피 주는것도 신기하고 맛있네용\n자주 올게요!!",
-        "rating": null,
-        "sentiment": "positive"
-      },
-      {
-        "date": "5.25.월",
-        "text": "빠르고 간편하게 커피마시기 가능해요",
-        "rating": null,
-        "sentiment": "positive"
-      },
-      {
-        "date": "5.24.일",
-        "text": "로봇이 빠르게 만들어주고 신기해요 ㅎㅎ 매장도 청결하고 24시간이라서 더 좋은 것 같아요",
+        "date": "5.28.목",
+        "text": "오늘 처음 와봤는데 빵도 다양하고 음료도 맛있는게 많아서 종종 이용할 것 같습니당",
         "rating": null,
         "sentiment": "positive"
       }
     ],
     "store_one_grove": [
+      {
+        "date": "5.30.토",
+        "text": "편안한 분위기에 음료도 맛있었어요!",
+        "rating": null,
+        "sentiment": "positive"
+      },
       {
         "date": "5.25.월",
         "text": "아침 일찍열어서 방문해봄. 한적함",
@@ -335,12 +341,6 @@
         "text": "좋아용\n로봇바리스타씨 귀여움...",
         "rating": null,
         "sentiment": "positive"
-      },
-      {
-        "date": "5.20.수",
-        "text": "트레이더스 장보러 왔다가\n모닝커피 한잔~ \n로봇이 만들어주는 커피 ☕️\n잘 마시고 가요~",
-        "rating": null,
-        "sentiment": "neutral"
       }
     ]
   },
@@ -407,14 +407,14 @@
           "sentiment": "positive"
         },
         {
-          "date": "5.8.금",
-          "text": "회사 근처에 새로 생겨서 방문했어요~\n강남역이랑도 엄청 가깝네요!\n점심시간에 방문해서 수다떨기 너무 좋고 커피도 너무 맛있어요\n3천원대 커피 중에 제일 퀄리티 좋은 거 같아요!",
+          "date": "5.10.일",
+          "text": "새벽 늦게 방문했는데 공간 너무 아늑하고 예쁘네요, 밤 늦게 작업하고 수다 떨기 이만한 곳이 없는거 같아요 커피도 너무 맛있네요 그냥 커피가 아니고 품질 좋은 프리미엄 커피 풍미가 납니다 너무 만족하고 갑니다~",
           "rating": null,
           "sentiment": "positive"
         },
         {
-          "date": "5.22.금",
-          "text": "출근 전에 잠시 작업할 게 있어 들렀는데 조용하고 깔끔해서 좋았습니다. 커피도 예상보다 훨씬 맛있었고요. 혼자 노트북하러 오기 좋은 곳이에요!",
+          "date": "5.8.금",
+          "text": "회사 근처에 새로 생겨서 방문했어요~\n강남역이랑도 엄청 가깝네요!\n점심시간에 방문해서 수다떨기 너무 좋고 커피도 너무 맛있어요\n3천원대 커피 중에 제일 퀄리티 좋은 거 같아요!",
           "rating": null,
           "sentiment": "positive"
         }
@@ -629,9 +629,9 @@
         "neutral": 6
       },
       {
-        "positive": 70,
+        "positive": 78,
         "negative": 2,
-        "neutral": 14
+        "neutral": 15
       },
       {
         "positive": 0,
