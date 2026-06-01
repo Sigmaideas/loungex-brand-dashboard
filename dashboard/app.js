@@ -2,7 +2,7 @@ const PALETTE = ['#4263eb', '#1f2329', '#7950f2', '#f59f00', '#2f9e44', '#e8590c
 const SENTIMENT_LABEL = { positive: '긍정', negative: '부정', neutral: '중립' };
 
 let summary = null;
-let sortKey = 'reviewCount';
+let sortKey = 'monthlyActivity';
 let sortDir = 'desc';
 let donutChart = null;
 let monthlyChart = null;
