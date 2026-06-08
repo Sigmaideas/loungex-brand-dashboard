@@ -10,8 +10,13 @@ let keywordsChart = null;
 let selectedYear = null;
 let currentSource = 'naver';
 
-const SOURCE_LABEL = { naver: '네이버 플레이스', google: '구글' };
-const SOURCE_SUMMARY_FILE = { naver: 'summary.json', google: 'summary-google.json' };
+const SOURCE_LABEL = { naver: '네이버 플레이스', google: '구글', app: '라운지엑스앱' };
+const SOURCE_SUMMARY_FILE = { naver: 'summary.json', google: 'summary-google.json', app: 'summary-app.json' };
+const SOURCE_PAGE_TITLE = {
+  naver: '네이버 플레이스 리뷰 모니터링',
+  google: '구글 리뷰 모니터링',
+  app: '라운지엑스앱 모니터링',
+};
 
 const $ = (s) => document.querySelector(s);
 const fmtPct = (v) => `${(v * 100).toFixed(1)}%`;
@@ -58,7 +63,12 @@ function showEmptyState() {
     banner.className = 'empty-banner';
     document.querySelector('main').prepend(banner);
   }
-  if (currentSource === 'google') {
+  if (currentSource === 'app') {
+    banner.innerHTML = `
+      <strong>라운지엑스앱 모니터링은 준비 중입니다.</strong>
+      <p>앱 리뷰·이용 데이터 수집 연동이 완료되면 이곳에 표시됩니다.</p>
+    `;
+  } else if (currentSource === 'google') {
     banner.innerHTML = `
       <strong>구글 리뷰 데이터가 아직 없습니다.</strong>
       <p>다음 단계로 시작하세요:</p>
@@ -79,15 +89,55 @@ function hideEmptyState() {
 
 function render() {
   $('#lastUpdated').textContent = fmtDateTime(summary.lastUpdated);
-  $('#kpiStores').textContent = summary.totalStores.toLocaleString();
-  $('#kpiReviews').textContent = summary.totalReviews.toLocaleString();
-  $('#kpiAvg').textContent = summary.avgReviewsPerStore.toFixed(1);
-  $('#kpiMonthly').textContent = summary.monthlyActivity.toLocaleString();
+  buildKpis();
+  applySourceLayout();
   drawDonut();
-  drawTable();
+  if (currentSource !== 'app') drawTable();
   setupYearSelector();
   drawMonthly();
   drawKeywords();
+}
+
+function kpiCard({ icon, label, value, sub, accent }) {
+  return `
+    <div class="kpi-card${accent ? ' accent' : ''}">
+      <div class="kpi-icon"><i data-lucide="${icon}"></i></div>
+      <span class="kpi-label">${label}</span>
+      <span class="kpi-value">${value}</span>
+      <span class="kpi-sub">${sub}</span>
+    </div>`;
+}
+
+function buildKpis() {
+  let cards;
+  if (currentSource === 'app') {
+    const byId = (id) => summary.stores.find((s) => s.id === id);
+    const rate = (s) => (s && s.rating != null ? `★ ${Number(s.rating).toFixed(2)}` : '-');
+    const cnt = (s) => (s && s.ratingCount != null ? `${s.ratingCount.toLocaleString()}개 평가` : '평가 정보 없음');
+    const g = byId('app_google');
+    const a = byId('app_apple');
+    cards = [
+      kpiCard({ icon: 'star', label: '구글 플레이 평점', value: rate(g), sub: cnt(g) }),
+      kpiCard({ icon: 'star', label: '애플 앱스토어 평점', value: rate(a), sub: cnt(a) }),
+      kpiCard({ icon: 'message-square', label: '총 리뷰 수', value: summary.totalReviews.toLocaleString(), sub: '수집된 텍스트 리뷰' }),
+      kpiCard({ icon: 'activity', label: '월간 활성도', value: summary.monthlyActivity.toLocaleString(), sub: '최근 30일 리뷰', accent: true }),
+    ];
+  } else {
+    cards = [
+      kpiCard({ icon: 'store', label: '총 매장 수', value: summary.totalStores.toLocaleString(), sub: '라운지엑스24h' }),
+      kpiCard({ icon: 'message-square', label: '총 리뷰 수', value: summary.totalReviews.toLocaleString(), sub: '누적 수집' }),
+      kpiCard({ icon: 'bar-chart-3', label: '매장당 평균 리뷰 수', value: summary.avgReviewsPerStore.toFixed(1), sub: '건' }),
+      kpiCard({ icon: 'activity', label: '월간 활성도', value: summary.monthlyActivity.toLocaleString(), sub: '최근 30일 리뷰', accent: true }),
+    ];
+  }
+  $('#kpiRow').innerHTML = cards.join('');
+  if (window.lucide) window.lucide.createIcons();
+}
+
+function applySourceLayout() {
+  const isApp = currentSource === 'app';
+  $('#donutTitle').textContent = isApp ? '플랫폼별 리뷰 비중' : '매장별 리뷰 비중';
+  $('#storeTableSection').hidden = isApp;
 }
 
 const KEYWORD_COLOR = { positive: '#2f9e44', negative: '#e03131', neutral: '#4263eb' };
@@ -493,7 +543,7 @@ function switchSource(source) {
   document.querySelectorAll('.nav-item[data-source]').forEach((el) => {
     el.classList.toggle('active', el.dataset.source === source);
   });
-  $('#pageTitle').textContent = source === 'google' ? '구글 리뷰 모니터링' : '네이버 플레이스 리뷰 모니터링';
+  $('#pageTitle').textContent = SOURCE_PAGE_TITLE[source] || '리뷰 모니터링';
   load().catch((err) => showToast(`로드 실패: ${err.message}`, 4000));
 }
 

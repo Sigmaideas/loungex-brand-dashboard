@@ -10,6 +10,7 @@ node_modules/
 data/*
 !data/summary.json
 !data/summary-google.json
+!data/summary-app.json
 
 # 시스템/에디터
 .DS_Store

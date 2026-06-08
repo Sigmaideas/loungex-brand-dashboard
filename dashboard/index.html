@@ -26,6 +26,10 @@
         <i data-lucide="globe" class="nav-icon"></i>
         구글 리뷰 모니터링
       </a>
+      <a class="nav-item" href="#" data-source="app">
+        <i data-lucide="smartphone" class="nav-icon"></i>
+        라운지엑스앱 모니터링
+      </a>
     </nav>
     <div class="sidebar-foot">내부용 · v1.0</div>
   </aside>
@@ -51,36 +55,11 @@
     </header>
 
     <main>
-      <section class="kpi-row">
-        <div class="kpi-card">
-          <div class="kpi-icon"><i data-lucide="store"></i></div>
-          <span class="kpi-label">총 매장 수</span>
-          <span class="kpi-value" id="kpiStores">-</span>
-          <span class="kpi-sub">라운지엑스24h</span>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-icon"><i data-lucide="message-square"></i></div>
-          <span class="kpi-label">총 리뷰 수</span>
-          <span class="kpi-value" id="kpiReviews">-</span>
-          <span class="kpi-sub">누적 수집</span>
-        </div>
-        <div class="kpi-card">
-          <div class="kpi-icon"><i data-lucide="bar-chart-3"></i></div>
-          <span class="kpi-label">매장당 평균 리뷰 수</span>
-          <span class="kpi-value" id="kpiAvg">-</span>
-          <span class="kpi-sub">건</span>
-        </div>
-        <div class="kpi-card accent">
-          <div class="kpi-icon"><i data-lucide="activity"></i></div>
-          <span class="kpi-label">월간 활성도</span>
-          <span class="kpi-value" id="kpiMonthly">-</span>
-          <span class="kpi-sub">최근 30일 리뷰</span>
-        </div>
-      </section>
+      <section class="kpi-row" id="kpiRow"><!-- render() 에서 소스별로 생성 --></section>
 
       <section class="card chart-card">
         <div class="card-head">
-          <h2><i data-lucide="pie-chart" class="head-icon"></i>매장별 리뷰 비중</h2>
+          <h2><i data-lucide="pie-chart" class="head-icon"></i><span id="donutTitle">매장별 리뷰 비중</span></h2>
           <span class="hint">전체 누적 기준</span>
         </div>
         <div class="chart-wrap"><canvas id="donut"></canvas></div>
@@ -99,12 +78,12 @@
       <section class="card chart-card">
         <div class="card-head">
           <h2><i data-lucide="message-circle" class="head-icon"></i>리뷰 주요 단어</h2>
-          <span class="hint">전체 리뷰 기준 · 언급 매장 수 상위</span>
+          <span class="hint">전체 리뷰 기준 · 자주 언급된 단어</span>
         </div>
         <div class="chart-wrap chart-wrap-tall"><canvas id="keywords"></canvas></div>
       </section>
 
-      <section class="card">
+      <section class="card" id="storeTableSection">
         <div class="card-head">
           <h2><i data-lucide="list" class="head-icon"></i>매장별 상세</h2>
           <span class="hint">컬럼 클릭 시 정렬 · 매장명 클릭 시 리뷰 상세</span>

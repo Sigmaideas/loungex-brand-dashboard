@@ -1,0 +1,15 @@
+[
+  {
+    "id": "app_google",
+    "name": "구글 플레이",
+    "platform": "google",
+    "googlePlayId": "io.xyz.xexpressapp"
+  },
+  {
+    "id": "app_apple",
+    "name": "애플 앱스토어",
+    "platform": "apple",
+    "appleAppId": "1660500008",
+    "country": "kr"
+  }
+]

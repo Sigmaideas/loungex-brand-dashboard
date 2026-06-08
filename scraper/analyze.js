@@ -9,9 +9,9 @@
 const fs = require('fs').promises;
 const path = require('path');
 
-// SOURCE=google 이면 구글, 아니면 네이버 (기본)
-const SOURCE = process.env.SOURCE === 'google' ? 'google' : 'naver';
-const SUFFIX = SOURCE === 'google' ? '-google' : '';
+// SOURCE: naver(기본) | google | app
+const SOURCE = process.env.SOURCE || 'naver';
+const SUFFIX = SOURCE === 'naver' ? '' : `-${SOURCE}`;
 const REVIEWS_PATH = path.join(__dirname, '..', 'data', `reviews${SUFFIX}.json`);
 const SUMMARY_PATH = path.join(__dirname, '..', 'data', `summary${SUFFIX}.json`);
 const STORES_PATH = path.join(__dirname, `stores${SUFFIX}.json`);
@@ -196,6 +196,9 @@ async function main() {
   const lastScrapedAt = data.lastScrapedAt || null;
   const isNewReview = (r) => Boolean(lastScrapedAt && r.firstSeenAt === lastScrapedAt);
 
+  // 앱 소스: 플랫폼별 공식 평점 metadata (없으면 빈 객체)
+  const storeMeta = data.storeMeta || {};
+
   // 룰 기반은 빠르고 무료라 매번 전체 재분류 (사전 갱신이 즉시 반영됨)
   const scored = new Map();
   let changed = 0;
@@ -237,6 +240,9 @@ async function main() {
       monthlyActivity: monthly,
       latestReviewDate: latest ? latest.toISOString().slice(0, 10) : null,
       newReviewCount: b.items.filter(isNewReview).length,
+      // 앱 소스: 플랫폼 공식 평점/평가수 (scrape-app.js 의 storeMeta)
+      rating: storeMeta[b.id]?.rating ?? null,
+      ratingCount: storeMeta[b.id]?.ratingCount ?? null,
     };
   });
 

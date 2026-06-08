@@ -11,11 +11,15 @@
     "scrape:google": "node scraper/scrape-google.js",
     "analyze:google": "SOURCE=google node scraper/analyze.js",
     "update:google": "npm run scrape:google && npm run analyze:google",
+    "scrape:app": "node scraper/scrape-app.js",
+    "analyze:app": "SOURCE=app node scraper/analyze.js",
+    "update:app": "npm run scrape:app && npm run analyze:app",
     "dashboard": "node server.js"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^0.30.1",
     "dotenv": "^16.4.5",
+    "google-play-scraper": "^9.2.0",
     "playwright": "^1.48.0"
   }
 }

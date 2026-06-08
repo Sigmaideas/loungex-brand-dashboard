@@ -1,0 +1,401 @@
+{
+  "lastUpdated": "2026-06-08T08:05:08.100Z",
+  "totalStores": 2,
+  "totalReviews": 30,
+  "avgReviewsPerStore": 15,
+  "monthlyActivity": 11,
+  "stores": [
+    {
+      "id": "app_google",
+      "name": "구글 플레이",
+      "reviewCount": 20,
+      "positiveRatio": 0.65,
+      "negativeRatio": 0.05,
+      "neutralRatio": 0.3,
+      "monthlyActivity": 8,
+      "latestReviewDate": "2026-05-27",
+      "newReviewCount": 20,
+      "rating": 4.3913045,
+      "ratingCount": 23
+    },
+    {
+      "id": "app_apple",
+      "name": "애플 앱스토어",
+      "reviewCount": 10,
+      "positiveRatio": 0.8,
+      "negativeRatio": 0,
+      "neutralRatio": 0.2,
+      "monthlyActivity": 3,
+      "latestReviewDate": "2026-05-11",
+      "newReviewCount": 10,
+      "rating": 4.86486,
+      "ratingCount": 37
+    }
+  ],
+  "recentReviewsByStore": {
+    "app_google": [
+      {
+        "date": "2026-05-27",
+        "text": "출근길에 잘 쓰고있는데 디카페인 커피가 없어서 오후에는 올 일이 없네요",
+        "rating": 5,
+        "sentiment": "neutral",
+        "isNew": true
+      },
+      {
+        "date": "2026-05-11",
+        "text": "걸어가면서 주문하기 좋음. 맨날 같은 거만 시켜 먹는 나같은 사람들이 동일메뉴주문?간편주문?하기 편함",
+        "rating": 5,
+        "sentiment": "neutral",
+        "isNew": true
+      },
+      {
+        "date": "2026-05-11",
+        "text": "커피 쿠폰 굿",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2026-05-11",
+        "text": "커피 맛 빼고는 모든게 비쌈. 빵같은 다른 상품은 나쁘지 않았습니다. 주문은 편리하나, 카드가 제한되고, 로그인 저장 기능이 있으면 좋겠습니다.",
+        "rating": 3,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2026-05-11",
+        "text": "매일 아침 앱으로 주문해서 커피 잘 마시고 있네요. 앱으로 주문하니 기다리지 않아서 좋고 12잔마다 무료 쿠폰도 나오고 아침에는 할인도 되서 좋네요.",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      }
+    ],
+    "app_apple": [
+      {
+        "date": "2026-05-11",
+        "text": "편하네요\n건물 도착전 시켜놓는데 다른 카페 앱들보다 단순해서 주문하기 편해요 매일 같은 메뉴 먹는데 최근주문바로가기가 있어서 좋습니다",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2026-05-11",
+        "text": "앱주문 조아요\n미리 주문하고 음료를 바로 받을 수 있어서 자주 쓰는 앱 중에 하나에요\n\n프로필이나 닉네임을 설정하면 함께 뜨는 것도 재밌어요",
+        "rating": 5,
+        "sentiment": "neutral",
+        "isNew": true
+      },
+      {
+        "date": "2026-05-11",
+        "text": "생각보다 편리하네요\n가끔 마시는데, 앱으로 쿠폰 주문하고 픽업해가니 편하네요\n점원 없어서 눈치도 안보이고 좋아요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2026-05-08",
+        "text": "편안하고 빠른속도\n매일 성수동을 지나갈때마다 생각나는 라떼의 부드러움과 어플을 이용할경우 할인쿠폰과 리워드적립도 가능하여 꾸준히 이용 중 입니다.",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
+        "date": "2026-05-06",
+        "text": "출근하는 길 주문을 할 수 있어 효율적입니다\n회사를 출근하는길에 카페를 잠깐 들려 픽업만 하고 가면 되서 정말 편한거 같습니다. 오렌지 아이스티가 정말 제 원픽입니다. \n추천드려요",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true
+      }
+    ]
+  },
+  "representativeByStore": {
+    "app_google": {
+      "positive": [
+        {
+          "date": "2026-05-04",
+          "text": "매일 아침 커피를 마시는데, 지난 주문이 즐겨찾기에 노출되어 편리하게 재주문할 수 있어서 너무 편리합니다! 로봇커피인데 맛도 너무 좋아서 대만족ㅎㅎ",
+          "rating": 5,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2025-10-24",
+          "text": "커피가맛있는데다 오전마다 할인도해서 너무좋아요. 앱으로 주문해둘 수 있어서 편리합니다 ٩(๑′∀ ‵๑)۶•*¨*•.¸¸♪",
+          "rating": 5,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2025-10-23",
+          "text": "커피가 정말 맛있어서 자주 사먹는데 앱으로 주문까지 할 수 있어서 편리해요! 아침마다 할인도 해주고 라운지엑스 최고👍",
+          "rating": 5,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": [
+        {
+          "date": "2025-06-30",
+          "text": "거리 기반 주문 안됨 -> 그래서 앱주문하면 15프로 할인인데도 무인카페에서 3900원 주고 먹음. 너무 화나네요. 이럴거면 스벅갈걸 주문하기 누르면 로딩 너무 오래 걸림. 쿠폰의 QR코드가 어디있는지 모르겠음 쿠폰 번호 입력해도 안됨",
+          "rating": 1,
+          "sentiment": "negative"
+        }
+      ]
+    },
+    "app_apple": {
+      "positive": [
+        {
+          "date": "2026-05-08",
+          "text": "편안하고 빠른속도\n매일 성수동을 지나갈때마다 생각나는 라떼의 부드러움과 어플을 이용할경우 할인쿠폰과 리워드적립도 가능하여 꾸준히 이용 중 입니다.",
+          "rating": 5,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2026-05-11",
+          "text": "생각보다 편리하네요\n가끔 마시는데, 앱으로 쿠폰 주문하고 픽업해가니 편하네요\n점원 없어서 눈치도 안보이고 좋아요",
+          "rating": 5,
+          "sentiment": "positive"
+        },
+        {
+          "date": "2026-05-06",
+          "text": "커피굿굿\n앱으로 주문하고 매장에서 바로 픽업할 수 있어서 편리하네요 아이스아메리카노 맛있습니다",
+          "rating": 5,
+          "sentiment": "positive"
+        }
+      ],
+      "negative": []
+    }
+  },
+  "monthlySentimentByYear": {
+    "2024": [
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      }
+    ],
+    "2025": [
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 1,
+        "neutral": 1
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 4,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      }
+    ],
+    "2026": [
+      {
+        "positive": 1,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 1
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 15,
+        "negative": 0,
+        "neutral": 5
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      },
+      {
+        "positive": 0,
+        "negative": 0,
+        "neutral": 0
+      }
+    ]
+  },
+  "availableYears": [
+    2026,
+    2025,
+    2024
+  ],
+  "keywordFrequency": [
+    {
+      "word": "커피·음료",
+      "sentiment": "neutral",
+      "count": 19
+    },
+    {
+      "word": "아늑·편안",
+      "sentiment": "positive",
+      "count": 6
+    },
+    {
+      "word": "맛있다",
+      "sentiment": "positive",
+      "count": 5
+    },
+    {
+      "word": "로봇",
+      "sentiment": "neutral",
+      "count": 2
+    },
+    {
+      "word": "분위기",
+      "sentiment": "neutral",
+      "count": 1
+    },
+    {
+      "word": "추천",
+      "sentiment": "positive",
+      "count": 1
+    },
+    {
+      "word": "디저트·베이커리",
+      "sentiment": "neutral",
+      "count": 1
+    },
+    {
+      "word": "직원·사장님",
+      "sentiment": "neutral",
+      "count": 1
+    }
+  ]
+}
