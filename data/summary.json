@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T07:35:06.561Z",
+  "lastUpdated": "2026-06-08T08:12:07.993Z",
   "totalStores": 8,
   "totalReviews": 336,
   "avgReviewsPerStore": 42,
@@ -14,7 +14,9 @@
       "neutralRatio": 0.19148936170212766,
       "monthlyActivity": 12,
       "latestReviewDate": "2026-06-05",
-      "newReviewCount": 1
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_seoulforest_ak",
@@ -25,7 +27,9 @@
       "neutralRatio": 0.11764705882352941,
       "monthlyActivity": 2,
       "latestReviewDate": "2026-06-03",
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_gangnam",
@@ -36,7 +40,9 @@
       "neutralRatio": 0.058823529411764705,
       "monthlyActivity": 27,
       "latestReviewDate": "2026-06-07",
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_euljiro",
@@ -47,7 +53,9 @@
       "neutralRatio": 0.13333333333333333,
       "monthlyActivity": 5,
       "latestReviewDate": "2026-06-08",
-      "newReviewCount": 3
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_yongsan_prime",
@@ -58,7 +66,9 @@
       "neutralRatio": 0.07407407407407407,
       "monthlyActivity": 10,
       "latestReviewDate": "2026-06-08",
-      "newReviewCount": 1
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_garak_it",
@@ -69,7 +79,9 @@
       "neutralRatio": 0.13043478260869565,
       "monthlyActivity": 7,
       "latestReviewDate": "2026-06-08",
-      "newReviewCount": 1
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_sangam_dmc",
@@ -80,7 +92,9 @@
       "neutralRatio": 0.13333333333333333,
       "monthlyActivity": 18,
       "latestReviewDate": "2026-06-08",
-      "newReviewCount": 1
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_one_grove",
@@ -91,7 +105,9 @@
       "neutralRatio": 0.07692307692307693,
       "monthlyActivity": 13,
       "latestReviewDate": "2026-06-06",
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     }
   ],
   "recentReviewsByStore": {
@@ -101,7 +117,7 @@
         "text": "분위기도 맛도 괜찮아요",
         "rating": null,
         "sentiment": "neutral",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "5.30.토",
@@ -212,7 +228,7 @@
         "text": "아메리카노가 쓰지 않고 깔끔해서 마음에 들었어요. 밀크크림 버터번은 겉은 바삭하고 속은 촉촉한 게 커피랑 진짜 잘 맞더라고요. 을지로3가역 근처에서 이 정도면 가성비도 나쁘지 않은 것 같아요!",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "6.7.일",
@@ -233,14 +249,14 @@
         "text": "말차라떼가 은은하게 달달하면서도 쌉싸름한 맛이 딱 취향이었어요. 밀크크림 버터번도 촉촉하고 부드러워서 같이 먹으니 잘 어울리더라고요. 을지로 돌담길 산책하다 들렀는데 공간이 넓어서 여유롭게 쉬다 갈 수 있어서 좋았어요.",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "6.5.금",
         "text": "카페라떼 한 모금 마셨는데 고소하고 부드러워서 깜짝 놀랐어요. 을지로 쪽에서 이런 카페 찾기 쉽지 않은데 분위기도 조용하고 좋았어요!",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       }
     ],
     "store_yongsan_prime": [
@@ -249,7 +265,7 @@
         "text": "밀크크림 버터번이 생각보다 훨씬 맛있어서 깜짝 놀랐어요! 용산역근처라 접근성도 좋고, 주문도 빠르게 처리해줘서 기다림 없이 편하게 즐겼어요. 아메리카노랑 같이 먹으니 조용한 분위기에서 딱 좋았어요.",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "6.5.금",
@@ -286,7 +302,7 @@
         "text": "공부하러 들렀는데 생각보다 조용하고 깔끔해서 집중하기 좋았어요. 아메리카노 마시면서 버터번 먹었는데 은근히 잘 어울리더라고요. 송파에서 이런 공간 찾기 쉽지 않은 것 같아요!",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "5.28.목",
@@ -323,7 +339,7 @@
         "text": "복숭아 아이스티가 생각보다 훨씬 맛있어서 놀랐어요. 과하지 않은 달콤함이 딱 좋았고, 밀크티라떼도 부드럽고 진해서 매우 만족스러웠어요. 상암DMC 쪽에서 조용히 앉아 있기 좋은 공간을 찾고 계신다면 이곳을 추천드려요. 다음에도 꼭 다시 방문하고 싶어요.",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "6.5.금",

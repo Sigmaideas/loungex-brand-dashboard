@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T07:35:10.238Z",
+  "lastUpdated": "2026-06-08T08:12:11.644Z",
   "totalStores": 8,
   "totalReviews": 11,
   "avgReviewsPerStore": 1.4,
@@ -14,7 +14,9 @@
       "neutralRatio": 0,
       "monthlyActivity": 0,
       "latestReviewDate": "2025-11-04",
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_seoulforest_ak",
@@ -25,7 +27,9 @@
       "neutralRatio": 0.3333333333333333,
       "monthlyActivity": 0,
       "latestReviewDate": "2026-01-27",
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_gangnam",
@@ -36,7 +40,9 @@
       "neutralRatio": 0,
       "monthlyActivity": 0,
       "latestReviewDate": null,
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_euljiro",
@@ -47,7 +53,9 @@
       "neutralRatio": 0,
       "monthlyActivity": 1,
       "latestReviewDate": "2026-06-08",
-      "newReviewCount": 1
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_yongsan_prime",
@@ -58,7 +66,9 @@
       "neutralRatio": 0,
       "monthlyActivity": 0,
       "latestReviewDate": "2026-04-24",
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_garak_it",
@@ -69,7 +79,9 @@
       "neutralRatio": 0,
       "monthlyActivity": 0,
       "latestReviewDate": null,
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_sangam_dmc",
@@ -80,7 +92,9 @@
       "neutralRatio": 0,
       "monthlyActivity": 0,
       "latestReviewDate": null,
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     },
     {
       "id": "store_one_grove",
@@ -91,7 +105,9 @@
       "neutralRatio": 0,
       "monthlyActivity": 0,
       "latestReviewDate": null,
-      "newReviewCount": 0
+      "newReviewCount": 0,
+      "rating": null,
+      "ratingCount": null
     }
   ],
   "recentReviewsByStore": {
@@ -162,7 +178,7 @@
         "text": "밤에 친구들 약속 끝나고 들리기 딱이에용\n매장도 깔끔하고 커피도 맛있고\n빵이랑 디저트도 판매해서 신기했어요\n담에 노트북 하러 오기 좋을듯 추천🏃",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       }
     ],
     "store_yongsan_prime": [
