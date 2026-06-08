@@ -85,14 +85,14 @@
 
       <section class="card" id="storeTableSection">
         <div class="card-head">
-          <h2><i data-lucide="list" class="head-icon"></i>매장별 상세</h2>
-          <span class="hint">컬럼 클릭 시 정렬 · 매장명 클릭 시 리뷰 상세</span>
+          <h2><i data-lucide="list" class="head-icon"></i><span id="tableTitle">매장별 상세</span></h2>
+          <span class="hint" id="tableHint">컬럼 클릭 시 정렬 · 매장명 클릭 시 리뷰 상세</span>
         </div>
         <div class="table-wrap">
           <table id="storeTable">
             <thead>
               <tr>
-                <th data-sort="name">매장명</th>
+                <th data-sort="name" id="nameHeader">매장명</th>
                 <th data-sort="reviewCount">리뷰 수</th>
                 <th data-sort="positiveRatio">긍정</th>
                 <th data-sort="negativeRatio">부정</th>

@@ -92,7 +92,7 @@ function render() {
   buildKpis();
   applySourceLayout();
   drawDonut();
-  if (currentSource !== 'app') drawTable();
+  drawTable();
   setupYearSelector();
   drawMonthly();
   drawKeywords();
@@ -137,7 +137,11 @@ function buildKpis() {
 function applySourceLayout() {
   const isApp = currentSource === 'app';
   $('#donutTitle').textContent = isApp ? '플랫폼별 리뷰 비중' : '매장별 리뷰 비중';
-  $('#storeTableSection').hidden = isApp;
+  $('#tableTitle').textContent = isApp ? '플랫폼별 리뷰 상세' : '매장별 상세';
+  $('#tableHint').textContent = isApp
+    ? '컬럼 클릭 시 정렬 · 플랫폼명 클릭 시 리뷰 상세'
+    : '컬럼 클릭 시 정렬 · 매장명 클릭 시 리뷰 상세';
+  $('#nameHeader').textContent = isApp ? '플랫폼' : '매장명';
 }
 
 const KEYWORD_COLOR = { positive: '#2f9e44', negative: '#e03131', neutral: '#4263eb' };
