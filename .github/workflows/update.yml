@@ -2,6 +2,8 @@ name: 리뷰 자동 수집
 
 on:
   workflow_dispatch:  # 대시보드의 새로고침 버튼이 Cloudflare Worker 를 통해 트리거
+  schedule:
+    - cron: '0 0 * * *'  # 매일 00:00 UTC = 오전 9시 KST 자동 수집
 
 permissions:
   contents: write
