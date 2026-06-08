@@ -6,6 +6,7 @@ let sortKey = 'monthlyActivity';
 let sortDir = 'desc';
 let donutChart = null;
 let monthlyChart = null;
+let keywordsChart = null;
 let selectedYear = null;
 let currentSource = 'naver';
 
@@ -30,6 +31,7 @@ function emptySummary() {
     representativeByStore: {},
     monthlySentimentByYear: {},
     availableYears: [],
+    keywordFrequency: [],
   };
 }
 
@@ -85,6 +87,64 @@ function render() {
   drawTable();
   setupYearSelector();
   drawMonthly();
+  drawKeywords();
+}
+
+const KEYWORD_COLOR = { positive: '#2f9e44', negative: '#e03131', neutral: '#4263eb' };
+
+function drawKeywords() {
+  const ctx = $('#keywords');
+  if (keywordsChart) keywordsChart.destroy();
+  const items = summary.keywordFrequency || [];
+  if (items.length === 0) {
+    keywordsChart = null;
+    ctx.getContext('2d').clearRect(0, 0, ctx.width, ctx.height);
+    return;
+  }
+  keywordsChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: items.map((k) => k.word),
+      datasets: [
+        {
+          data: items.map((k) => k.count),
+          backgroundColor: items.map((k) => KEYWORD_COLOR[k.sentiment] || KEYWORD_COLOR.neutral),
+          borderRadius: 6,
+          borderSkipped: false,
+          barThickness: 'flex',
+          maxBarThickness: 22,
+        },
+      ],
+    },
+    options: {
+      indexAxis: 'y',
+      responsive: true,
+      maintainAspectRatio: false,
+      plugins: {
+        legend: { display: false },
+        tooltip: {
+          backgroundColor: '#1f2329',
+          padding: 10,
+          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
+          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
+          callbacks: { label: (c) => `${c.parsed.x.toLocaleString()}개 리뷰에서 언급` },
+        },
+      },
+      scales: {
+        x: {
+          beginAtZero: true,
+          ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 }, precision: 0 },
+          grid: { color: '#f0f0f4' },
+          border: { display: false },
+        },
+        y: {
+          ticks: { color: '#495057', font: { family: 'Pretendard, sans-serif', size: 12, weight: '500' } },
+          grid: { display: false },
+          border: { color: '#ececf1' },
+        },
+      },
+    },
+  });
 }
 
 function setupYearSelector() {

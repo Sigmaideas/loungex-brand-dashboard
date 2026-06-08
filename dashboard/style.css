@@ -258,6 +258,7 @@ svg.lucide.head-icon {
 .hint { color: var(--text-dim); font-size: 12px; }
 
 .chart-card .chart-wrap { height: 320px; position: relative; }
+.chart-card .chart-wrap.chart-wrap-tall { height: 420px; }
 
 .card-head-actions { display: flex; align-items: center; gap: 8px; }
 .year-select {

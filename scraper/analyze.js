@@ -49,6 +49,52 @@ function hasNegationPrefix(text, idx) {
   return NEGATION_PREFIXES.some((p) => window.endsWith(p));
 }
 
+// 리뷰 주요 단어 시각화용 키워드 그룹
+// { label: 차트에 표시할 대표 단어, sentiment: 막대 색, terms: 본문에서 찾을 변형들 }
+// 한 리뷰가 그룹의 변형 중 하나라도 포함하면 1회 카운트(문서 빈도) → 한 리뷰의 반복으로 과대집계 방지
+const KEYWORD_GROUPS = [
+  { label: '친절', sentiment: 'positive', terms: ['친절'] },
+  { label: '맛있다', sentiment: 'positive', terms: ['맛있', '맛나', '맛집', '고소', '달콤', '진하'] },
+  { label: '깨끗·깔끔', sentiment: 'positive', terms: ['깨끗', '청결', '깔끔'] },
+  { label: '분위기', sentiment: 'neutral', terms: ['분위기'] },
+  { label: '조용', sentiment: 'positive', terms: ['조용'] },
+  { label: '아늑·편안', sentiment: 'positive', terms: ['아늑', '편안', '편하', '쾌적'] },
+  { label: '넓은 공간', sentiment: 'positive', terms: ['넓', '공간이', '공간도', '공간은'] },
+  { label: '예쁘다', sentiment: 'positive', terms: ['예쁘', '예뻐', '이쁘', '이뻐'] },
+  { label: '인테리어', sentiment: 'neutral', terms: ['인테리어'] },
+  { label: '추천', sentiment: 'positive', terms: ['추천'] },
+  { label: '재방문', sentiment: 'positive', terms: ['재방문', '또 가', '또 올', '또 갈', '다시 가', '다시 올'] },
+  { label: '커피·음료', sentiment: 'neutral', terms: ['커피', '아메리카노', '라떼', '에스프레소', '음료'] },
+  { label: '디저트·베이커리', sentiment: 'neutral', terms: ['디저트', '케이크', '베이커리', '빵', '쿠키', '크루아상'] },
+  { label: '로봇', sentiment: 'neutral', terms: ['로봇'] },
+  { label: '자리·좌석', sentiment: 'neutral', terms: ['자리', '좌석', '테이블'] },
+  { label: '직원·사장님', sentiment: 'neutral', terms: ['직원', '사장', '점원', '알바'] },
+  { label: '가성비·가격', sentiment: 'neutral', terms: ['가성비', '가격', '저렴'] },
+  { label: '주차', sentiment: 'neutral', terms: ['주차'] },
+  { label: '공부·작업', sentiment: 'neutral', terms: ['공부', '작업', '노트북', '카공', '콘센트', '충전'] },
+  { label: '아쉽다', sentiment: 'negative', terms: ['아쉽', '아쉬워', '아쉬운'] },
+  { label: '별로', sentiment: 'negative', terms: ['별로', '별루'] },
+  { label: '불친절', sentiment: 'negative', terms: ['불친절'] },
+  { label: '시끄럽다', sentiment: 'negative', terms: ['시끄러', '시끄럽'] },
+  { label: '좁다', sentiment: 'negative', terms: ['좁'] },
+  { label: '비싸다', sentiment: 'negative', terms: ['비싸', '비싼'] },
+  { label: '불편', sentiment: 'negative', terms: ['불편'] },
+];
+
+const KEYWORD_TOP_N = 12;
+
+function computeKeywordFrequency(reviews) {
+  const counts = KEYWORD_GROUPS.map((g) => ({ word: g.label, sentiment: g.sentiment, count: 0 }));
+  for (const r of reviews) {
+    const text = (r.text || '').toLowerCase();
+    if (!text) continue;
+    KEYWORD_GROUPS.forEach((g, i) => {
+      if (g.terms.some((t) => text.includes(t))) counts[i].count++;
+    });
+  }
+  return counts.filter((c) => c.count > 0).sort((a, b) => b.count - a.count).slice(0, KEYWORD_TOP_N);
+}
+
 function scoreReview(text) {
   if (!text) return { pos: 0, neg: 0, sentiment: 'neutral' };
   const lower = text.toLowerCase();
@@ -247,6 +293,7 @@ async function main() {
     representativeByStore,
     monthlySentimentByYear,
     availableYears,
+    keywordFrequency: computeKeywordFrequency(reviews),
   };
 
   await fs.writeFile(REVIEWS_PATH, JSON.stringify(data, null, 2), 'utf8');
