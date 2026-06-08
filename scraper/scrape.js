@@ -136,13 +136,14 @@ function mapReview(item, store) {
   };
 }
 
-function dedupe(prev, fresh) {
+function dedupe(prev, fresh, runIso) {
   const seen = new Set(prev.map((r) => `${r.storeId}|${r.date}|${r.text}`));
   const out = [...prev];
   let added = 0;
   for (const r of fresh) {
     const key = `${r.storeId}|${r.date}|${r.text}`;
-    if (!seen.has(key)) { seen.add(key); out.push(r); added++; }
+    // 이번 수집에서 처음 등장한 리뷰만 firstSeenAt 기록 → 대시보드 NEW 배지 판별용
+    if (!seen.has(key)) { seen.add(key); out.push({ ...r, firstSeenAt: runIso }); added++; }
   }
   return { merged: out, added };
 }
@@ -218,8 +219,9 @@ async function main() {
     await browser.close();
   }
 
-  const { merged, added } = dedupe(existing.reviews || [], fresh);
-  await saveAll({ lastScrapedAt: new Date().toISOString(), reviews: merged, errors });
+  const runIso = new Date().toISOString();
+  const { merged, added } = dedupe(existing.reviews || [], fresh, runIso);
+  await saveAll({ lastScrapedAt: runIso, reviews: merged, errors });
   log(`저장 완료: 누적 ${merged.length}건 (신규 +${added}건, 오류 ${errors.length}건)`);
 }
 

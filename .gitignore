@@ -20,4 +20,5 @@ data/*
 # 테스트/임시 산출물
 .playwright-mcp/
 *.png
+!dashboard/logo.png
 .claude/

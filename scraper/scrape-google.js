@@ -54,13 +54,14 @@ async function loadExisting() {
   catch (e) { if (e.code === 'ENOENT') return { lastScrapedAt: null, reviews: [], errors: [] }; throw e; }
 }
 
-function dedupe(prev, fresh) {
+function dedupe(prev, fresh, runIso) {
   const seen = new Set(prev.map((r) => `${r.storeId}|${r.date}|${r.text}`));
   const out = [...prev];
   let added = 0;
   for (const r of fresh) {
     const key = `${r.storeId}|${r.date}|${r.text}`;
-    if (!seen.has(key)) { seen.add(key); out.push(r); added++; }
+    // 이번 수집에서 처음 등장한 리뷰만 firstSeenAt 기록 → 대시보드 NEW 배지 판별용
+    if (!seen.has(key)) { seen.add(key); out.push({ ...r, firstSeenAt: runIso }); added++; }
   }
   return { merged: out, added };
 }
@@ -94,11 +95,12 @@ async function main() {
     }
     await sleep(300);
   }
-  const { merged, added } = dedupe(existing.reviews || [], fresh);
+  const runIso = new Date().toISOString();
+  const { merged, added } = dedupe(existing.reviews || [], fresh, runIso);
   await fs.mkdir(path.dirname(REVIEWS_PATH), { recursive: true });
   await fs.writeFile(
     REVIEWS_PATH,
-    JSON.stringify({ lastScrapedAt: new Date().toISOString(), reviews: merged, errors }, null, 2),
+    JSON.stringify({ lastScrapedAt: runIso, reviews: merged, errors }, null, 2),
     'utf8'
   );
   log(`저장 완료: 누적 ${merged.length}건 (신규 +${added}건, 오류 ${errors.length}건)`);

@@ -146,6 +146,10 @@ async function main() {
   const stores = JSON.parse(await fs.readFile(STORES_PATH, 'utf8'));
   const reviews = data.reviews || [];
 
+  // 가장 최근 수집에서 새로 추가된 리뷰 = firstSeenAt 이 lastScrapedAt 과 일치 → 대시보드 NEW 배지
+  const lastScrapedAt = data.lastScrapedAt || null;
+  const isNewReview = (r) => Boolean(lastScrapedAt && r.firstSeenAt === lastScrapedAt);
+
   // 룰 기반은 빠르고 무료라 매번 전체 재분류 (사전 갱신이 즉시 반영됨)
   const scored = new Map();
   let changed = 0;
@@ -186,6 +190,7 @@ async function main() {
       neutralRatio: total ? neu / total : 0,
       monthlyActivity: monthly,
       latestReviewDate: latest ? latest.toISOString().slice(0, 10) : null,
+      newReviewCount: b.items.filter(isNewReview).length,
     };
   });
 
@@ -223,6 +228,7 @@ async function main() {
       text: r.text,
       rating: r.rating,
       sentiment: r.sentiment,
+      isNew: isNewReview(r),
     }));
     representativeByStore[b.id] = {
       positive: pickRepresentatives(b.items, 'positive'),

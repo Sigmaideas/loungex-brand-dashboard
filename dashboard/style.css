@@ -55,17 +55,12 @@ body {
   padding: 0 8px 16px;
   border-bottom: 1px solid var(--border);
 }
-.brand-mark {
-  width: 32px; height: 32px;
-  border-radius: 8px;
-  background: var(--text);
-  color: #fff;
-  display: flex; align-items: center; justify-content: center;
-  font-weight: 800;
-  font-size: 13px;
-  letter-spacing: -0.02em;
+.brand-logo {
+  height: 26px;
+  width: auto;
+  /* 원본 로고가 흰색이라 밝은 사이드바에서 보이도록 검정으로 반전 */
+  filter: invert(1);
 }
-.brand-name { font-weight: 700; font-size: 14px; letter-spacing: -0.01em; }
 .nav { display: flex; flex-direction: column; gap: 2px; }
 .nav-section {
   font-size: 10px;
@@ -315,6 +310,23 @@ tbody tr:hover { background: var(--surface-2); }
   font-weight: 600;
 }
 .store-link:hover { color: var(--accent); }
+
+/* 이번 업데이트에서 새로 추가된 리뷰 표시 */
+.new-badge {
+  display: inline-block;
+  margin-left: 6px;
+  padding: 1px 6px;
+  border-radius: 999px;
+  background: var(--accent);
+  color: #fff;
+  font-size: 9px;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+  line-height: 1.6;
+  vertical-align: middle;
+  font-variant-numeric: tabular-nums;
+}
+.review-meta .new-badge { margin-left: 0; }
 
 .bar { display: flex; align-items: center; gap: 10px; min-width: 140px; }
 .bar-track {

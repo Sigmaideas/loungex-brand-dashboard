@@ -249,7 +249,7 @@ function drawTable() {
     .map(
       (s) => `
     <tr>
-      <td><span class="store-link" data-store="${s.id}">${escapeHtml(s.name)}</span></td>
+      <td><span class="store-link" data-store="${s.id}">${escapeHtml(s.name)}</span>${s.newReviewCount > 0 ? `<span class="new-badge" title="이번 업데이트에서 새로 추가된 리뷰 ${s.newReviewCount}건">NEW${s.newReviewCount > 1 ? ` ${s.newReviewCount}` : ''}</span>` : ''}</td>
       <td>${s.reviewCount.toLocaleString()}</td>
       <td>${barCell(s.positiveRatio, 'positive')}</td>
       <td>${barCell(s.negativeRatio, 'negative')}</td>
@@ -275,6 +275,7 @@ function renderReviewList(items, emptyMsg) {
       (r) => `
       <div class="review-item">
         <div class="review-meta">
+          ${r.isNew ? '<span class="new-badge">NEW</span>' : ''}
           <span>${escapeHtml(r.date || '')}</span>
           ${r.rating ? `<span>★ ${r.rating}</span>` : ''}
           <span class="sentiment-tag ${r.sentiment || 'neutral'}">${SENTIMENT_LABEL[r.sentiment || 'neutral']}</span>
