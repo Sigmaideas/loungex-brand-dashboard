@@ -3,7 +3,9 @@ name: 리뷰 자동 수집
 on:
   workflow_dispatch:  # 대시보드의 새로고침 버튼이 Cloudflare Worker 를 통해 트리거
   schedule:
-    - cron: '0 0 * * *'  # 매일 00:00 UTC = 오전 9시 KST 자동 수집
+    # 자정(00:00 UTC) 정각은 GitHub 예약 작업 혼잡으로 1~3시간 지연되기 쉬움.
+    # 혼잡을 피해 23:40 UTC(= 08:40 KST)로 설정 → 지연돼도 대체로 오전 중 갱신.
+    - cron: '40 23 * * *'
 
 permissions:
   contents: write
