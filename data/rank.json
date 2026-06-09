@@ -1,0 +1,342 @@
+{
+  "lastScrapedAt": "2026-06-09T05:09:49.863Z",
+  "updatedDate": "2026-06-09",
+  "records": {
+    "store_seongsu|성수 카페": {
+      "storeId": "store_seongsu",
+      "storeName": "라운지엑스24h 성수본점",
+      "keyword": "성수 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 56
+        }
+      ],
+      "prevRank": null,
+      "rank": 56,
+      "total": 3335
+    },
+    "store_seongsu|성수 로봇카페": {
+      "storeId": "store_seongsu",
+      "storeName": "라운지엑스24h 성수본점",
+      "keyword": "성수 로봇카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 1
+        }
+      ],
+      "prevRank": null,
+      "rank": 1,
+      "total": 4
+    },
+    "store_seongsu|성수 24시 카페": {
+      "storeId": "store_seongsu",
+      "storeName": "라운지엑스24h 성수본점",
+      "keyword": "성수 24시 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 2
+        }
+      ],
+      "prevRank": null,
+      "rank": 2,
+      "total": 36
+    },
+    "store_seoulforest_ak|서울숲 카페": {
+      "storeId": "store_seoulforest_ak",
+      "storeName": "라운지엑스24h 서울숲AK점",
+      "keyword": "서울숲 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 1376
+    },
+    "store_seoulforest_ak|서울숲 로봇카페": {
+      "storeId": "store_seoulforest_ak",
+      "storeName": "라운지엑스24h 서울숲AK점",
+      "keyword": "서울숲 로봇카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 2
+        }
+      ],
+      "prevRank": null,
+      "rank": 2,
+      "total": 3
+    },
+    "store_seoulforest_ak|성수 24시 카페": {
+      "storeId": "store_seoulforest_ak",
+      "storeName": "라운지엑스24h 서울숲AK점",
+      "keyword": "성수 24시 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 3
+        }
+      ],
+      "prevRank": null,
+      "rank": 3,
+      "total": 36
+    },
+    "store_gangnam|강남 카페": {
+      "storeId": "store_gangnam",
+      "storeName": "라운지엑스24h 강남역점",
+      "keyword": "강남 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 11
+        }
+      ],
+      "prevRank": null,
+      "rank": 11,
+      "total": 13412
+    },
+    "store_gangnam|강남 로봇카페": {
+      "storeId": "store_gangnam",
+      "storeName": "라운지엑스24h 강남역점",
+      "keyword": "강남 로봇카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 7
+    },
+    "store_gangnam|강남 24시 카페": {
+      "storeId": "store_gangnam",
+      "storeName": "라운지엑스24h 강남역점",
+      "keyword": "강남 24시 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 10
+        }
+      ],
+      "prevRank": null,
+      "rank": 10,
+      "total": 147
+    },
+    "store_euljiro|을지로 카페": {
+      "storeId": "store_euljiro",
+      "storeName": "라운지엑스24h 을지돌담길점",
+      "keyword": "을지로 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 21
+        }
+      ],
+      "prevRank": null,
+      "rank": 21,
+      "total": 4125
+    },
+    "store_euljiro|을지로 로봇카페": {
+      "storeId": "store_euljiro",
+      "storeName": "라운지엑스24h 을지돌담길점",
+      "keyword": "을지로 로봇카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 1
+    },
+    "store_euljiro|을지로 24시 카페": {
+      "storeId": "store_euljiro",
+      "storeName": "라운지엑스24h 을지돌담길점",
+      "keyword": "을지로 24시 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 2
+        }
+      ],
+      "prevRank": null,
+      "rank": 2,
+      "total": 11
+    },
+    "store_yongsan_prime|용산 카페": {
+      "storeId": "store_yongsan_prime",
+      "storeName": "라운지엑스24h 용산더프라임점",
+      "keyword": "용산 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 73
+        }
+      ],
+      "prevRank": null,
+      "rank": 73,
+      "total": 7946
+    },
+    "store_yongsan_prime|용산 로봇카페": {
+      "storeId": "store_yongsan_prime",
+      "storeName": "라운지엑스24h 용산더프라임점",
+      "keyword": "용산 로봇카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 2
+    },
+    "store_yongsan_prime|용산 24시 카페": {
+      "storeId": "store_yongsan_prime",
+      "storeName": "라운지엑스24h 용산더프라임점",
+      "keyword": "용산 24시 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 6
+        }
+      ],
+      "prevRank": null,
+      "rank": 6,
+      "total": 76
+    },
+    "store_garak_it|가락 카페": {
+      "storeId": "store_garak_it",
+      "storeName": "라운지엑스24h 가락IT벤처타워점",
+      "keyword": "가락 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 3
+        }
+      ],
+      "prevRank": null,
+      "rank": 3,
+      "total": 372
+    },
+    "store_garak_it|가락시장 카페": {
+      "storeId": "store_garak_it",
+      "storeName": "라운지엑스24h 가락IT벤처타워점",
+      "keyword": "가락시장 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 19
+        }
+      ],
+      "prevRank": null,
+      "rank": 19,
+      "total": 3382
+    },
+    "store_garak_it|송파 로봇카페": {
+      "storeId": "store_garak_it",
+      "storeName": "라운지엑스24h 가락IT벤처타워점",
+      "keyword": "송파 로봇카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 6
+    },
+    "store_sangam_dmc|상암 카페": {
+      "storeId": "store_sangam_dmc",
+      "storeName": "라운지엑스24h 상암DMC역점",
+      "keyword": "상암 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 12
+        }
+      ],
+      "prevRank": null,
+      "rank": 12,
+      "total": 2242
+    },
+    "store_sangam_dmc|상암 로봇카페": {
+      "storeId": "store_sangam_dmc",
+      "storeName": "라운지엑스24h 상암DMC역점",
+      "keyword": "상암 로봇카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 0
+    },
+    "store_sangam_dmc|상암 24시 카페": {
+      "storeId": "store_sangam_dmc",
+      "storeName": "라운지엑스24h 상암DMC역점",
+      "keyword": "상암 24시 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": 1
+        }
+      ],
+      "prevRank": null,
+      "rank": 1,
+      "total": 34
+    },
+    "store_one_grove|마곡 카페": {
+      "storeId": "store_one_grove",
+      "storeName": "라운지엑스24h 원그로브점",
+      "keyword": "마곡 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 1735
+    },
+    "store_one_grove|마곡 로봇카페": {
+      "storeId": "store_one_grove",
+      "storeName": "라운지엑스24h 원그로브점",
+      "keyword": "마곡 로봇카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 0
+    },
+    "store_one_grove|마곡 24시 카페": {
+      "storeId": "store_one_grove",
+      "storeName": "라운지엑스24h 원그로브점",
+      "keyword": "마곡 24시 카페",
+      "history": [
+        {
+          "date": "2026-06-09",
+          "rank": null
+        }
+      ],
+      "prevRank": null,
+      "rank": null,
+      "total": 26
+    }
+  }
+}

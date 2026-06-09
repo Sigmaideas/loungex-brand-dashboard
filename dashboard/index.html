@@ -30,6 +30,11 @@
         <i data-lucide="smartphone" class="nav-icon"></i>
         라운지엑스앱 모니터링
       </a>
+      <div class="nav-section">노출 분석</div>
+      <a class="nav-item" href="#" data-source="rank">
+        <i data-lucide="trending-up" class="nav-icon"></i>
+        검색 순위
+      </a>
     </nav>
     <div class="sidebar-foot">내부용 · v1.0</div>
   </aside>
@@ -55,6 +60,7 @@
     </header>
 
     <main>
+     <div id="summaryView">
       <section class="kpi-row" id="kpiRow"><!-- render() 에서 소스별로 생성 --></section>
 
       <section class="card chart-card">
@@ -104,6 +110,17 @@
           </table>
         </div>
       </section>
+     </div>
+
+     <div id="rankView" hidden>
+      <section class="card">
+        <div class="card-head">
+          <h2><i data-lucide="trending-up" class="head-icon"></i>네이버 플레이스 검색 순위</h2>
+          <span class="hint">매장별 키워드 검색 시 노출 순위 · 매일 추적</span>
+        </div>
+        <div id="rankBody"></div>
+      </section>
+     </div>
     </main>
   </div>
 

@@ -70,12 +70,16 @@ jobs:
         run: npm run update:app
         continue-on-error: true  # 앱 수집 실패해도 나머지 결과는 살림
 
-      - name: summary/답글 캐시 변경 시 커밋 + 푸시
+      - name: 네이버 플레이스 검색 순위 수집
+        run: npm run rank
+        continue-on-error: true  # 순위 수집 실패해도 나머지 결과는 살림
+
+      - name: summary/답글/순위 변경 시 커밋 + 푸시
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/summary.json data/summary-google.json data/summary-app.json
-          git add data/reply-cache.json data/reply-cache-google.json data/reply-cache-app.json 2>/dev/null || true
+          git add data/reply-cache.json data/reply-cache-google.json data/reply-cache-app.json data/rank.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "변경사항 없음 — 커밋 생략"
           else

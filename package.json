@@ -17,6 +17,7 @@
     "analyze:app": "SOURCE=app node scraper/analyze.js",
     "reply:app": "SOURCE=app node scraper/generate-replies.js",
     "update:app": "npm run scrape:app && npm run analyze:app && npm run reply:app",
+    "rank": "node scraper/scrape-rank.js",
     "dashboard": "node server.js"
   },
   "dependencies": {

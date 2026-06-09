@@ -11,6 +11,7 @@ data/*
 !data/summary.json
 !data/summary-google.json
 !data/summary-app.json
+!data/rank.json
 # 자동 답글 캐시: 생성된 답글을 빌드 간 보존하려고 커밋 (원본 reviews 는 여전히 비공개)
 !data/reply-cache.json
 !data/reply-cache-google.json

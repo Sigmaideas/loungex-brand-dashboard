@@ -7,6 +7,7 @@ let sortDir = 'desc';
 let donutChart = null;
 let monthlyChart = null;
 let keywordsChart = null;
+let rankData = null;
 let selectedYear = null;
 let currentSource = 'naver';
 
@@ -16,6 +17,7 @@ const SOURCE_PAGE_TITLE = {
   naver: '네이버 플레이스 리뷰 모니터링',
   google: '구글 리뷰 모니터링',
   app: '라운지엑스앱 모니터링',
+  rank: '네이버 플레이스 검색 순위',
 };
 
 const $ = (s) => document.querySelector(s);
@@ -40,7 +42,14 @@ function emptySummary() {
   };
 }
 
+function toggleView(isRank) {
+  $('#summaryView').hidden = isRank;
+  $('#rankView').hidden = !isRank;
+}
+
 async function load() {
+  if (currentSource === 'rank') return loadRank();
+  toggleView(false);
   const file = SOURCE_SUMMARY_FILE[currentSource];
   const res = await fetch(`../data/${file}`, { cache: 'no-store' });
   if (res.status === 404) {
@@ -142,6 +151,89 @@ function applySourceLayout() {
     ? '컬럼 클릭 시 정렬 · 플랫폼명 클릭 시 리뷰 상세'
     : '컬럼 클릭 시 정렬 · 매장명 클릭 시 리뷰 상세';
   $('#nameHeader').textContent = isApp ? '플랫폼' : '매장명';
+}
+
+// ===== 검색 순위 뷰 =====
+async function loadRank() {
+  toggleView(true);
+  $('#pageTitle').textContent = SOURCE_PAGE_TITLE.rank;
+  const res = await fetch('../data/rank.json', { cache: 'no-store' });
+  if (!res.ok) {
+    $('#rankBody').innerHTML = '<p class="empty-msg">검색 순위 데이터가 아직 없습니다. 데이터 갱신 후 표시됩니다.</p>';
+    $('#lastUpdated').textContent = '-';
+    return;
+  }
+  rankData = await res.json();
+  $('#lastUpdated').textContent = fmtDateTime(rankData.lastScrapedAt);
+  renderRank();
+}
+
+function rankSparkline(history) {
+  const pts = (history || []).map((h) => h.rank).filter((r) => r != null);
+  if (pts.length < 2) return '<span class="spark-empty">—</span>';
+  const W = 88, H = 26, P = 3;
+  const max = Math.max(...pts), min = Math.min(...pts);
+  const span = max - min || 1;
+  // 순위가 낮을수록(좋을수록) 위로 → y 반전
+  const xs = (i) => P + (i * (W - 2 * P)) / (pts.length - 1);
+  const ys = (r) => P + ((r - min) / span) * (H - 2 * P);
+  const d = pts.map((r, i) => `${xs(i).toFixed(1)},${ys(r).toFixed(1)}`).join(' ');
+  const last = pts[pts.length - 1];
+  const lx = xs(pts.length - 1), ly = ys(last);
+  return `<svg class="spark" width="${W}" height="${H}" viewBox="0 0 ${W} ${H}">
+    <polyline points="${d}" fill="none" stroke="#4263eb" stroke-width="1.6" stroke-linejoin="round" stroke-linecap="round"/>
+    <circle cx="${lx.toFixed(1)}" cy="${ly.toFixed(1)}" r="2.2" fill="#4263eb"/>
+  </svg>`;
+}
+
+function rankChangeBadge(rec) {
+  const cur = rec.rank, prev = rec.prevRank;
+  if (cur == null && prev == null) return '<span class="rank-chg flat">-</span>';
+  if (prev == null) return '<span class="rank-chg flat">NEW</span>';
+  if (cur == null) return '<span class="rank-chg down">▼ 이탈</span>';
+  const diff = prev - cur; // +면 순위 상승(개선)
+  if (diff === 0) return '<span class="rank-chg flat">–</span>';
+  if (diff > 0) return `<span class="rank-chg up">▲ ${diff}</span>`;
+  return `<span class="rank-chg down">▼ ${-diff}</span>`;
+}
+
+function renderRank() {
+  const recs = Object.values(rankData?.records || {});
+  if (recs.length === 0) {
+    $('#rankBody').innerHTML = '<p class="empty-msg">검색 순위 데이터가 아직 없습니다.</p>';
+    return;
+  }
+  const byStore = new Map();
+  for (const r of recs) {
+    if (!byStore.has(r.storeId)) byStore.set(r.storeId, { name: r.storeName, rows: [] });
+    byStore.get(r.storeId).rows.push(r);
+  }
+  const rankText = (r) => (r == null ? '<span class="rank-out">100위권 밖</span>' : `<b>${r}</b>위`);
+  let html = '';
+  for (const { name, rows } of byStore.values()) {
+    rows.sort((a, b) => (a.rank ?? 999) - (b.rank ?? 999));
+    html += `
+      <div class="rank-store">
+        <div class="rank-store-name"><span class="store-dot"></span>${escapeHtml(name)}</div>
+        <table class="rank-table">
+          <thead><tr><th>검색어</th><th>현재 순위</th><th>변동</th><th>추이</th><th>전체</th></tr></thead>
+          <tbody>
+            ${rows
+              .map(
+                (r) => `<tr>
+                  <td class="rank-kw">${escapeHtml(r.keyword)}</td>
+                  <td>${rankText(r.rank)}</td>
+                  <td>${rankChangeBadge(r)}</td>
+                  <td>${rankSparkline(r.history)}</td>
+                  <td class="rank-total">${r.total != null ? r.total.toLocaleString() + '곳' : '-'}</td>
+                </tr>`
+              )
+              .join('')}
+          </tbody>
+        </table>
+      </div>`;
+  }
+  $('#rankBody').innerHTML = html;
 }
 
 const KEYWORD_COLOR = { positive: '#2f9e44', negative: '#e03131', neutral: '#4263eb' };

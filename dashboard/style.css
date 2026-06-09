@@ -489,6 +489,36 @@ tbody tr:hover { background: var(--surface-2); }
 }
 @keyframes replyPulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
 
+/* ===== 검색 순위 뷰 ===== */
+.rank-store { margin-bottom: 22px; }
+.rank-store:last-child { margin-bottom: 0; }
+.rank-store-name {
+  display: flex; align-items: center; gap: 8px;
+  font-weight: 700; font-size: 14px; color: var(--text);
+  margin: 0 0 8px 2px;
+}
+.store-dot { width: 7px; height: 7px; border-radius: 50%; background: var(--accent); }
+.rank-table { width: 100%; border-collapse: collapse; }
+.rank-table th {
+  text-align: left; font-size: 11px; font-weight: 600; color: var(--text-dim);
+  padding: 8px 12px; border-bottom: 1px solid var(--border);
+}
+.rank-table td {
+  padding: 11px 12px; font-size: 13px; color: var(--text);
+  border-bottom: 1px solid var(--border); vertical-align: middle;
+}
+.rank-table tr:last-child td { border-bottom: 0; }
+.rank-table td b { font-size: 15px; font-weight: 700; }
+.rank-kw { font-weight: 500; }
+.rank-out { color: var(--text-dim); font-size: 12px; }
+.rank-total { color: var(--text-dim); font-variant-numeric: tabular-nums; }
+.rank-chg { font-size: 12px; font-weight: 600; font-variant-numeric: tabular-nums; }
+.rank-chg.up { color: var(--positive); }
+.rank-chg.down { color: var(--negative); }
+.rank-chg.flat { color: var(--text-dim); }
+.spark { display: block; }
+.spark-empty { color: var(--text-dim); font-size: 12px; }
+
 /* ===== Empty / setup banner ===== */
 .empty-banner {
   background: var(--accent-soft);
