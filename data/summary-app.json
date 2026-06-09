@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-08T08:12:13.955Z",
+  "lastUpdated": "2026-06-09T02:55:35.410Z",
   "totalStores": 2,
   "totalReviews": 30,
   "avgReviewsPerStore": 15,
@@ -14,7 +14,7 @@
       "neutralRatio": 0.3,
       "monthlyActivity": 8,
       "latestReviewDate": "2026-05-27",
-      "newReviewCount": 20,
+      "newReviewCount": 0,
       "rating": 4.3913045,
       "ratingCount": 23
     },
@@ -27,7 +27,7 @@
       "neutralRatio": 0.2,
       "monthlyActivity": 3,
       "latestReviewDate": "2026-05-11",
-      "newReviewCount": 10,
+      "newReviewCount": 0,
       "rating": 4.86486,
       "ratingCount": 37
     }
@@ -39,35 +39,35 @@
         "text": "출근길에 잘 쓰고있는데 디카페인 커피가 없어서 오후에는 올 일이 없네요",
         "rating": 5,
         "sentiment": "neutral",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-05-11",
         "text": "걸어가면서 주문하기 좋음. 맨날 같은 거만 시켜 먹는 나같은 사람들이 동일메뉴주문?간편주문?하기 편함",
         "rating": 5,
         "sentiment": "neutral",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-05-11",
         "text": "커피 쿠폰 굿",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-05-11",
         "text": "커피 맛 빼고는 모든게 비쌈. 빵같은 다른 상품은 나쁘지 않았습니다. 주문은 편리하나, 카드가 제한되고, 로그인 저장 기능이 있으면 좋겠습니다.",
         "rating": 3,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-05-11",
         "text": "매일 아침 앱으로 주문해서 커피 잘 마시고 있네요. 앱으로 주문하니 기다리지 않아서 좋고 12잔마다 무료 쿠폰도 나오고 아침에는 할인도 되서 좋네요.",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       }
     ],
     "app_apple": [
@@ -76,35 +76,35 @@
         "text": "편하네요\n건물 도착전 시켜놓는데 다른 카페 앱들보다 단순해서 주문하기 편해요 매일 같은 메뉴 먹는데 최근주문바로가기가 있어서 좋습니다",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-05-11",
         "text": "앱주문 조아요\n미리 주문하고 음료를 바로 받을 수 있어서 자주 쓰는 앱 중에 하나에요\n\n프로필이나 닉네임을 설정하면 함께 뜨는 것도 재밌어요",
         "rating": 5,
         "sentiment": "neutral",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-05-11",
         "text": "생각보다 편리하네요\n가끔 마시는데, 앱으로 쿠폰 주문하고 픽업해가니 편하네요\n점원 없어서 눈치도 안보이고 좋아요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-05-08",
         "text": "편안하고 빠른속도\n매일 성수동을 지나갈때마다 생각나는 라떼의 부드러움과 어플을 이용할경우 할인쿠폰과 리워드적립도 가능하여 꾸준히 이용 중 입니다.",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-05-06",
         "text": "출근하는 길 주문을 할 수 있어 효율적입니다\n회사를 출근하는길에 카페를 잠깐 들려 픽업만 하고 가면 되서 정말 편한거 같습니다. 오렌지 아이스티가 정말 제 원픽입니다. \n추천드려요",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true
+        "isNew": false
       }
     ]
   },
