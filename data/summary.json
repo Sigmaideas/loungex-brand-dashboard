@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-09T03:03:04.373Z",
+  "lastUpdated": "2026-06-09T04:29:09.968Z",
   "totalStores": 8,
-  "totalReviews": 348,
-  "avgReviewsPerStore": 43.5,
-  "monthlyActivity": 98,
+  "totalReviews": 351,
+  "avgReviewsPerStore": 43.9,
+  "monthlyActivity": 101,
   "stores": [
     {
       "id": "store_seongsu",
@@ -34,26 +34,26 @@
     {
       "id": "store_gangnam",
       "name": "라운지엑스24h 강남역점",
-      "reviewCount": 36,
-      "positiveRatio": 0.9444444444444444,
+      "reviewCount": 37,
+      "positiveRatio": 0.9459459459459459,
       "negativeRatio": 0,
-      "neutralRatio": 0.05555555555555555,
-      "monthlyActivity": 24,
-      "latestReviewDate": "2026-06-08",
-      "newReviewCount": 0,
+      "neutralRatio": 0.05405405405405406,
+      "monthlyActivity": 25,
+      "latestReviewDate": "2026-06-09",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
     {
       "id": "store_euljiro",
       "name": "라운지엑스24h 을지돌담길점",
-      "reviewCount": 31,
-      "positiveRatio": 0.8387096774193549,
-      "negativeRatio": 0.03225806451612903,
-      "neutralRatio": 0.12903225806451613,
-      "monthlyActivity": 6,
-      "latestReviewDate": "2026-06-08",
-      "newReviewCount": 0,
+      "reviewCount": 32,
+      "positiveRatio": 0.84375,
+      "negativeRatio": 0.03125,
+      "neutralRatio": 0.125,
+      "monthlyActivity": 7,
+      "latestReviewDate": "2026-06-09",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -86,13 +86,13 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 48,
-      "positiveRatio": 0.875,
+      "reviewCount": 49,
+      "positiveRatio": 0.8775510204081632,
       "negativeRatio": 0,
-      "neutralRatio": 0.125,
-      "monthlyActivity": 20,
+      "neutralRatio": 0.12244897959183673,
+      "monthlyActivity": 21,
       "latestReviewDate": "2026-06-09",
-      "newReviewCount": 0,
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -187,6 +187,13 @@
     ],
     "store_gangnam": [
       {
+        "date": "6.9.화",
+        "text": "오랜만에 혼자 여유 부리고 싶어서 들렀는데, 아메리카노가 쓴맛 없이 깔끔하게 떨어져서 좋았어요. 강남 쪽에서 이렇게 조용히 앉아 쉴 수 있는 곳 많지 않은데 분위기가 꽤 마음에 들었어요.",
+        "rating": null,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
         "date": "6.8.월",
         "text": "성수샌드 박스로 주문했는데 생각보다 양도 넉넉하고 맛도 정말 좋았어요. 강남 쪽에서 이런 분위기 카페 찾기 쉽지 않은데 라운지엑스24h는 편안하게 오래 앉아있기 좋더라고요. 또 방문할 것 같아요!",
         "rating": null,
@@ -213,16 +220,16 @@
         "rating": null,
         "sentiment": "positive",
         "isNew": false
-      },
-      {
-        "date": "6.2.화",
-        "text": "로봇이 만들어주는 커피라 거부감도 약간 들었던게 사실인데, 빵이랑 라떼가 너무 맛있어서 1일1라떼 하고 있어요~~ 넘 맛나요",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false
       }
     ],
     "store_euljiro": [
+      {
+        "date": "6.9.화",
+        "text": "밀크크림 버터번이 생각보다 훨씬 맛있어서 깜짝 놀랐어요! 크림이 신선한 느낌이고 번도 폭신폭신해서 좋았어요. 을지로에 이런 아늑한 분위기 카페가 있다니 완전 발견한 기분이에요.",
+        "rating": null,
+        "sentiment": "positive",
+        "isNew": true
+      },
       {
         "date": "6.8.월",
         "text": "아메리카노가 쓰지 않고 깔끔해서 마음에 들었어요. 밀크크림 버터번은 겉은 바삭하고 속은 촉촉한 게 커피랑 진짜 잘 맞더라고요. 을지로3가역 근처에서 이 정도면 가성비도 나쁘지 않은 것 같아요!",
@@ -247,13 +254,6 @@
       {
         "date": "6.6.토",
         "text": "가성비가 좋아서 재방문했는데 아직 개발중인 로봇인가봐요.\n\n첫번째에서 컵받을때 한번 놓쳤고,\n두번째 얼음이랑 물은 정상으로 받았는데\n세번째 커피받을때 커피 나오기전에 컵을 빼버리면서 커피는 그냥 바닥으로 떨어지고 얼음물만 받았습니다.\n\n오류 수정에 참고될까해서 리뷰남겨요.\n\n커피는 뒤에계시는 직원분이 다시 해주셔서 문제없이 받았습니다.",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false
-      },
-      {
-        "date": "6.5.금",
-        "text": "말차라떼가 은은하게 달달하면서도 쌉싸름한 맛이 딱 취향이었어요. 밀크크림 버터번도 촉촉하고 부드러워서 같이 먹으니 잘 어울리더라고요. 을지로 돌담길 산책하다 들렀는데 공간이 넓어서 여유롭게 쉬다 갈 수 있어서 좋았어요.",
         "rating": null,
         "sentiment": "positive",
         "isNew": false
@@ -342,6 +342,13 @@
         "isNew": false
       },
       {
+        "date": "6.9.화",
+        "text": "커피만 먹으려고 했는데 옆에서 직접 구우시는거 보고 \n카야버터번도 주문했는데 너무 맛있어요 🤎\n매장도 깔끔하고 음악소리도 크지 않고 좋아요~",
+        "rating": null,
+        "sentiment": "positive",
+        "isNew": true
+      },
+      {
         "date": "6.8.월",
         "text": "복숭아 아이스티가 생각보다 훨씬 맛있어서 놀랐어요. 과하지 않은 달콤함이 딱 좋았고, 밀크티라떼도 부드럽고 진해서 매우 만족스러웠어요. 상암DMC 쪽에서 조용히 앉아 있기 좋은 공간을 찾고 계신다면 이곳을 추천드려요. 다음에도 꼭 다시 방문하고 싶어요.",
         "rating": null,
@@ -358,13 +365,6 @@
       {
         "date": "6.5.금",
         "text": "메뉴도 다양하고 매장이 매우 청결하고 깔끔합니다 \n충전 콘센트도 있어서 좋아요\n하프샷 아메리카노가 있어서 너무 좋네요",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false
-      },
-      {
-        "date": "6.4.목",
-        "text": "라운지엑스 버터번 계속 생각나요! 온열 매트를 설치해놓으셔서 늦은 시간까지도 맛이 유지가 되는거 같아요 커피랑 마시면 완전 극락.. 공간도 너무 아늑하고 예뻐요",
         "rating": null,
         "sentiment": "positive",
         "isNew": false
@@ -698,7 +698,7 @@
         "neutral": 15
       },
       {
-        "positive": 27,
+        "positive": 30,
         "negative": 0,
         "neutral": 3
       },
@@ -742,12 +742,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 219
+      "count": 221
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 165
+      "count": 167
     },
     {
       "word": "로봇",
@@ -757,12 +757,12 @@
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 57
+      "count": 59
     },
     {
       "word": "아늑·편안",
       "sentiment": "positive",
-      "count": 47
+      "count": 48
     },
     {
       "word": "가성비·가격",
@@ -772,12 +772,12 @@
     {
       "word": "분위기",
       "sentiment": "neutral",
-      "count": 41
+      "count": 43
     },
     {
       "word": "조용",
       "sentiment": "positive",
-      "count": 36
+      "count": 37
     },
     {
       "word": "넓은 공간",
