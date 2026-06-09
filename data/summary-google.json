@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-09T02:55:32.211Z",
+  "lastUpdated": "2026-06-09T03:03:08.155Z",
   "totalStores": 8,
   "totalReviews": 12,
   "avgReviewsPerStore": 1.5,
@@ -27,7 +27,7 @@
       "neutralRatio": 0.5,
       "monthlyActivity": 1,
       "latestReviewDate": "2026-06-08",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -154,7 +154,7 @@
         "text": "공간 제공이나 콘센트 사용까지 생각하면 커피가 비싼 편은 아닌 것 같아요\n커피맛도 좋고 디저트도 팔아서 노트북 작업하시는 분들이 방문하기 딱인듯🪑🪑",
         "rating": 5,
         "sentiment": "neutral",
-        "isNew": true
+        "isNew": false
       },
       {
         "date": "2026-01-27",
