@@ -429,6 +429,66 @@ tbody tr:hover { background: var(--surface-2); }
   color: var(--text);
 }
 
+/* ===== 자동 답글 ===== */
+.auto-reply-btn {
+  display: inline-flex; align-items: center; gap: 5px;
+  margin-top: 10px;
+  padding: 5px 11px;
+  border: 1px solid var(--border-strong);
+  border-radius: 999px;
+  background: var(--surface);
+  color: var(--accent);
+  font-size: 11px; font-weight: 600;
+  font-family: inherit;
+  cursor: pointer;
+  transition: background 0.15s, border-color 0.15s;
+}
+.auto-reply-btn:hover { background: var(--accent-soft); border-color: var(--accent); }
+.auto-reply-btn.active { background: var(--accent-soft); border-color: var(--accent); }
+.auto-reply-btn svg { width: 13px; height: 13px; }
+.auto-reply-panel {
+  margin-top: 10px;
+  padding: 12px 14px;
+  border-radius: var(--radius-sm);
+  background: var(--accent-soft);
+  border: 1px solid #dbe2fd;
+  animation: replyExpand 0.28s ease;
+}
+@keyframes replyExpand {
+  from { opacity: 0; transform: translateY(-4px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+.auto-reply-head {
+  font-size: 10px; font-weight: 700; letter-spacing: 0.04em;
+  color: var(--accent); margin-bottom: 6px;
+  text-transform: uppercase;
+}
+.auto-reply-body {
+  line-height: 1.65; font-size: 13px; color: var(--text);
+  white-space: pre-wrap; word-break: break-word;
+}
+.auto-reply-copy {
+  margin-top: 10px;
+  padding: 4px 10px;
+  border: 1px solid var(--border-strong);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--text-sub);
+  font-size: 11px; font-family: inherit; cursor: pointer;
+}
+.auto-reply-copy:hover { color: var(--accent); border-color: var(--accent); }
+/* 분석 중 상태: 본문/복사 숨기고 펄스 표시 */
+.auto-reply-panel.analyzing .auto-reply-body,
+.auto-reply-panel.analyzing .auto-reply-copy { visibility: hidden; }
+.auto-reply-panel.analyzing { position: relative; min-height: 44px; }
+.auto-reply-panel.analyzing .auto-reply-head::after {
+  content: ' · 분석 중…';
+  font-weight: 500; text-transform: none; letter-spacing: 0;
+  color: var(--text-dim);
+  animation: replyPulse 1s ease-in-out infinite;
+}
+@keyframes replyPulse { 0%,100% { opacity: 0.4; } 50% { opacity: 1; } }
+
 /* ===== Empty / setup banner ===== */
 .empty-banner {
   background: var(--accent-soft);

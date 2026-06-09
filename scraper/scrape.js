@@ -125,6 +125,7 @@ function mapReview(item, store) {
   const date = item.visited || item.representativeVisitDateTime || item.created || null;
   const rating = item.rating != null ? Number(item.rating) || null : null;
   const nickname = item.author?.nickname || item.nickname || '';
+  const replyBody = (item.reply?.body || '').trim();
   return {
     storeId: store.id,
     storeName: store.name,
@@ -133,17 +134,31 @@ function mapReview(item, store) {
     rating,
     authorHash: nickname ? sha256(nickname) : null,
     collectedAt: new Date().toISOString(),
+    // 사장님 답글 (있으면) — 자동 답글 생성 시 말투 참고용
+    ownerReply: replyBody || null,
+    ownerReplyDate: item.reply?.created || null,
   };
 }
 
 function dedupe(prev, fresh, runIso) {
-  const seen = new Set(prev.map((r) => `${r.storeId}|${r.date}|${r.text}`));
+  const keyOf = (r) => `${r.storeId}|${r.date}|${r.text}`;
+  const byKey = new Map(prev.map((r) => [keyOf(r), r]));
   const out = [...prev];
   let added = 0;
   for (const r of fresh) {
-    const key = `${r.storeId}|${r.date}|${r.text}`;
-    // 이번 수집에서 처음 등장한 리뷰만 firstSeenAt 기록 → 대시보드 NEW 배지 판별용
-    if (!seen.has(key)) { seen.add(key); out.push({ ...r, firstSeenAt: runIso }); added++; }
+    const key = keyOf(r);
+    const existing = byKey.get(key);
+    if (!existing) {
+      // 이번 수집에서 처음 등장한 리뷰만 firstSeenAt 기록 → 대시보드 NEW 배지 판별용
+      const nr = { ...r, firstSeenAt: runIso };
+      byKey.set(key, nr);
+      out.push(nr);
+      added++;
+    } else if (r.ownerReply && !existing.ownerReply) {
+      // 기존 리뷰에 새로 달린 사장님 답글 반영 (말투 참고용)
+      existing.ownerReply = r.ownerReply;
+      existing.ownerReplyDate = r.ownerReplyDate || existing.ownerReplyDate || null;
+    }
   }
   return { merged: out, added };
 }

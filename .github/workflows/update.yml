@@ -51,26 +51,31 @@ jobs:
           key: app-reviews-${{ github.run_id }}
           restore-keys: app-reviews-
 
-      - name: 네이버 수집 + 분석
+      - name: 네이버 수집 + 분석 + 자동 답글
         env:
           HEADLESS: 'true'
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}  # 없으면 답글은 기존 캐시만 적용
         run: npm run update
 
-      - name: 구글 수집 + 분석
+      - name: 구글 수집 + 분석 + 자동 답글
         env:
           GOOGLE_PLACES_API_KEY: ${{ secrets.GOOGLE_PLACES_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run update:google
         continue-on-error: true  # 키 미설정 등 실패해도 네이버 결과는 살림
 
-      - name: 앱(구글 플레이 + 애플 앱스토어) 수집 + 분석
+      - name: 앱(구글 플레이 + 애플 앱스토어) 수집 + 분석 + 자동 답글
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: npm run update:app
         continue-on-error: true  # 앱 수집 실패해도 나머지 결과는 살림
 
-      - name: summary.json 변경 시 커밋 + 푸시
+      - name: summary/답글 캐시 변경 시 커밋 + 푸시
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/summary.json data/summary-google.json data/summary-app.json
+          git add data/reply-cache.json data/reply-cache-google.json data/reply-cache-app.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "변경사항 없음 — 커밋 생략"
           else

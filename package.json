@@ -6,14 +6,17 @@
   "scripts": {
     "scrape": "node scraper/scrape.js",
     "analyze": "node scraper/analyze.js",
-    "update": "npm run scrape && npm run analyze",
+    "reply": "node scraper/generate-replies.js",
+    "update": "npm run scrape && npm run analyze && npm run reply",
     "find:google": "node scraper/find-google-places.js",
     "scrape:google": "node scraper/scrape-google.js",
     "analyze:google": "SOURCE=google node scraper/analyze.js",
-    "update:google": "npm run scrape:google && npm run analyze:google",
+    "reply:google": "SOURCE=google node scraper/generate-replies.js",
+    "update:google": "npm run scrape:google && npm run analyze:google && npm run reply:google",
     "scrape:app": "node scraper/scrape-app.js",
     "analyze:app": "SOURCE=app node scraper/analyze.js",
-    "update:app": "npm run scrape:app && npm run analyze:app",
+    "reply:app": "SOURCE=app node scraper/generate-replies.js",
+    "update:app": "npm run scrape:app && npm run analyze:app && npm run reply:app",
     "dashboard": "node server.js"
   },
   "dependencies": {

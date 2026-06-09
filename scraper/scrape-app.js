@@ -64,6 +64,8 @@ async function scrapeGoogle(store) {
       rating: r.score ?? null,
       text: (r.text || '').trim(),
       date: toYMD(r.date),
+      ownerReply: (r.replyText || '').trim() || null,
+      ownerReplyDate: r.replyDate ? toYMD(r.replyDate) : null,
     }));
 
   // 앱 공식 평점/평가수
@@ -96,6 +98,7 @@ async function scrapeApple(store) {
     if (Array.isArray(o)) return o.forEach(walk);
     // 리뷰 객체 시그니처: rating(number) + contents(본문) + reviewerName
     if (typeof o.rating === 'number' && typeof o.contents === 'string' && 'reviewerName' in o) {
+      const dev = o.developerResponse || o.editedReview?.developerResponse;
       out.push({
         id: o.id,
         storeId: store.id,
@@ -103,6 +106,8 @@ async function scrapeApple(store) {
         rating: o.rating,
         text: [o.title, o.contents].filter(Boolean).join('\n').trim(),
         date: toYMD(o.date),
+        ownerReply: (typeof dev === 'object' ? dev?.body : dev) || null,
+        ownerReplyDate: typeof dev === 'object' ? dev?.modified || null : null,
       });
     }
     for (const k of Object.keys(o)) walk(o[k]);
@@ -125,16 +130,23 @@ async function scrapeApple(store) {
 }
 
 // 이번 수집에서 처음 등장한 리뷰만 firstSeenAt 기록 → 대시보드 NEW 배지 판별용
+// 기존 리뷰에 새로 달린 사장님 답글은 backfill (말투 참고용)
 function dedupe(prev, fresh, runIso) {
-  const seen = new Set(prev.map((r) => `${r.storeId}|${r.date}|${r.text}`));
+  const keyOf = (r) => `${r.storeId}|${r.date}|${r.text}`;
+  const byKey = new Map(prev.map((r) => [keyOf(r), r]));
   const out = [...prev];
   let added = 0;
   for (const r of fresh) {
-    const key = `${r.storeId}|${r.date}|${r.text}`;
-    if (!seen.has(key)) {
-      seen.add(key);
-      out.push({ ...r, firstSeenAt: runIso });
+    const key = keyOf(r);
+    const existing = byKey.get(key);
+    if (!existing) {
+      const nr = { ...r, firstSeenAt: runIso };
+      byKey.set(key, nr);
+      out.push(nr);
       added++;
+    } else if (r.ownerReply && !existing.ownerReply) {
+      existing.ownerReply = r.ownerReply;
+      existing.ownerReplyDate = r.ownerReplyDate || existing.ownerReplyDate || null;
     }
   }
   return { merged: out, added };

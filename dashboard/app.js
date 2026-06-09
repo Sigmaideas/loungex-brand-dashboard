@@ -385,8 +385,9 @@ function barCell(v, cls) {
 function renderReviewList(items, emptyMsg) {
   if (!items || items.length === 0) return `<p class="empty-msg">${emptyMsg}</p>`;
   return items
-    .map(
-      (r) => `
+    .map((r) => {
+      const reply = r.autoReply || '';
+      return `
       <div class="review-item">
         <div class="review-meta">
           ${r.isNew ? '<span class="new-badge">NEW</span>' : ''}
@@ -395,8 +396,20 @@ function renderReviewList(items, emptyMsg) {
           <span class="sentiment-tag ${r.sentiment || 'neutral'}">${SENTIMENT_LABEL[r.sentiment || 'neutral']}</span>
         </div>
         <div class="review-text">${escapeHtml(r.text)}</div>
-      </div>`
-    )
+        ${
+          reply
+            ? `<button class="auto-reply-btn" type="button" aria-expanded="false">
+          <i data-lucide="sparkles"></i><span class="auto-reply-btn-label">자동 답글</span>
+        </button>
+        <div class="auto-reply-panel" hidden>
+          <div class="auto-reply-head">AI 추천 답글</div>
+          <div class="auto-reply-body" data-reply="${escapeHtml(reply)}">${escapeHtml(reply)}</div>
+          <button class="auto-reply-copy" type="button">답글 복사</button>
+        </div>`
+            : ''
+        }
+      </div>`;
+    })
     .join('');
 }
 
@@ -419,8 +432,45 @@ function openStore(id) {
       ${renderReviewList(rep.negative, '기준에 맞는 부정 리뷰가 없습니다.')}
     </section>
   `;
+  if (window.lucide) window.lucide.createIcons();
   $('#modal').hidden = false;
 }
+
+// 자동 답글 버튼: 클릭 시 리뷰 아래로 펼쳐지며 답글 표시 (이벤트 위임)
+$('#modalBody').addEventListener('click', (e) => {
+  const copyBtn = e.target.closest('.auto-reply-copy');
+  if (copyBtn) {
+    const text = copyBtn.parentElement.querySelector('.auto-reply-body')?.dataset.reply || '';
+    navigator.clipboard?.writeText(text).then(() => showToast('답글을 복사했습니다', 2000));
+    return;
+  }
+  const btn = e.target.closest('.auto-reply-btn');
+  if (!btn) return;
+  const panel = btn.nextElementSibling;
+  const open = btn.getAttribute('aria-expanded') === 'true';
+  const label = btn.querySelector('.auto-reply-btn-label');
+  if (open) {
+    panel.hidden = true;
+    btn.setAttribute('aria-expanded', 'false');
+    btn.classList.remove('active');
+    label.textContent = '자동 답글';
+    return;
+  }
+  btn.setAttribute('aria-expanded', 'true');
+  btn.classList.add('active');
+  label.textContent = '답글 닫기';
+  // 첫 펼침 시 잠깐 분석 중 표시 후 답글 노출
+  if (!panel.dataset.shown) {
+    panel.hidden = false;
+    panel.classList.add('analyzing');
+    setTimeout(() => {
+      panel.classList.remove('analyzing');
+      panel.dataset.shown = '1';
+    }, 550);
+  } else {
+    panel.hidden = false;
+  }
+});
 
 document.querySelectorAll('thead th[data-sort]').forEach((th) => {
   th.addEventListener('click', () => {
