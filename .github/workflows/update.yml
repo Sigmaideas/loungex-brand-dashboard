@@ -16,10 +16,10 @@ jobs:
     timeout-minutes: 20
     steps:
       - name: 저장소 체크아웃
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Node.js 설정
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v6
         with:
           node-version: '20'
           cache: 'npm'
@@ -31,21 +31,21 @@ jobs:
         run: npx playwright install --with-deps chromium
 
       - name: 네이버 누적 데이터 복원 (cache)
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: data/reviews.json
           key: naver-reviews-${{ github.run_id }}
           restore-keys: naver-reviews-
 
       - name: 구글 누적 데이터 복원 (cache)
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: data/reviews-google.json
           key: google-reviews-${{ github.run_id }}
           restore-keys: google-reviews-
 
       - name: 앱 누적 데이터 복원 (cache)
-        uses: actions/cache@v4
+        uses: actions/cache@v5
         with:
           path: data/reviews-app.json
           key: app-reviews-${{ github.run_id }}
