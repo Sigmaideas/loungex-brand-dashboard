@@ -1,5 +1,5 @@
 {
-  "lastScrapedAt": "2026-06-09T05:09:49.863Z",
+  "lastScrapedAt": "2026-06-09T05:37:50.325Z",
   "updatedDate": "2026-06-09",
   "records": {
     "store_seongsu|성수 카페": {
@@ -12,7 +12,7 @@
           "rank": 56
         }
       ],
-      "prevRank": null,
+      "prevRank": 56,
       "rank": 56,
       "total": 3335
     },
@@ -26,7 +26,7 @@
           "rank": 1
         }
       ],
-      "prevRank": null,
+      "prevRank": 1,
       "rank": 1,
       "total": 4
     },
@@ -40,7 +40,7 @@
           "rank": 2
         }
       ],
-      "prevRank": null,
+      "prevRank": 2,
       "rank": 2,
       "total": 36
     },
@@ -68,7 +68,7 @@
           "rank": 2
         }
       ],
-      "prevRank": null,
+      "prevRank": 2,
       "rank": 2,
       "total": 3
     },
@@ -82,7 +82,7 @@
           "rank": 3
         }
       ],
-      "prevRank": null,
+      "prevRank": 3,
       "rank": 3,
       "total": 36
     },
@@ -96,9 +96,9 @@
           "rank": 11
         }
       ],
-      "prevRank": null,
+      "prevRank": 11,
       "rank": 11,
-      "total": 13412
+      "total": 13413
     },
     "store_gangnam|강남 로봇카페": {
       "storeId": "store_gangnam",
@@ -124,7 +124,7 @@
           "rank": 10
         }
       ],
-      "prevRank": null,
+      "prevRank": 10,
       "rank": 10,
       "total": 147
     },
@@ -138,7 +138,7 @@
           "rank": 21
         }
       ],
-      "prevRank": null,
+      "prevRank": 21,
       "rank": 21,
       "total": 4125
     },
@@ -166,7 +166,7 @@
           "rank": 2
         }
       ],
-      "prevRank": null,
+      "prevRank": 2,
       "rank": 2,
       "total": 11
     },
@@ -180,7 +180,7 @@
           "rank": 73
         }
       ],
-      "prevRank": null,
+      "prevRank": 73,
       "rank": 73,
       "total": 7946
     },
@@ -208,7 +208,7 @@
           "rank": 6
         }
       ],
-      "prevRank": null,
+      "prevRank": 6,
       "rank": 6,
       "total": 76
     },
@@ -222,7 +222,7 @@
           "rank": 3
         }
       ],
-      "prevRank": null,
+      "prevRank": 3,
       "rank": 3,
       "total": 372
     },
@@ -236,7 +236,7 @@
           "rank": 19
         }
       ],
-      "prevRank": null,
+      "prevRank": 19,
       "rank": 19,
       "total": 3382
     },
@@ -261,12 +261,12 @@
       "history": [
         {
           "date": "2026-06-09",
-          "rank": 12
+          "rank": null
         }
       ],
-      "prevRank": null,
-      "rank": 12,
-      "total": 2242
+      "prevRank": 12,
+      "rank": null,
+      "total": 0
     },
     "store_sangam_dmc|상암 로봇카페": {
       "storeId": "store_sangam_dmc",
@@ -292,7 +292,7 @@
           "rank": 1
         }
       ],
-      "prevRank": null,
+      "prevRank": 1,
       "rank": 1,
       "total": 34
     },
