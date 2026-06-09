@@ -7,6 +7,7 @@ let sortDir = 'desc';
 let donutChart = null;
 let monthlyChart = null;
 let keywordsChart = null;
+let trendChart = null;
 let rankData = null;
 let selectedYear = null;
 let currentSource = 'naver';
@@ -166,6 +167,69 @@ async function loadRank() {
   rankData = await res.json();
   $('#lastUpdated').textContent = fmtDateTime(rankData.lastScrapedAt);
   renderRank();
+  loadTrend();
+}
+
+async function loadTrend() {
+  try {
+    const res = await fetch('../data/trend.json', { cache: 'no-store' });
+    if (!res.ok) {
+      $('#trendCard').hidden = true;
+      return;
+    }
+    const trend = await res.json();
+    if (!trend.groups || !trend.groups.length || !trend.groups[0].data?.length) {
+      $('#trendCard').hidden = true;
+      return;
+    }
+    $('#trendCard').hidden = false;
+    drawTrend(trend);
+  } catch (e) {
+    $('#trendCard').hidden = true;
+  }
+}
+
+function drawTrend(trend) {
+  const ctx = $('#trend');
+  if (trendChart) trendChart.destroy();
+  const g = trend.groups[0];
+  const labels = g.data.map((d) => d.period);
+  trendChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+      labels,
+      datasets: trend.groups.map((grp, i) => ({
+        label: grp.title,
+        data: grp.data.map((d) => d.ratio),
+        borderColor: PALETTE[i % PALETTE.length],
+        backgroundColor: i === 0 ? 'rgba(66, 99, 235, 0.08)' : 'transparent',
+        borderWidth: 2.5,
+        tension: 0.35,
+        pointRadius: 0,
+        pointHoverRadius: 5,
+        fill: i === 0,
+      })),
+    },
+    options: {
+      responsive: true,
+      maintainAspectRatio: false,
+      interaction: { mode: 'index', intersect: false },
+      plugins: {
+        legend: { display: trend.groups.length > 1, position: 'top', align: 'end',
+          labels: { color: '#495057', boxWidth: 10, boxHeight: 10, padding: 14, usePointStyle: true, pointStyle: 'circle', font: { family: 'Pretendard, sans-serif', size: 12, weight: '500' } } },
+        tooltip: {
+          backgroundColor: '#1f2329', padding: 10,
+          titleFont: { family: 'Pretendard, sans-serif', size: 12, weight: '600' },
+          bodyFont: { family: 'Pretendard, sans-serif', size: 12 },
+          callbacks: { label: (c) => `${c.dataset.label}: ${c.parsed.y.toFixed(1)}` },
+        },
+      },
+      scales: {
+        x: { grid: { display: false }, ticks: { color: '#9a9fa8', maxTicksLimit: 8, font: { family: 'Pretendard, sans-serif', size: 11 } }, border: { color: '#ececf1' } },
+        y: { beginAtZero: true, max: 100, ticks: { color: '#9a9fa8', font: { family: 'Pretendard, sans-serif', size: 11 } }, grid: { color: '#f0f0f4' }, border: { display: false } },
+      },
+    },
+  });
 }
 
 function rankSparkline(history) {

@@ -18,6 +18,7 @@
     "reply:app": "SOURCE=app node scraper/generate-replies.js",
     "update:app": "npm run scrape:app && npm run analyze:app && npm run reply:app",
     "rank": "node scraper/scrape-rank.js",
+    "trend": "node scraper/scrape-trend.js",
     "dashboard": "node server.js"
   },
   "dependencies": {

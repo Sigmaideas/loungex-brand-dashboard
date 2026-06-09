@@ -74,12 +74,19 @@ jobs:
         run: npm run rank
         continue-on-error: true  # 순위 수집 실패해도 나머지 결과는 살림
 
-      - name: summary/답글/순위 변경 시 커밋 + 푸시
+      - name: 네이버 데이터랩 검색 트렌드 수집
+        env:
+          NAVER_CLIENT_ID: ${{ secrets.NAVER_CLIENT_ID }}
+          NAVER_CLIENT_SECRET: ${{ secrets.NAVER_CLIENT_SECRET }}
+        run: npm run trend
+        continue-on-error: true  # 트렌드 수집 실패해도 나머지 결과는 살림
+
+      - name: summary/답글/순위/트렌드 변경 시 커밋 + 푸시
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add data/summary.json data/summary-google.json data/summary-app.json
-          git add data/reply-cache.json data/reply-cache-google.json data/reply-cache-app.json data/rank.json 2>/dev/null || true
+          git add data/reply-cache.json data/reply-cache-google.json data/reply-cache-app.json data/rank.json data/trend.json 2>/dev/null || true
           if git diff --cached --quiet; then
             echo "변경사항 없음 — 커밋 생략"
           else

@@ -113,6 +113,13 @@
      </div>
 
      <div id="rankView" hidden>
+      <section class="card chart-card" id="trendCard" hidden>
+        <div class="card-head">
+          <h2><i data-lucide="line-chart" class="head-icon"></i>브랜드 검색 관심도 추이</h2>
+          <span class="hint" id="trendHint">'라운지엑스' 네이버 검색 트렌드 · 최근 1년</span>
+        </div>
+        <div class="chart-wrap"><canvas id="trend"></canvas></div>
+      </section>
       <section class="card">
         <div class="card-head">
           <h2><i data-lucide="trending-up" class="head-icon"></i>네이버 플레이스 검색 순위</h2>
