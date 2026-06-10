@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-09T05:37:28.561Z",
+  "lastUpdated": "2026-06-10T01:41:16.848Z",
   "totalStores": 2,
   "totalReviews": 30,
   "avgReviewsPerStore": 15,
-  "monthlyActivity": 11,
+  "monthlyActivity": 1,
   "stores": [
     {
       "id": "app_google",
@@ -12,7 +12,7 @@
       "positiveRatio": 0.65,
       "negativeRatio": 0.05,
       "neutralRatio": 0.3,
-      "monthlyActivity": 8,
+      "monthlyActivity": 1,
       "latestReviewDate": "2026-05-27",
       "newReviewCount": 0,
       "rating": 4.3913045,
@@ -25,7 +25,7 @@
       "positiveRatio": 0.8,
       "negativeRatio": 0,
       "neutralRatio": 0.2,
-      "monthlyActivity": 3,
+      "monthlyActivity": 0,
       "latestReviewDate": "2026-05-11",
       "newReviewCount": 0,
       "rating": 4.86486,
