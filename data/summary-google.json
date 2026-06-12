@@ -1,20 +1,20 @@
 {
-  "lastUpdated": "2026-06-11T02:06:09.887Z",
+  "lastUpdated": "2026-06-12T02:02:15.938Z",
   "totalStores": 8,
-  "totalReviews": 12,
-  "avgReviewsPerStore": 1.5,
+  "totalReviews": 13,
+  "avgReviewsPerStore": 1.6,
   "monthlyActivity": 2,
   "stores": [
     {
       "id": "store_seongsu",
       "name": "라운지엑스24h 성수본점",
-      "reviewCount": 5,
+      "reviewCount": 6,
       "positiveRatio": 1,
       "negativeRatio": 0,
       "neutralRatio": 0,
       "monthlyActivity": 0,
-      "latestReviewDate": "2025-11-04",
-      "newReviewCount": 0,
+      "latestReviewDate": "2025-12-11",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -113,6 +113,14 @@
   "recentReviewsByStore": {
     "store_seongsu": [
       {
+        "date": "2025-12-11",
+        "text": "커피가 맛있어서 자주방문합니다.",
+        "rating": 5,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 자주 찾아주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n정성껏 준비한 커피의 맛을 느껴주시고 단골이 되어주신 것만으로도 저희는 무척 행복합니다. 앞으로도 항상 일정한 품질의 맛있는 커피로 고객님을 맞이할 수 있도록 노력하겠습니다.\n\n다음 방문 때도 기분 좋은 시간 선물해 드릴게요. 언제든 편하게 들러주세요 :)"
+      },
+      {
         "date": "2025-11-04",
         "text": "진짜 신기해요 로봇이 커피를 만들어줘요 커피도 맛있고 분위기도 굿",
         "rating": 5,
@@ -143,14 +151,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n무인매장의 경계를 넘어 성수동의 힙한 카페로 느껴주셨다니 정말 기쁘네요. 로봇 바리스타 '바리스'가 스페셜티 수준의 정밀한 커피를 합리적인 가격으로 언제든 제공할 수 있다는 점을 알아봐 주셔서 감사합니다. 앞으로도 맛있는 커피 한 잔이 필요하실 때 언제든 편하게 들러주세요 :)"
-      },
-      {
-        "date": "2024-09-24",
-        "text": "무인카페인데 커피 정말 맛있어요! 공간도 음악도 좋아요",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n커피 맛과 매장의 분위기까지 세심하게 느껴주셨네요. 고객님처럼 저희 공간을 소중히 생각해주시는 분들이 계셔서 저희도 무척 행복합니다. 앞으로도 맛있는 커피와 편안한 휴식이 생각나실 때 언제든 편하게 들러주세요. 다음 방문도 기대하고 있겠습니다 :)"
       }
     ],
     "store_seoulforest_ak": [
@@ -435,7 +435,7 @@
         "neutral": 0
       },
       {
-        "positive": 0,
+        "positive": 1,
         "negative": 0,
         "neutral": 0
       }
@@ -512,12 +512,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 9
+      "count": 10
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 8
+      "count": 9
     },
     {
       "word": "깨끗·깔끔",
