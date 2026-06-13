@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-12T02:02:15.938Z",
+  "lastUpdated": "2026-06-13T01:42:40.576Z",
   "totalStores": 8,
   "totalReviews": 13,
   "avgReviewsPerStore": 1.6,
@@ -14,7 +14,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 0,
       "latestReviewDate": "2025-12-11",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -117,7 +117,7 @@
         "text": "커피가 맛있어서 자주방문합니다.",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 자주 찾아주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n정성껏 준비한 커피의 맛을 느껴주시고 단골이 되어주신 것만으로도 저희는 무척 행복합니다. 앞으로도 항상 일정한 품질의 맛있는 커피로 고객님을 맞이할 수 있도록 노력하겠습니다.\n\n다음 방문 때도 기분 좋은 시간 선물해 드릴게요. 언제든 편하게 들러주세요 :)"
       },
       {
