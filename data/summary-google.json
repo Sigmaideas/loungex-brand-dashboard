@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-17T02:07:44.257Z",
+  "lastUpdated": "2026-06-18T02:15:14.865Z",
   "totalStores": 8,
   "totalReviews": 45,
   "avgReviewsPerStore": 5.6,
@@ -40,7 +40,7 @@
       "neutralRatio": 0,
       "monthlyActivity": 8,
       "latestReviewDate": "2026-06-16",
-      "newReviewCount": 2,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -79,7 +79,7 @@
       "neutralRatio": 0.3333333333333333,
       "monthlyActivity": 6,
       "latestReviewDate": "2026-06-16",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -193,7 +193,7 @@
         "text": "정신없는 강남 한복판 속에서 차분하게 커피를 만들어주며 마음의 여유를 느끼며 카공하기 좋습니다",
         "rating": 4,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n바쁜 강남 한복판에서 저희 매장이 조용한 휴식처가 되어 드렸다니 정말 기쁘네요. 로봇 바리스타 바리스가 차분하게 준비하는 커피와 함께 여유로운 카공 시간을 즐기셨다니 저희도 무척 뿌듯합니다. :)\n\n앞으로도 바쁜 일상 속에서 마음 편히 쉬어갈 수 있는 공간이 되도록 정성껏 준비하겠습니다. 다음에도 편하게 들러주세요!"
       },
       {
@@ -201,7 +201,7 @@
         "text": "로봇이 커피 만들어주는 무인 카페\n분위기 좋음",
         "rating": 5,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 소중한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 커피를 만드는 모습과 함께 즐기는 편안한 분위기가 고객님께 좋은 경험이 되었다니 정말 기쁘네요. 앞으로도 신기한 볼거리와 함께 맛있는 커피로 편안한 시간을 선물해 드리겠습니다.\n\n언제든 다시 찾아주시면 감사하겠습니다 :)"
       },
       {
@@ -319,7 +319,7 @@
         "text": "근처에 갈 일이 있어서 들렸는데, 로봇이 커피를 만들어주어서 한 번 놀랐고, 맛에 한 번 더 놀랐습니다.\n집근처에 있었으면 자주 이용했을 거 같은데 아쉽네요",
         "rating": 4,
         "sentiment": "neutral",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'의 신기한 모습과 정교하게 추출된 커피의 맛까지 모두 즐겨주셨다니 정말 기쁘네요. 성수동에 오실 일이 생기신다면 언제든 저희 매장이 맛있는 쉼표가 되어드릴 수 있도록 항상 준비하고 있을게요. 다음 방문을 기대하고 있겠습니다 :)"
       },
       {
