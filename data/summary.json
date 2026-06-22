@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-21T02:03:57.666Z",
+  "lastUpdated": "2026-06-22T02:07:58.107Z",
   "totalStores": 8,
-  "totalReviews": 454,
-  "avgReviewsPerStore": 56.8,
-  "monthlyActivity": 170,
+  "totalReviews": 457,
+  "avgReviewsPerStore": 57.1,
+  "monthlyActivity": 172,
   "stores": [
     {
       "id": "store_seongsu",
@@ -12,7 +12,7 @@
       "positiveRatio": 0.7692307692307693,
       "negativeRatio": 0.019230769230769232,
       "neutralRatio": 0.21153846153846154,
-      "monthlyActivity": 12,
+      "monthlyActivity": 11,
       "latestReviewDate": "2026-06-19",
       "newReviewCount": 0,
       "rating": null,
@@ -47,26 +47,26 @@
     {
       "id": "store_euljiro",
       "name": "라운지엑스24h 을지돌담길점",
-      "reviewCount": 49,
-      "positiveRatio": 0.8979591836734694,
-      "negativeRatio": 0.02040816326530612,
-      "neutralRatio": 0.08163265306122448,
-      "monthlyActivity": 24,
-      "latestReviewDate": "2026-06-19",
-      "newReviewCount": 0,
+      "reviewCount": 50,
+      "positiveRatio": 0.9,
+      "negativeRatio": 0.02,
+      "neutralRatio": 0.08,
+      "monthlyActivity": 25,
+      "latestReviewDate": "2026-06-22",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
     {
       "id": "store_yongsan_prime",
       "name": "라운지엑스24h 용산더프라임점",
-      "reviewCount": 75,
-      "positiveRatio": 0.9066666666666666,
+      "reviewCount": 76,
+      "positiveRatio": 0.9078947368421053,
       "negativeRatio": 0,
-      "neutralRatio": 0.09333333333333334,
-      "monthlyActivity": 27,
-      "latestReviewDate": "2026-06-19",
-      "newReviewCount": 0,
+      "neutralRatio": 0.09210526315789473,
+      "monthlyActivity": 28,
+      "latestReviewDate": "2026-06-22",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -92,20 +92,20 @@
       "neutralRatio": 0.1044776119402985,
       "monthlyActivity": 34,
       "latestReviewDate": "2026-06-21",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
     {
       "id": "store_one_grove",
       "name": "라운지엑스24h 원그로브점",
-      "reviewCount": 54,
-      "positiveRatio": 0.9074074074074074,
+      "reviewCount": 55,
+      "positiveRatio": 0.9090909090909091,
       "negativeRatio": 0,
-      "neutralRatio": 0.09259259259259259,
-      "monthlyActivity": 8,
-      "latestReviewDate": "2026-06-16",
-      "newReviewCount": 0,
+      "neutralRatio": 0.09090909090909091,
+      "monthlyActivity": 9,
+      "latestReviewDate": "2026-06-21",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     }
@@ -239,6 +239,14 @@
     ],
     "store_euljiro": [
       {
+        "date": "6.22.월",
+        "text": "신한L타워 들어서자마자 분위기가 확 달라지더라고요. 밀크크림 버터번은 크림이 가볍지 않고 묵직하게 올라와서 한 입 먹고 나서도 여운이 남았어요. 을지로에서 이런 아늑한 공간 찾기 쉽지 않은데 꽤 마음에 들었어요.",
+        "rating": null,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 라운지엑스 신한L타워점을 찾아주시고 정성스러운 리뷰 남겨주셔서 정말 감사합니다!\n\n밀크크림 버터번의 묵직한 크림 식감과 여운을 제대로 느껴주셨다니 정말 뿌듯해요. 저희 매장의 아늑한 분위기도 함께 즐겨주신 것 같아 더욱 감사합니다. 바쁜 을지로에서 잠시 쉬어가고 싶으실 때 언제든 편하게 들러주세요. 조만간 또 봬요 ♥"
+      },
+      {
         "date": "6.19.금",
         "text": "밀크크림 버터번 한 입 먹었는데 크림이 신선하고 부드러워서 생각보다 훨씬 맛있었어요. 을지돌담길 쪽이 이렇게 조용한 분위기일 줄 몰랐는데 혼자 앉아 쉬기 딱 좋더라고요.",
         "rating": null,
@@ -269,17 +277,17 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 라운지엑스 을지돌담길점을 방문해주시고 소중한 리뷰 남겨주셔서 정말 감사합니다!\n\n말차라떼의 신선한 풍미와 카라멜라떼의 고소함, 그리고 밀크크림 버터번까지 모두 만족하셨다니 저희도 정말 뿌듯합니다. 로봇 바리스타 '바리스'가 정성껏 뽑은 커피와 함께 을지돌담길의 아늑한 분위기 속에서 휴식시간을 보내셨다니 다행입니다.\n\n앞으로도 언제든 편안하게 쉬어갈 수 있는 공간 정성껏 준비하겠습니다. 조만간 또 봬요 ♥"
-      },
-      {
-        "date": "6.17.수",
-        "text": "아메리카노가 잡내 없이 깔끔하게 떨어지면서 신선한 원두 향이 은은하게 올라오더라고요. 자리도 넉넉하고 편안해서 천천히 쉬어가기 좋았어요. 을지로3가 이쪽에 이런 공간이 있다는 게 새삼 반갑더라고요!",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 라운지엑스 을지로3가점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n로봇 바리스타 '바리스'가 정밀하게 추출한 아메리카노의 깔끔한 맛과 신선한 원두 향을 잘 느껴주셨다니 너무 기쁩니다. 편안한 공간에서 천천히 쉬어가실 수 있었다니 저희도 뿌듯한 마음이에요.\n\n앞으로도 을지로에서 따뜻한 쉼표가 필요하실 때 언제든 편하게 들러주세요. 조만간 또 봬요 ♥"
       }
     ],
     "store_yongsan_prime": [
+      {
+        "date": "6.22.월",
+        "text": "아메리카노 한 모금에 고소한 풍미가 확 퍼지면서 기분 좋게 시작됐어요. 밀크크림 버터번은 속이 꽉 찬 크림이 버터 향이랑 어우러져 생각보다 훨씬 맛있었어요. 용산역근처에 모던하고 조용한 카페 찾으신다면 여기 괜찮아요.",
+        "rating": null,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n아메리카노의 고소한 풍미와 밀크크림 버터번의 맛있는 조합을 즐겨주셨다니 정말 기쁩니다. 저희 공간이 용산역 근처에서 모던하고 조용하게 쉬어가실 수 있는 곳으로 느껴지셨다니 더욱 의미 있습니다 😊 앞으로도 편안한 분위기 속에서 맛있는 커피와 함께 휴식하고 싶으실 때 언제든 찾아와 주세요. 조만간 또 뵙기를 바랍니다 ♥"
+      },
       {
         "date": "6.19.금",
         "text": "모던한 인테리어가 눈에 띄어서 자리를 잡았는데, 밀크크림 버터번이 정말 인상적이었어요. 크림이 풍성하게 채워져 있고 버터 향이 은은하게 감돌아서 순식간에 다 먹었네요. 용산역 가까이에 이런 감각적인 카페가 있다니 반가웠어요.",
@@ -311,14 +319,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 용산더프라임점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n공간의 분위기와 밀크크림 버터번이 마음에 드셨다니 정말 기쁩니다 😊 저희가 추구하는 포근하고 차분한 쉼터의 모습을 잘 느껴주셨네요. 앞으로도 용산에서 마음이 편안해지는 그런 공간으로 정성을 다해 가꾸겠습니다. 조만간 또 찾아와 주세요!"
-      },
-      {
-        "date": "6.17.수",
-        "text": "편안하게 쉬어가기 좋은 분위기라 마음에 들었어요. 밀크크림 버터번은 부드러운 크림이 가득해서 카페라떼랑 곁들이니 환상의 조합이더라고요. 용산역근처에서 아메리카노 한 잔 여유 있게 즐기고 싶을 때 딱 생각나는 곳이에요.",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 용산점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n편안한 분위기 속에서 밀크크림 버터번과 카페라떼의 완벽한 조합을 즐겨주셨다니 정말 기쁩니다 ☕ 앞으로도 여유로운 시간이 필요하실 때마다 저희 라운지엑스를 찾아와 주세요. 항상 정성껏 준비해두고 기다리겠습니다 :)"
       }
     ],
     "store_garak_it": [
@@ -369,7 +369,7 @@
         "text": "처음 방문했는데 로봇이 하는대신에 원두를 조은걸로 운영해서 그런지 커피맛이 좋아요~~",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n처음 방문해주시고 소중한 후기를 남겨주셔서 진심으로 감사합니다.\n신선하게 분쇄한 원두로 만든 커피 맛을 좋게 평가해주셨다니 정말 기쁩니다 :)\n\n앞으로도 최상의 원두 품질과 신선한 맛을 유지하면서 더욱 만족스러운 한 잔을 제공해드리겠습니다.\n다음 방문 때도 기분 좋은 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
       },
       {
@@ -407,6 +407,14 @@
     ],
     "store_one_grove": [
       {
+        "date": "6.21.일",
+        "text": "오렌지아이스티 맛있어요 커피도 괜찮아요 로봇이 만들어줘서 아이들이 좋아해요 자주 방문할것 같아요",
+        "rating": null,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n오렌지아이스티와 커피를 맛있게 즐겨주셨고, 무엇보다 로봇 바리스타 '바리스'가 만드는 과정이 아이들에게도 즐거운 경험이 되었다니 기쁩니다 😊 앞으로도 가족과 함께 편하고 재미있게 방문해 주세요! ☕"
+      },
+      {
         "date": "6.16.화",
         "text": "조용하게 혼자 커피마시기 좋음\n원두를 좋은거 쓰는지 커피향이 깊고 \n바디감도 좋음 특히 에피오티아 커피 아메리키노\n추천~!",
         "rating": null,
@@ -437,14 +445,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n조용하고 쾌적한 분위기에서 편안하게 시간을 보내셨다니 정말 기쁩니다 😊 저희는 무인 카페이면서도 따뜻한 공간감을 유지하려고 항상 신경 쓰고 있거든요. 노트북하기도, 대화하기도 좋은 편안한 장소로 자리 잡을 수 있도록 앞으로도 최선을 다하겠습니다. 자주 들러주세요! ☕"
-      },
-      {
-        "date": "6.3.수",
-        "text": "my 독박 육아 피난처",
-        "rating": null,
-        "sentiment": "neutral",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n육아 중 잠시나마 편하게 쉬어갈 수 있는 공간이 되어드려 기쁩니다 😊 바쁜 일상 속 저희가 여유로운 시간의 쉼표가 되어드릴 수 있도록 앞으로도 노력하겠습니다. 자주 찾아주세요! ☕"
       }
     ]
   },
@@ -764,7 +764,7 @@
         "neutral": 15
       },
       {
-        "positive": 126,
+        "positive": 129,
         "negative": 0,
         "neutral": 10
       },
@@ -808,17 +808,17 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 305
+      "count": 307
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 218
+      "count": 220
     },
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 116
+      "count": 117
     },
     {
       "word": "깨끗·깔끔",
@@ -828,17 +828,17 @@
     {
       "word": "아늑·편안",
       "sentiment": "positive",
-      "count": 80
+      "count": 81
     },
     {
       "word": "분위기",
       "sentiment": "neutral",
-      "count": 78
+      "count": 79
     },
     {
       "word": "조용",
       "sentiment": "positive",
-      "count": 65
+      "count": 66
     },
     {
       "word": "가성비·가격",
