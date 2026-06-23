@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-06-22T02:08:33.094Z",
-  "updatedDate": "2026-06-22",
+  "lastScrapedAt": "2026-06-23T01:36:59.997Z",
+  "updatedDate": "2026-06-23",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -62,11 +62,15 @@
         {
           "date": "2026-06-22",
           "rank": null
+        },
+        {
+          "date": "2026-06-23",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 3299
+      "total": 3297
     },
     "store_seongsu|성수 로봇카페": {
       "storeId": "store_seongsu",
@@ -127,6 +131,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": 1
+        },
+        {
+          "date": "2026-06-23",
           "rank": 1
         }
       ],
@@ -194,6 +202,10 @@
         {
           "date": "2026-06-22",
           "rank": 2
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 2
         }
       ],
       "prevRank": 2,
@@ -259,6 +271,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": null
+        },
+        {
+          "date": "2026-06-23",
           "rank": null
         }
       ],
@@ -326,6 +342,10 @@
         {
           "date": "2026-06-22",
           "rank": 2
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 2
         }
       ],
       "prevRank": 2,
@@ -391,6 +411,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": 3
+        },
+        {
+          "date": "2026-06-23",
           "rank": 3
         }
       ],
@@ -458,11 +482,15 @@
         {
           "date": "2026-06-22",
           "rank": 7
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 7
         }
       ],
       "prevRank": 7,
       "rank": 7,
-      "total": 13313
+      "total": 13312
     },
     "store_gangnam|강남 로봇카페": {
       "storeId": "store_gangnam",
@@ -523,6 +551,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": null
+        },
+        {
+          "date": "2026-06-23",
           "rank": null
         }
       ],
@@ -590,10 +622,14 @@
         {
           "date": "2026-06-22",
           "rank": 4
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 6
         }
       ],
-      "prevRank": 5,
-      "rank": 4,
+      "prevRank": 4,
+      "rank": 6,
       "total": 133
     },
     "store_euljiro|을지로 카페": {
@@ -656,11 +692,15 @@
         {
           "date": "2026-06-22",
           "rank": 4
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 4
         }
       ],
       "prevRank": 4,
       "rank": 4,
-      "total": 4049
+      "total": 4048
     },
     "store_euljiro|을지로 로봇카페": {
       "storeId": "store_euljiro",
@@ -721,6 +761,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": null
+        },
+        {
+          "date": "2026-06-23",
           "rank": null
         }
       ],
@@ -788,6 +832,10 @@
         {
           "date": "2026-06-22",
           "rank": 2
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 2
         }
       ],
       "prevRank": 2,
@@ -854,11 +902,15 @@
         {
           "date": "2026-06-22",
           "rank": 64
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 67
         }
       ],
-      "prevRank": 61,
-      "rank": 64,
-      "total": 7814
+      "prevRank": 64,
+      "rank": 67,
+      "total": 7811
     },
     "store_yongsan_prime|용산 로봇카페": {
       "storeId": "store_yongsan_prime",
@@ -919,6 +971,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": null
+        },
+        {
+          "date": "2026-06-23",
           "rank": null
         }
       ],
@@ -986,6 +1042,10 @@
         {
           "date": "2026-06-22",
           "rank": 6
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 6
         }
       ],
       "prevRank": 6,
@@ -1052,11 +1112,15 @@
         {
           "date": "2026-06-22",
           "rank": 1
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 1
         }
       ],
       "prevRank": 1,
       "rank": 1,
-      "total": 369
+      "total": 370
     },
     "store_garak_it|가락시장 카페": {
       "storeId": "store_garak_it",
@@ -1118,11 +1182,15 @@
         {
           "date": "2026-06-22",
           "rank": 3
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 5
         }
       ],
-      "prevRank": 4,
-      "rank": 3,
-      "total": 3327
+      "prevRank": 3,
+      "rank": 5,
+      "total": 3329
     },
     "store_garak_it|송파 로봇카페": {
       "storeId": "store_garak_it",
@@ -1183,6 +1251,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": null
+        },
+        {
+          "date": "2026-06-23",
           "rank": null
         }
       ],
@@ -1250,10 +1322,14 @@
         {
           "date": "2026-06-22",
           "rank": 5
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 6
         }
       ],
       "prevRank": 5,
-      "rank": 5,
+      "rank": 6,
       "total": 2202
     },
     "store_sangam_dmc|상암 로봇카페": {
@@ -1315,6 +1391,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": null
+        },
+        {
+          "date": "2026-06-23",
           "rank": null
         }
       ],
@@ -1382,6 +1462,10 @@
         {
           "date": "2026-06-22",
           "rank": 1
+        },
+        {
+          "date": "2026-06-23",
+          "rank": 1
         }
       ],
       "prevRank": 1,
@@ -1448,11 +1532,15 @@
         {
           "date": "2026-06-22",
           "rank": 85
+        },
+        {
+          "date": "2026-06-23",
+          "rank": null
         }
       ],
-      "prevRank": null,
-      "rank": 85,
-      "total": 1716
+      "prevRank": 85,
+      "rank": null,
+      "total": 1717
     },
     "store_one_grove|마곡 로봇카페": {
       "storeId": "store_one_grove",
@@ -1513,6 +1601,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": null
+        },
+        {
+          "date": "2026-06-23",
           "rank": null
         }
       ],
@@ -1579,6 +1671,10 @@
         },
         {
           "date": "2026-06-22",
+          "rank": null
+        },
+        {
+          "date": "2026-06-23",
           "rank": null
         }
       ],
