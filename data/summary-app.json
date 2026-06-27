@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-06-26T01:41:39.286Z",
+  "lastUpdated": "2026-06-27T01:33:05.129Z",
   "totalStores": 2,
-  "totalReviews": 30,
-  "avgReviewsPerStore": 15,
-  "monthlyActivity": 0,
+  "totalReviews": 31,
+  "avgReviewsPerStore": 15.5,
+  "monthlyActivity": 1,
   "stores": [
     {
       "id": "app_google",
       "name": "구글 플레이",
-      "reviewCount": 20,
-      "positiveRatio": 0.65,
-      "negativeRatio": 0.05,
-      "neutralRatio": 0.3,
-      "monthlyActivity": 0,
-      "latestReviewDate": "2026-05-27",
-      "newReviewCount": 0,
-      "rating": 4.3913045,
-      "ratingCount": 23
+      "reviewCount": 21,
+      "positiveRatio": 0.6190476190476191,
+      "negativeRatio": 0.047619047619047616,
+      "neutralRatio": 0.3333333333333333,
+      "monthlyActivity": 1,
+      "latestReviewDate": "2026-06-25",
+      "newReviewCount": 1,
+      "rating": 4.25,
+      "ratingCount": 24
     },
     {
       "id": "app_apple",
@@ -34,6 +34,14 @@
   ],
   "recentReviewsByStore": {
     "app_google": [
+      {
+        "date": "2026-06-25",
+        "text": "어플에서 주문이 되게 할거면 모든 주문이 다 가능하게 만들던지, 아니면 쿠폰을 키오스크에서 사용할 수 있게라도 만들던지 좀 조치를 취하세요. 뭐하자는건지 진짜 모르겠네요",
+        "rating": 1,
+        "sentiment": "neutral",
+        "isNew": true,
+        "autoReply": "안녕하세요, 라운지엑스입니다.\n\n이용에 불편을 드려 정말 죄송합니다. 말씀해 주신 앱 주문과 쿠폰 사용 시스템의 문제점을 즉시 확인하고 개선하겠습니다. 현재 앱과 키오스크 간의 연동이 완벽하지 못해 고객님께 혼란을 드린 점 진심으로 사과드리며, 더 나은 서비스 경험을 위해 적극 노력하겠습니다.\n\n앞으로 더욱 개선된 매장으로 찾아뵐 수 있기를 바라며, 소중한 의견 감사합니다."
+      },
       {
         "date": "2026-05-27",
         "text": "출근길에 잘 쓰고있는데 디카페인 커피가 없어서 오후에는 올 일이 없네요",
@@ -65,14 +73,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 이용해 주시고 솔직한 의견 남겨주셔서 감사합니다. 가격과 결제 수단, 로그인 저장 기능에 대한 불편을 말씀해 주셨는데요, 결제 옵션 확대와 로그인 편의 기능 개선을 적극 검토하겠습니다. 더 만족스러운 경험을 드리도록 노력하겠습니다!"
-      },
-      {
-        "date": "2026-05-11",
-        "text": "매일 아침 앱으로 주문해서 커피 잘 마시고 있네요. 앱으로 주문하니 기다리지 않아서 좋고 12잔마다 무료 쿠폰도 나오고 아침에는 할인도 되서 좋네요.",
-        "rating": 5,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 매일 아침 라운지엑스와 함께해 주셔서 진심으로 감사합니다! 기다림 없는 앱 주문과 무료 쿠폰, 아침 할인 혜택까지 잘 누려주신다니 정말 뿌듯합니다. 앞으로도 여유로운 아침 한 잔을 더해드리겠습니다!"
       }
     ],
     "app_apple": [
@@ -334,7 +334,7 @@
       {
         "positive": 0,
         "negative": 0,
-        "neutral": 0
+        "neutral": 1
       },
       {
         "positive": 0,
