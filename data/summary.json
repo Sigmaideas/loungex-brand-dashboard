@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-27T01:32:51.199Z",
+  "lastUpdated": "2026-06-28T01:39:23.649Z",
   "totalStores": 8,
-  "totalReviews": 492,
-  "avgReviewsPerStore": 61.5,
-  "monthlyActivity": 181,
+  "totalReviews": 494,
+  "avgReviewsPerStore": 61.8,
+  "monthlyActivity": 180,
   "stores": [
     {
       "id": "store_seongsu",
@@ -47,26 +47,26 @@
     {
       "id": "store_euljiro",
       "name": "라운지엑스24h 을지돌담길점",
-      "reviewCount": 57,
-      "positiveRatio": 0.9122807017543859,
-      "negativeRatio": 0.017543859649122806,
-      "neutralRatio": 0.07017543859649122,
-      "monthlyActivity": 32,
+      "reviewCount": 58,
+      "positiveRatio": 0.9137931034482759,
+      "negativeRatio": 0.017241379310344827,
+      "neutralRatio": 0.06896551724137931,
+      "monthlyActivity": 33,
       "latestReviewDate": "2026-06-25",
-      "newReviewCount": 0,
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
     {
       "id": "store_yongsan_prime",
       "name": "라운지엑스24h 용산더프라임점",
-      "reviewCount": 88,
-      "positiveRatio": 0.9090909090909091,
+      "reviewCount": 89,
+      "positiveRatio": 0.9101123595505618,
       "negativeRatio": 0,
-      "neutralRatio": 0.09090909090909091,
+      "neutralRatio": 0.0898876404494382,
       "monthlyActivity": 38,
       "latestReviewDate": "2026-06-26",
-      "newReviewCount": 0,
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -79,7 +79,7 @@
       "neutralRatio": 0.05454545454545454,
       "monthlyActivity": 33,
       "latestReviewDate": "2026-06-26",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -90,7 +90,7 @@
       "positiveRatio": 0.8985507246376812,
       "negativeRatio": 0,
       "neutralRatio": 0.10144927536231885,
-      "monthlyActivity": 29,
+      "monthlyActivity": 27,
       "latestReviewDate": "2026-06-24",
       "newReviewCount": 0,
       "rating": null,
@@ -105,7 +105,7 @@
       "neutralRatio": 0.08928571428571429,
       "monthlyActivity": 8,
       "latestReviewDate": "2026-06-26",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     }
@@ -335,7 +335,7 @@
         "text": "아메리카노 한 모금 마시니 쓴맛이 딱 적당해서 좋았어요. 버터번도 겉은 바삭하고 속은 촉촉하더라고요. 경찰병원역 인근에 이런 공간이 있다는 게 든든해요.",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 경찰병원역점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n아메리카노의 적당한 쓴맛과 바삭하고 촉촉한 버터번까지 만족해주셨다니 정말 감사합니다 😊 저희는 매일 정성껏 준비한 커피와 베이커리로 인근 분들의 든든한 카페가 되기 위해 노력하고 있습니다. 다음에도 편하게 찾아와 주세요! ☕"
       },
       {
@@ -411,7 +411,7 @@
         "text": "음료도 빨리 나오고 다른 프렌차이즈 커피보다 맛있어요!",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n빠른 서빙 속도와 맛있는 음료로 만족스러운 경험이 되셨다니 기쁩니다 ☕ 저희 로봇 바리스타와 정성 어린 준비로 항상 최고의 품질을 유지하겠습니다. 앞으로도 자주 들러주세요! 😄"
       },
       {
@@ -759,12 +759,12 @@
         "neutral": 6
       },
       {
-        "positive": 84,
+        "positive": 85,
         "negative": 2,
         "neutral": 15
       },
       {
-        "positive": 163,
+        "positive": 164,
         "negative": 0,
         "neutral": 11
       },
@@ -808,12 +808,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 339
+      "count": 341
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 237
+      "count": 238
     },
     {
       "word": "로봇",

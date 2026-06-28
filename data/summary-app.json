@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T01:33:05.129Z",
+  "lastUpdated": "2026-06-28T01:39:30.753Z",
   "totalStores": 2,
   "totalReviews": 31,
   "avgReviewsPerStore": 15.5,
@@ -14,7 +14,7 @@
       "neutralRatio": 0.3333333333333333,
       "monthlyActivity": 1,
       "latestReviewDate": "2026-06-25",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 4.25,
       "ratingCount": 24
     },
@@ -39,7 +39,7 @@
         "text": "어플에서 주문이 되게 할거면 모든 주문이 다 가능하게 만들던지, 아니면 쿠폰을 키오스크에서 사용할 수 있게라도 만들던지 좀 조치를 취하세요. 뭐하자는건지 진짜 모르겠네요",
         "rating": 1,
         "sentiment": "neutral",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 라운지엑스입니다.\n\n이용에 불편을 드려 정말 죄송합니다. 말씀해 주신 앱 주문과 쿠폰 사용 시스템의 문제점을 즉시 확인하고 개선하겠습니다. 현재 앱과 키오스크 간의 연동이 완벽하지 못해 고객님께 혼란을 드린 점 진심으로 사과드리며, 더 나은 서비스 경험을 위해 적극 노력하겠습니다.\n\n앞으로 더욱 개선된 매장으로 찾아뵐 수 있기를 바라며, 소중한 의견 감사합니다."
       },
       {

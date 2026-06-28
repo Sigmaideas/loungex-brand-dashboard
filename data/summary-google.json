@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-27T01:32:59.636Z",
+  "lastUpdated": "2026-06-28T01:39:27.541Z",
   "totalStores": 8,
   "totalReviews": 54,
   "avgReviewsPerStore": 6.8,
@@ -66,7 +66,7 @@
       "neutralRatio": 0.1,
       "monthlyActivity": 8,
       "latestReviewDate": "2026-06-22",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -277,7 +277,7 @@
         "text": "커피 한 잔을 마시는 시간이 작은 전시를 보는 것처럼 느껴졌습니다. 기술과 커피, 공간이 자연스럽게 어우러져 특별한 경험을 할 수 있었습니다.",
         "rating": 5,
         "sentiment": "neutral",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 이렇게 따뜻하고 소중한 리뷰 남겨주셔서 정말 감사합니다!\n\n커피 한 잔이 작은 전시가 되는 경험이라니, 고객님이 저희가 만들고자 했던 공간의 의도를 완벽하게 이해해 주셨다는 생각에 무척 기쁩니다. 기술과 맛, 분위기가 모두 어우러져 특별한 순간을 만들어 드릴 수 있었다니 저희도 보람차네요.\n\n다음에도 그런 의미 있는 시간을 선물해 드릴 수 있도록 정성껏 준비하고 있을게요. 언제든 다시 들러주세요."
       },
       {
