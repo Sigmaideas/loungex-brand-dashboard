@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-06-29T01:41:51.951Z",
-  "updatedDate": "2026-06-29",
+  "lastScrapedAt": "2026-06-30T01:36:21.344Z",
+  "updatedDate": "2026-06-30",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -253,6 +253,10 @@
         },
         {
           "date": "2026-06-29",
+          "rank": 2
+        },
+        {
+          "date": "2026-06-30",
           "rank": 2
         }
       ],
@@ -598,11 +602,15 @@
         {
           "date": "2026-06-28",
           "rank": 51
+        },
+        {
+          "date": "2026-06-30",
+          "rank": 55
         }
       ],
-      "prevRank": 19,
-      "rank": 51,
-      "total": 13308
+      "prevRank": 51,
+      "rank": 55,
+      "total": 13303
     },
     "store_gangnam|강남 로봇카페": {
       "storeId": "store_gangnam",
@@ -852,11 +860,15 @@
         {
           "date": "2026-06-29",
           "rank": 13
+        },
+        {
+          "date": "2026-06-30",
+          "rank": 6
         }
       ],
-      "prevRank": 5,
-      "rank": 13,
-      "total": 4010
+      "prevRank": 13,
+      "rank": 6,
+      "total": 4007
     },
     "store_euljiro|을지로 로봇카페": {
       "storeId": "store_euljiro",
@@ -1376,6 +1388,10 @@
         {
           "date": "2026-06-29",
           "rank": 1
+        },
+        {
+          "date": "2026-06-30",
+          "rank": 1
         }
       ],
       "prevRank": 1,
@@ -1630,11 +1646,15 @@
         {
           "date": "2026-06-26",
           "rank": 8
+        },
+        {
+          "date": "2026-06-30",
+          "rank": 6
         }
       ],
-      "prevRank": 6,
-      "rank": 8,
-      "total": 2199
+      "prevRank": 8,
+      "rank": 6,
+      "total": 2197
     },
     "store_sangam_dmc|상암 로봇카페": {
       "storeId": "store_sangam_dmc",
@@ -1884,9 +1904,13 @@
         {
           "date": "2026-06-29",
           "rank": null
+        },
+        {
+          "date": "2026-06-30",
+          "rank": null
         }
       ],
-      "prevRank": 95,
+      "prevRank": null,
       "rank": null,
       "total": 1709
     },

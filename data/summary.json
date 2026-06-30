@@ -1,18 +1,18 @@
 {
-  "lastUpdated": "2026-06-29T01:41:18.605Z",
+  "lastUpdated": "2026-06-30T01:35:54.208Z",
   "totalStores": 8,
-  "totalReviews": 497,
-  "avgReviewsPerStore": 62.1,
-  "monthlyActivity": 180,
+  "totalReviews": 498,
+  "avgReviewsPerStore": 62.3,
+  "monthlyActivity": 179,
   "stores": [
     {
       "id": "store_seongsu",
       "name": "라운지엑스24h 성수본점",
-      "reviewCount": 55,
-      "positiveRatio": 0.7636363636363637,
-      "negativeRatio": 0.01818181818181818,
-      "neutralRatio": 0.21818181818181817,
-      "monthlyActivity": 8,
+      "reviewCount": 56,
+      "positiveRatio": 0.7678571428571429,
+      "negativeRatio": 0.017857142857142856,
+      "neutralRatio": 0.21428571428571427,
+      "monthlyActivity": 9,
       "latestReviewDate": "2026-06-28",
       "newReviewCount": 1,
       "rating": null,
@@ -38,7 +38,7 @@
       "positiveRatio": 0.9516129032258065,
       "negativeRatio": 0,
       "neutralRatio": 0.04838709677419355,
-      "monthlyActivity": 32,
+      "monthlyActivity": 31,
       "latestReviewDate": "2026-06-22",
       "newReviewCount": 0,
       "rating": null,
@@ -64,7 +64,7 @@
       "positiveRatio": 0.9101123595505618,
       "negativeRatio": 0,
       "neutralRatio": 0.0898876404494382,
-      "monthlyActivity": 38,
+      "monthlyActivity": 37,
       "latestReviewDate": "2026-06-26",
       "newReviewCount": 0,
       "rating": null,
@@ -92,7 +92,7 @@
       "neutralRatio": 0.1,
       "monthlyActivity": 27,
       "latestReviewDate": "2026-06-27",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -105,7 +105,7 @@
       "neutralRatio": 0.08771929824561403,
       "monthlyActivity": 8,
       "latestReviewDate": "2026-06-28",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     }
@@ -117,7 +117,7 @@
         "text": "혼자 주말의 나른한 오후, 책과 커피와 함께하기 위해 첫 방문했는데, 매주 오는 성수에서 보물과 같은 장소를 발견한 기분입니다^^",
         "rating": null,
         "sentiment": "neutral",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n나른한 주말 오후를 책과 커피로 채워주신 저희 매장이 보물 같은 공간이 되어드렸다니 정말 기쁘고 보람차네요. 앞으로도 고객님께 편안한 휴식의 시간을 선물해 드릴 수 있도록 정성껏 준비하고 있을게요.\n\n언제든 조용한 오후의 나른함이 그리워지실 때, 편하게 들러주세요. 다음 방문을 기다리겠습니다 :)"
       },
       {
@@ -137,20 +137,20 @@
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n깔끔한 매장 환경과 합리적인 가격대에 맛있는 커피까지 즐기셨다니 저희도 무척 기쁘네요. 고객님의 믿음과 사랑이 저희를 더욱 노력하게 만듭니다.\n\n앞으로도 언제든 편하게 들러주셔서 맛있는 커피와 편안한 시간 함께하시기를 바랄게요. 자주 뵐 수 있기를 기대하겠습니다 :)"
       },
       {
+        "date": "6.24.수",
+        "text": "기계가 내려주는 신기한 카페!\n근데 커피맛도 진하고 가성비 있고\n맛있습니다 :)",
+        "rating": null,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'의 신기한 모습뿐만 아니라 커피의 진한 맛과 가성비까지 모두 느껴주셨다니 정말 기쁘네요. 앞으로도 변함없이 맛있는 커피로 찾아뵙겠습니다 :)\n\n언제든 신기한 경험과 좋은 커피가 생각나시면 들러주세요. 다음 방문을 기다리겠습니다!"
+      },
+      {
         "date": "6.19.금",
         "text": "음료가 너무 달아요 ㅠㅠㅠ 밤 시간대에 외국인들도 와서 소란스러웠습니다",
         "rating": null,
         "sentiment": "neutral",
         "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 솔직한 리뷰 남겨주셔서 감사합니다.\n\n음료가 너무 달았다는 점 진심으로 사과드립니다. 고객님의 의견을 반영하여 음료 당도 조절에 더욱 신경 쓰겠으며, 향후 주문 시 당도 조절을 원하실 경우 편하게 말씀해 주시면 맞춤으로 준비해 드리겠습니다. 또한 밤 시간대 소음 관리도 개선하여 더욱 편안한 분위기를 만들도록 하겠습니다.\n\n다음에 방문하실 때는 보다 만족스러운 경험을 드릴 수 있도록 최선을 다하겠습니다."
-      },
-      {
-        "date": "6.17.수",
-        "text": "신기해서 방문했는데 생각보다 더 재밌었어요 🤖☕\n\n로봇이 직접 음료를 만드는 모습을 눈앞에서 볼 수 있어서 기다리는 시간도 전혀 지루하지 않았습니다. 움직임이 굉장히 정교하고 음료가 만들어지는 과정이 신기해서 계속 보게 되더라고요.\n\n매장도 깔끔하고 미래적인 분위기라 색다른 경험을 할 수 있었습니다. 아이들과 함께 오거나 친구들과 방문해도 좋은 추억이 될 것 같아요.\n\n단순히 커피를 마시는 공간이 아니라 새로운 기술을 직접 체험할 수 있는 공간이라 만족스러웠습니다. 다음에 또 방문하고 싶어요!",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요 :) 저희 라운지엑스 성수본점을 방문해 주시고 이렇게 기분 좋은 리뷰 남겨주셔서 정말 감사합니다!\n\n로봇 바리스타 '바리스'가 정교하게 음료를 만드는 과정을 즐겨주셨다니 저희도 정말 행복하네요. 단순한 카페를 넘어 새로운 기술 경험의 공간이 되었다는 평가가 무척 뜻깊습니다.\n\n앞으로도 아이들과, 친구분들과 함께 언제든 색다른 추억을 만들 수 있도록 정성껏 준비하겠습니다. 다음 방문을 기대하며 기다리겠습니다 ♥"
       }
     ],
     "store_seoulforest_ak": [
@@ -369,7 +369,7 @@
         "text": "로봇팔이 정말 신기합니다",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n로봇팔의 신기한 경험을 재미있게 느껴주셨다니 정말 기쁩니다 :)\n\n앞으로도 색다른 로봇 커피 경험과 함께 맛있는 한 잔을 제공해드릴 수 있도록 꾸준히 노력하겠습니다.\n다음 방문 때도 즐거운 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
       },
       {
@@ -411,7 +411,7 @@
         "text": "늘 조용한 카페 찾을때 오는 곳이에요 . 항상감사합니다",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스 원그로브점을 방문해 주시고 소중한 리뷰 남겨주셔서 정말 감사드립니다!\n\n조용한 분위기에서 편안하게 시간을 보내실 수 있는 공간으로 찾아주셨군요 😊 항상 쾌적하고 차분한 환경을 유지할 수 있도록 노력하고 있습니다. 앞으로도 마음의 휴식이 필요하실 때면 편하게 들러주세요! 😄"
       },
       {
@@ -764,7 +764,7 @@
         "neutral": 15
       },
       {
-        "positive": 166,
+        "positive": 167,
         "negative": 0,
         "neutral": 12
       },
@@ -808,12 +808,12 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 342
+      "count": 343
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 238
+      "count": 239
     },
     {
       "word": "로봇",
@@ -848,7 +848,7 @@
     {
       "word": "가성비·가격",
       "sentiment": "neutral",
-      "count": 65
+      "count": 66
     },
     {
       "word": "공부·작업",
