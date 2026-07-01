@@ -1,7 +1,7 @@
 {
-  "lastScrapedAt": "2026-06-30T01:36:22.484Z",
+  "lastScrapedAt": "2026-07-01T01:57:04.207Z",
   "startDate": "2025-06-30",
-  "endDate": "2026-06-30",
+  "endDate": "2026-07-01",
   "timeUnit": "week",
   "groups": [
     {
@@ -217,7 +217,7 @@
         },
         {
           "period": "2026-06-29",
-          "ratio": 8.29596
+          "ratio": 14.7982
         }
       ]
     }

@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-06-30T01:35:54.208Z",
+  "lastUpdated": "2026-07-01T01:56:32.641Z",
   "totalStores": 8,
-  "totalReviews": 498,
-  "avgReviewsPerStore": 62.3,
-  "monthlyActivity": 179,
+  "totalReviews": 500,
+  "avgReviewsPerStore": 62.5,
+  "monthlyActivity": 180,
   "stores": [
     {
       "id": "store_seongsu",
@@ -14,7 +14,7 @@
       "neutralRatio": 0.21428571428571427,
       "monthlyActivity": 9,
       "latestReviewDate": "2026-06-28",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -34,13 +34,13 @@
     {
       "id": "store_gangnam",
       "name": "라운지엑스24h 강남역점",
-      "reviewCount": 62,
-      "positiveRatio": 0.9516129032258065,
+      "reviewCount": 63,
+      "positiveRatio": 0.9523809523809523,
       "negativeRatio": 0,
-      "neutralRatio": 0.04838709677419355,
+      "neutralRatio": 0.047619047619047616,
       "monthlyActivity": 31,
       "latestReviewDate": "2026-06-22",
-      "newReviewCount": 0,
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -86,13 +86,13 @@
     {
       "id": "store_sangam_dmc",
       "name": "라운지엑스24h 상암DMC역점",
-      "reviewCount": 70,
-      "positiveRatio": 0.9,
+      "reviewCount": 71,
+      "positiveRatio": 0.9014084507042254,
       "negativeRatio": 0,
-      "neutralRatio": 0.1,
-      "monthlyActivity": 27,
-      "latestReviewDate": "2026-06-27",
-      "newReviewCount": 0,
+      "neutralRatio": 0.09859154929577464,
+      "monthlyActivity": 28,
+      "latestReviewDate": "2026-06-30",
+      "newReviewCount": 1,
       "rating": null,
       "ratingCount": null
     },
@@ -141,7 +141,7 @@
         "text": "기계가 내려주는 신기한 카페!\n근데 커피맛도 진하고 가성비 있고\n맛있습니다 :)",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스에 방문해 주시고 따뜻한 리뷰 남겨주셔서 감사합니다!\n\n로봇 바리스타 '바리스'의 신기한 모습뿐만 아니라 커피의 진한 맛과 가성비까지 모두 느껴주셨다니 정말 기쁘네요. 앞으로도 변함없이 맛있는 커피로 찾아뵙겠습니다 :)\n\n언제든 신기한 경험과 좋은 커피가 생각나시면 들러주세요. 다음 방문을 기다리겠습니다!"
       },
       {
@@ -365,6 +365,14 @@
     ],
     "store_sangam_dmc": [
       {
+        "date": "6.30.화",
+        "text": "샌드안에 잼이 발라져 있어 더 달고 맛있어요. 지하철역 바로 앞이라 접근성이 좋고 오전 출근시간 커피를 저렴히 먹을수 있어 좋아요. 조용한 분위기라 자주 올 것 같습니다!!!",
+        "rating": null,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n샌드의 잼이 더해진 맛을 즐겨주시고, 편리한 위치와 합리적인 가격, 조용한 분위기까지 만족해주셨다니 정말 기쁩니다 :)\n\n앞으로도 바쁜 아침 출근길에 편하게 들러 맛있는 커피와 함께 기분 좋은 시작을 할 수 있도록 노력하겠습니다.\n자주 찾아주신다는 말씀에 감사하며, 다음 방문 때도 만족스러운 한 잔으로 보답드리겠습니다. 감사합니다!"
+      },
+      {
         "date": "6.27.토",
         "text": "로봇팔이 정말 신기합니다",
         "rating": null,
@@ -395,14 +403,6 @@
         "sentiment": "positive",
         "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n처음 방문해주시고 소중한 후기를 남겨주셔서 진심으로 감사합니다.\n신선하게 분쇄한 원두로 만든 커피 맛을 좋게 평가해주셨다니 정말 기쁩니다 :)\n\n앞으로도 최상의 원두 품질과 신선한 맛을 유지하면서 더욱 만족스러운 한 잔을 제공해드리겠습니다.\n다음 방문 때도 기분 좋은 시간 보내실 수 있도록 준비하겠습니다. 감사합니다!"
-      },
-      {
-        "date": "6.19.금",
-        "text": "아메리카노 한 모금 마셨는데 쓴맛 없이 깔끔하게 떨어져서 기분 좋았어요. 버터번도 고소하고 촉촉해서 음료랑 궁합이 딱이었고, 상암에서 이렇게 편하게 쉬어가기 좋은 카페 또 찾고 싶어요.",
-        "rating": null,
-        "sentiment": "positive",
-        "isNew": false,
-        "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n아메리카노의 깔끔한 맛과 버터번의 고소함이 잘 어울렸다니 정말 기쁩니다 :)\n\n바쁜 상암에서 편하게 쉬어가실 수 있는 공간이 되어드렸다는 말씀에 더욱 책임감을 느낍니다. 앞으로도 맛있는 음료와 푸드로 만족스러운 시간을 제공할 수 있도록 노력하겠습니다.\n다음 방문 때도 기분 좋은 경험으로 맞이하겠습니다. 감사합니다!"
       }
     ],
     "store_one_grove": [
@@ -759,12 +759,12 @@
         "neutral": 6
       },
       {
-        "positive": 85,
+        "positive": 86,
         "negative": 2,
         "neutral": 15
       },
       {
-        "positive": 167,
+        "positive": 168,
         "negative": 0,
         "neutral": 12
       },
@@ -808,27 +808,27 @@
     {
       "word": "커피·음료",
       "sentiment": "neutral",
-      "count": 343
+      "count": 344
     },
     {
       "word": "맛있다",
       "sentiment": "positive",
-      "count": 239
+      "count": 240
     },
     {
       "word": "로봇",
       "sentiment": "neutral",
-      "count": 121
+      "count": 122
     },
     {
       "word": "깨끗·깔끔",
       "sentiment": "positive",
-      "count": 103
+      "count": 104
     },
     {
       "word": "분위기",
       "sentiment": "neutral",
-      "count": 88
+      "count": 89
     },
     {
       "word": "아늑·편안",
@@ -838,7 +838,7 @@
     {
       "word": "조용",
       "sentiment": "positive",
-      "count": 83
+      "count": 84
     },
     {
       "word": "넓은 공간",
@@ -848,7 +848,7 @@
     {
       "word": "가성비·가격",
       "sentiment": "neutral",
-      "count": 66
+      "count": 67
     },
     {
       "word": "공부·작업",
