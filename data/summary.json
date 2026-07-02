@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-07-01T01:56:32.641Z",
+  "lastUpdated": "2026-07-02T01:37:05.469Z",
   "totalStores": 8,
   "totalReviews": 500,
   "avgReviewsPerStore": 62.5,
-  "monthlyActivity": 180,
+  "monthlyActivity": 179,
   "stores": [
     {
       "id": "store_seongsu",
@@ -38,9 +38,9 @@
       "positiveRatio": 0.9523809523809523,
       "negativeRatio": 0,
       "neutralRatio": 0.047619047619047616,
-      "monthlyActivity": 31,
+      "monthlyActivity": 30,
       "latestReviewDate": "2026-06-22",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -92,7 +92,7 @@
       "neutralRatio": 0.09859154929577464,
       "monthlyActivity": 28,
       "latestReviewDate": "2026-06-30",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -369,7 +369,7 @@
         "text": "샌드안에 잼이 발라져 있어 더 달고 맛있어요. 지하철역 바로 앞이라 접근성이 좋고 오전 출근시간 커피를 저렴히 먹을수 있어 좋아요. 조용한 분위기라 자주 올 것 같습니다!!!",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n샌드의 잼이 더해진 맛을 즐겨주시고, 편리한 위치와 합리적인 가격, 조용한 분위기까지 만족해주셨다니 정말 기쁩니다 :)\n\n앞으로도 바쁜 아침 출근길에 편하게 들러 맛있는 커피와 함께 기분 좋은 시작을 할 수 있도록 노력하겠습니다.\n자주 찾아주신다는 말씀에 감사하며, 다음 방문 때도 만족스러운 한 잔으로 보답드리겠습니다. 감사합니다!"
       },
       {
