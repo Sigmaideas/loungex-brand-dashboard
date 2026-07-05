@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-07-04T01:14:33.882Z",
-  "updatedDate": "2026-07-04",
+  "lastScrapedAt": "2026-07-05T01:22:10.798Z",
+  "updatedDate": "2026-07-05",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -78,11 +78,15 @@
         {
           "date": "2026-06-26",
           "rank": null
+        },
+        {
+          "date": "2026-07-05",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 3283
+      "total": 0
     },
     "store_seongsu|성수 로봇카페": {
       "storeId": "store_seongsu",
@@ -1059,6 +1063,10 @@
         },
         {
           "date": "2026-06-29",
+          "rank": 2
+        },
+        {
+          "date": "2026-07-05",
           "rank": 2
         }
       ],

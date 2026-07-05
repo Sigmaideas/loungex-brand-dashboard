@@ -1,9 +1,9 @@
 {
-  "lastUpdated": "2026-07-04T01:14:05.628Z",
+  "lastUpdated": "2026-07-05T01:21:48.488Z",
   "totalStores": 8,
   "totalReviews": 503,
   "avgReviewsPerStore": 62.9,
-  "monthlyActivity": 177,
+  "monthlyActivity": 170,
   "stores": [
     {
       "id": "store_seongsu",
@@ -12,9 +12,9 @@
       "positiveRatio": 0.7719298245614035,
       "negativeRatio": 0.017543859649122806,
       "neutralRatio": 0.21052631578947367,
-      "monthlyActivity": 10,
+      "monthlyActivity": 9,
       "latestReviewDate": "2026-07-03",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -51,9 +51,9 @@
       "positiveRatio": 0.8983050847457628,
       "negativeRatio": 0.01694915254237288,
       "neutralRatio": 0.0847457627118644,
-      "monthlyActivity": 34,
+      "monthlyActivity": 32,
       "latestReviewDate": "2026-07-03",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -64,7 +64,7 @@
       "positiveRatio": 0.9101123595505618,
       "negativeRatio": 0,
       "neutralRatio": 0.0898876404494382,
-      "monthlyActivity": 37,
+      "monthlyActivity": 35,
       "latestReviewDate": "2026-06-26",
       "newReviewCount": 0,
       "rating": null,
@@ -90,9 +90,9 @@
       "positiveRatio": 0.9027777777777778,
       "negativeRatio": 0,
       "neutralRatio": 0.09722222222222222,
-      "monthlyActivity": 28,
+      "monthlyActivity": 26,
       "latestReviewDate": "2026-07-03",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": null,
       "ratingCount": null
     },
@@ -117,7 +117,7 @@
         "text": "카페가 너무 예쁘고 분위기도 좋아요!",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 저희 라운지엑스를 방문해 주시고 따뜻한 리뷰 남겨주셔서 정말 감사합니다!\n\n매장의 분위기와 인테리어가 마음에 드셨다니 저희도 정말 기쁘네요. 앞으로도 고객님께 편안하고 즐거운 공간이 될 수 있도록 정성껏 준비하겠습니다.\n\n언제든 다시 찾아주실 때를 기다리겠습니다 :)"
       },
       {
@@ -243,7 +243,7 @@
         "text": "제주 유기농 말차라떼 맛있다는 후기 보고 말차라떼 시켰는데 이게 말차라떼인가요..? 걍 물에다가 녹차가루 흘린거 같은 메뉴가 나와서 진짜 실망이에요. 처음엔 뭔 게토레이가 나온줄 알았어여; 라떼 메뉴인데 우유는 들어있지도 않아요;; 무인카페라서 컴플레인하거나 다시 만들어달라고 할 수도 없어서 그냥 후기로 남깁니다.",
         "rating": null,
         "sentiment": "neutral",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요 :) 라운지엑스를 방문해 주셨는데 저희 음료로 실망을 드려 정말 죄송합니다.\n\n고객님께서 지적해 주신 말차라떼의 맛과 품질 문제를 심각하게 받아들이고 있습니다. 무인카페라는 특성상 즉각적인 피드백을 드리지 못해 더욱 안타깝습니다. 로봇 바리스타의 레시피와 음료 완성도를 점검하여 개선하겠습니다.\n\n앞으로 더 정성 있는 음료로 찾아뵐 수 있도록 최선을 다하겠습니다. 조만간 또 기회를 주신다면 감사하겠습니다."
       },
       {
@@ -369,7 +369,7 @@
         "text": "로봇이 커피 만들어줘요. 컨셉 독특하고 오래 머물기 좋습니다",
         "rating": null,
         "sentiment": "positive",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 고객님. 라운지엑스 24h 상암 DMC역점입니다.\n\n소중한 후기 남겨주셔서 진심으로 감사합니다.\n로봇이 만들어주는 독특한 컨셉을 재미있게 경험해주셨고, 편하게 머물기 좋은 공간이라고 봐주셔서 정말 기쁩니다 :)\n\n앞으로도 신기한 로봇 커피 경험과 함께 편안한 분위기 속에서 즐거운 시간을 보내실 수 있도록 꾸준히 관리하겠습니다.\n다음 방문 때도 만족스러운 한 잔으로 맞이하겠습니다. 감사합니다!"
       },
       {
