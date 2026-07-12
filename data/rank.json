@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-07-11T01:06:00.998Z",
-  "updatedDate": "2026-07-11",
+  "lastScrapedAt": "2026-07-12T01:11:50.859Z",
+  "updatedDate": "2026-07-12",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -1538,11 +1538,15 @@
         {
           "date": "2026-06-29",
           "rank": 2
+        },
+        {
+          "date": "2026-07-12",
+          "rank": 18
         }
       ],
-      "prevRank": 3,
-      "rank": 2,
-      "total": 3330
+      "prevRank": 2,
+      "rank": 18,
+      "total": 3286
     },
     "store_garak_it|송파 로봇카페": {
       "storeId": "store_garak_it",
