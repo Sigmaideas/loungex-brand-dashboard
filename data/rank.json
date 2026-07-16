@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-07-15T00:57:42.610Z",
-  "updatedDate": "2026-07-15",
+  "lastScrapedAt": "2026-07-16T01:05:37.743Z",
+  "updatedDate": "2026-07-16",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -446,10 +446,14 @@
         {
           "date": "2026-06-26",
           "rank": 3
+        },
+        {
+          "date": "2026-07-16",
+          "rank": 2
         }
       ],
-      "prevRank": 2,
-      "rank": 3,
+      "prevRank": 3,
+      "rank": 2,
       "total": 3
     },
     "store_seoulforest_ak|성수 24시 카페": {
@@ -1186,11 +1190,15 @@
         {
           "date": "2026-06-29",
           "rank": null
+        },
+        {
+          "date": "2026-07-16",
+          "rank": null
         }
       ],
-      "prevRank": 83,
+      "prevRank": null,
       "rank": null,
-      "total": 7777
+      "total": 7692
     },
     "store_yongsan_prime|용산 로봇카페": {
       "storeId": "store_yongsan_prime",
@@ -2015,6 +2023,10 @@
         },
         {
           "date": "2026-07-15",
+          "rank": null
+        },
+        {
+          "date": "2026-07-16",
           "rank": null
         }
       ],
