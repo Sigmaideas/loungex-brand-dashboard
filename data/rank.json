@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-07-17T01:09:53.888Z",
-  "updatedDate": "2026-07-17",
+  "lastScrapedAt": "2026-07-18T01:04:49.268Z",
+  "updatedDate": "2026-07-18",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -728,6 +728,10 @@
         {
           "date": "2026-07-14",
           "rank": null
+        },
+        {
+          "date": "2026-07-18",
+          "rank": null
         }
       ],
       "prevRank": null,
@@ -1378,11 +1382,15 @@
         {
           "date": "2026-07-08",
           "rank": 7
+        },
+        {
+          "date": "2026-07-18",
+          "rank": 8
         }
       ],
-      "prevRank": 6,
-      "rank": 7,
-      "total": 79
+      "prevRank": 7,
+      "rank": 8,
+      "total": 71
     },
     "store_garak_it|가락 카페": {
       "storeId": "store_garak_it",
@@ -1929,6 +1937,10 @@
         },
         {
           "date": "2026-07-07",
+          "rank": 1
+        },
+        {
+          "date": "2026-07-18",
           "rank": 1
         }
       ],
