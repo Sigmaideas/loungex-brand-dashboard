@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-19T01:08:54.033Z",
+  "lastUpdated": "2026-07-20T01:11:11.373Z",
   "totalStores": 2,
   "totalReviews": 33,
   "avgReviewsPerStore": 16.5,
@@ -15,8 +15,8 @@
       "monthlyActivity": 3,
       "latestReviewDate": "2026-07-06",
       "newReviewCount": 0,
-      "rating": 4.2,
-      "ratingCount": 25
+      "rating": 4.3333335,
+      "ratingCount": 24
     },
     {
       "id": "app_apple",
