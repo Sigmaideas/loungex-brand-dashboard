@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-07-20T01:11:26.526Z",
-  "updatedDate": "2026-07-20",
+  "lastScrapedAt": "2026-07-21T01:05:41.142Z",
+  "updatedDate": "2026-07-21",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -842,10 +842,14 @@
         {
           "date": "2026-07-17",
           "rank": 10
+        },
+        {
+          "date": "2026-07-21",
+          "rank": 9
         }
       ],
       "prevRank": 10,
-      "rank": 10,
+      "rank": 9,
       "total": 137
     },
     "store_euljiro|을지로 카페": {
