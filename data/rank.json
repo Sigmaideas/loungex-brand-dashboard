@@ -1,6 +1,6 @@
 {
-  "lastScrapedAt": "2026-07-21T01:05:41.142Z",
-  "updatedDate": "2026-07-21",
+  "lastScrapedAt": "2026-07-22T01:05:03.354Z",
+  "updatedDate": "2026-07-22",
   "records": {
     "store_seongsu|성수 카페": {
       "storeId": "store_seongsu",
@@ -559,6 +559,10 @@
         },
         {
           "date": "2026-07-20",
+          "rank": 3
+        },
+        {
+          "date": "2026-07-22",
           "rank": 3
         }
       ],
@@ -1316,11 +1320,15 @@
         {
           "date": "2026-06-29",
           "rank": null
+        },
+        {
+          "date": "2026-07-22",
+          "rank": null
         }
       ],
       "prevRank": null,
       "rank": null,
-      "total": 2
+      "total": 1
     },
     "store_yongsan_prime|용산 24시 카페": {
       "storeId": "store_yongsan_prime",
@@ -1970,6 +1978,10 @@
         {
           "date": "2026-07-18",
           "rank": 1
+        },
+        {
+          "date": "2026-07-22",
+          "rank": 1
         }
       ],
       "prevRank": 1,
@@ -2169,6 +2181,10 @@
         },
         {
           "date": "2026-07-19",
+          "rank": null
+        },
+        {
+          "date": "2026-07-22",
           "rank": null
         }
       ],
