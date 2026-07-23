@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-22T01:04:43.918Z",
+  "lastUpdated": "2026-07-23T01:09:09.668Z",
   "totalStores": 2,
   "totalReviews": 35,
   "avgReviewsPerStore": 17.5,
@@ -14,7 +14,7 @@
       "neutralRatio": 0.4,
       "monthlyActivity": 5,
       "latestReviewDate": "2026-07-20",
-      "newReviewCount": 1,
+      "newReviewCount": 0,
       "rating": 4.076923,
       "ratingCount": 26
     },
@@ -39,7 +39,7 @@
         "text": "휴대폰 인증번호 문자부터 막히면 사용하지 말라는거죠? 1시간 기다려도, 껐다 켜봐도, 다시 받기 해봐도 문자가 안와서 가입이 안됩니다. 문자 스팸함에도 없음.",
         "rating": 1,
         "sentiment": "neutral",
-        "isNew": true,
+        "isNew": false,
         "autoReply": "안녕하세요, 라운지엑스입니다.\n\n앱 가입 과정에서 인증문자를 받지 못하셔서 불편을 드렸다니 정말 죄송합니다. 이는 통신사 네트워크 문제나 앱 시스템 오류일 수 있으니, 고객센터(카톡/전화)로 연락 주시면 직접 계정 생성을 도와드리거나 문제 원인을 파악하여 빠르게 해결해 드리겠습니다.\n\n더 이상 불편함 없이 저희 라운지엑스를 편하게 이용하실 수 있도록 최선을 다하겠습니다."
       },
       {
