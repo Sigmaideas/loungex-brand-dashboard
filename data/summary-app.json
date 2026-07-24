@@ -1,22 +1,22 @@
 {
-  "lastUpdated": "2026-07-23T01:09:09.668Z",
+  "lastUpdated": "2026-07-24T01:04:15.899Z",
   "totalStores": 2,
-  "totalReviews": 35,
-  "avgReviewsPerStore": 17.5,
-  "monthlyActivity": 5,
+  "totalReviews": 36,
+  "avgReviewsPerStore": 18,
+  "monthlyActivity": 6,
   "stores": [
     {
       "id": "app_google",
       "name": "구글 플레이",
-      "reviewCount": 25,
-      "positiveRatio": 0.56,
-      "negativeRatio": 0.04,
-      "neutralRatio": 0.4,
-      "monthlyActivity": 5,
-      "latestReviewDate": "2026-07-20",
-      "newReviewCount": 0,
-      "rating": 4.076923,
-      "ratingCount": 26
+      "reviewCount": 26,
+      "positiveRatio": 0.5769230769230769,
+      "negativeRatio": 0.038461538461538464,
+      "neutralRatio": 0.38461538461538464,
+      "monthlyActivity": 6,
+      "latestReviewDate": "2026-07-22",
+      "newReviewCount": 1,
+      "rating": 4.037037,
+      "ratingCount": 27
     },
     {
       "id": "app_apple",
@@ -34,6 +34,14 @@
   ],
   "recentReviewsByStore": {
     "app_google": [
+      {
+        "date": "2026-07-22",
+        "text": "어제까지 잘 되다가 오늘 갑자기 본인 인증하라고 하더니 인증번호 문자도 안오고 해서 결국 앱으로 주문 못하고 키오스크로 주문했네요. 빠른 조치 부탁 드립니다.",
+        "rating": 3,
+        "sentiment": "positive",
+        "isNew": true,
+        "autoReply": "안녕하세요 :) 저희 라운지엑스를 이용해 주셨는데 앱 인증 과정에서 불편을 드려 정말 죄송합니다.\n\n말씀하신 인증번호 미수신 문제는 통신사 측 지연이나 앱 시스템 오류로 인한 것으로 보이며, 즉시 기술팀에 보고하여 원인을 파악하고 조치하겠습니다. 고객님의 소중한 지적 덕분에 서비스 개선에 더욱 신경 쓸 수 있게 되었습니다.\n\n앞으로 보다 안정적인 앱 서비스로 더욱 편리한 경험을 드릴 수 있도록 하겠습니다. 언제든 다시 찾아주세요."
+      },
       {
         "date": "2026-07-20",
         "text": "휴대폰 인증번호 문자부터 막히면 사용하지 말라는거죠? 1시간 기다려도, 껐다 켜봐도, 다시 받기 해봐도 문자가 안와서 가입이 안됩니다. 문자 스팸함에도 없음.",
@@ -65,14 +73,6 @@
         "sentiment": "neutral",
         "isNew": false,
         "autoReply": "안녕하세요. 저희 라운지엑스입니다.\n\n소중한 지적 감사합니다. 커피 퀄리티와 가격에 대해 만족하지 못하셨다니 정말 죄송합니다. 고객님의 의견을 진지하게 받아들이고, 로봇 바리스타의 추출 과정부터 원두 관리까지 전반적으로 점검하여 더욱 개선된 맛과 합리적인 가격 정책을 제공할 수 있도록 노력하겠습니다.\n\n다시 한번 기회를 주신다면 더 나은 모습으로 찾아뵐 수 있기를 바랍니다."
-      },
-      {
-        "date": "2026-06-25",
-        "text": "어플에서 주문이 되게 할거면 모든 주문이 다 가능하게 만들던지, 아니면 쿠폰을 키오스크에서 사용할 수 있게라도 만들던지 좀 조치를 취하세요. 뭐하자는건지 진짜 모르겠네요",
-        "rating": 1,
-        "sentiment": "neutral",
-        "isNew": false,
-        "autoReply": "안녕하세요, 라운지엑스입니다.\n\n이용에 불편을 드려 정말 죄송합니다. 말씀해 주신 앱 주문과 쿠폰 사용 시스템의 문제점을 즉시 확인하고 개선하겠습니다. 현재 앱과 키오스크 간의 연동이 완벽하지 못해 고객님께 혼란을 드린 점 진심으로 사과드리며, 더 나은 서비스 경험을 위해 적극 노력하겠습니다.\n\n앞으로 더욱 개선된 매장으로 찾아뵐 수 있기를 바라며, 소중한 의견 감사합니다."
       }
     ],
     "app_apple": [
@@ -337,7 +337,7 @@
         "neutral": 1
       },
       {
-        "positive": 1,
+        "positive": 2,
         "negative": 0,
         "neutral": 3
       },
